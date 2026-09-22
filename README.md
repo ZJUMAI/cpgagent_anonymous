@@ -1,4 +1,4 @@
-# CPGTrajBench anonymous review artifact
+# CPGAgent anonymous review artifact
 
 This artifact contains the inspectable runtime, evaluation code, one demo case,
 and lightweight text/JSON packs for 30 public TCGA Lung cases. It is research
