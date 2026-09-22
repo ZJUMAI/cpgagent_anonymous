@@ -1,0 +1,65 @@
+{
+  "case_id": "TCGA-55-8089",
+  "case_summary": [
+    "56岁当前吸烟者（97包年），右肺上叶低分化腺癌，病理分期为IA期（pT1a N0 M0）根据AJCC第7版，R0肺叶切除术后状态。分子检测：EGFR高扩增（CNV=2）但无EGFR激活突变；KRAS和ALK突变阴性；共存TP53、SMARCA4、NF1突变。体能状态未报告。"
+  ],
+  "generated_at": "2026-07-20 16:07:13",
+  "language": "zh",
+  "manual_review_flags": [
+    "guideline_selection_mode is fixed_nccn_2010"
+  ],
+  "rubric": {
+    "CI": [
+      "回答应识别组织学类型为低分化腺癌。",
+      "回答应识别病理分期为IA期（pT1a N0 M0）根据AJCC第7版。",
+      "回答应指出患者接受了R0手术切除（右肺上叶切除术）。",
+      "回答应报告分子检测显示EGFR高扩增但无激活突变，且KRAS和ALK突变阴性。",
+      "回答应注意存在TP53、SMARCA4和NF1突变。",
+      "回答应报告患者为当前吸烟者，吸烟史97包年。",
+      "回答必须识别患者记录中未报告体能状态。"
+    ],
+    "COMM": [
+      "回答应清晰区分已知患者事实（分期、组织学、分子结果）与缺失数据（如体能状态）以及基于指南的推荐。",
+      "回答应明确说明监测推荐基于NCCN 2010指南，而非患者的分子特征。",
+      "回答应包含人工审核备注：根据2010年NCCN指南，分子发现（EGFR扩增）不可作为治疗依据，且该病例采用固定的2010年指南选择模式进行评估。",
+      "回答应以清晰、逻辑顺序组织输出：病例摘要、指南匹配、推荐、禁忌、证据和沟通要点。"
+    ],
+    "CR": [
+      "回答不得推荐IA期NSCLC的辅助化疗。",
+      "回答不得推荐EGFR-TKI治疗，鉴于缺乏EGFR激活突变。",
+      "回答不得推荐R0切除后原发灶的放射治疗。",
+      "回答不得推荐进一步分期检查（如PET-CT、脑MRI），因为疾病已为IA期。",
+      "回答不得在没有指南证据的情况下将EGFR扩增外推为治疗靶点。"
+    ],
+    "EG": [
+      "回答应引用IA期R0切除后监测得到NCCN NSCLC 2010（NSCL-7）2A类推荐的支持。",
+      "回答应注意NCCN 2010指南未将EGFR扩增列为EGFR-TKI治疗的标准。",
+      "回答应引用分期依据AJCC第7版，如NCCN 2010指南所要求。",
+      "回答应引用IA期不推荐辅助化疗（NCCN 2010，NSCL-7）。",
+      "回答应引用推荐戒烟的脚注。"
+    ],
+    "GM": [
+      "回答应将该病例映射至NSCL-7流程图（治疗T1-3，N0-1），因为患者为IA期（T1aN0M0）NSCLC。",
+      "回答应注意患者已接受根治性手术切除，因此相关分支为术后管理。",
+      "回答应说明根据NCCN NSCLC 2010分期分组，T1aN0M0对应IA期。",
+      "回答不得将该病例映射至任何晚期或转移性疾病流程图。"
+    ],
+    "RA": [
+      "回答应推荐IA期NSCLC R0切除后的监测，包括前2年每6-12个月进行病史和体格检查及胸部CT，之后每年一次。",
+      "回答应推荐戒烟咨询，鉴于患者当前吸烟状态。",
+      "回答应反对IA期疾病使用任何辅助化疗。",
+      "回答应反对使用EGFR-TKI治疗，因为EGFR扩增不是激活突变，且根据NCCN 2010不赋予敏感性。",
+      "回答应说明IA期临床决策无需进一步分子检测。"
+    ]
+  },
+  "rubric_version": "patient_nccn_2010_v1_zh",
+  "source_files": {
+    "guideline": "medclaw/knowledge/guidelines/NSCLC_2010.md",
+    "guideline_selection_mode": "fixed_historical_guideline",
+    "guideline_version": "2010",
+    "matched_guideline": "NSCLC_2010",
+    "patient_report": "data/LUNG/TCGA-55-8089/reports/integrated_reports/TCGA-55-8089_T0_full_report_en.md",
+    "patient_report_source": "full_report_en",
+    "patient_report_zh": "data/LUNG/TCGA-55-8089/reports/integrated_reports/TCGA-55-8089_T0_full_report_zh.md"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "prompts": [
+    {
+      "id": "endometrioid_tumor",
+      "text": "endometrioid adenocarcinoma tumor tissue"
+    },
+    {
+      "id": "tumor_glands",
+      "text": "malignant glandular structures in endometrium"
+    },
+    {
+      "id": "myometrial_invasion",
+      "text": "myometrial invasion by endometrial carcinoma"
+    },
+    {
+      "id": "stromal",
+      "text": "desmoplastic stromal reaction"
+    },
+    {
+      "id": "necrosis",
+      "text": "tumor necrosis"
+    },
+    {
+      "id": "normal_endometrium",
+      "text": "normal endometrial glands and stroma"
+    }
+  ]
+}

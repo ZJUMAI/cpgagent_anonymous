@@ -1,0 +1,58 @@
+{
+  "case_id": "TCGA-55-8085",
+  "case_summary": [
+    "64岁男性，IA期（pT1bN0M0）乳头状腺癌，左肺下叶，R0切除。",
+    "分子特征：TP53和KEAP1突变，MDM2扩增，EGFR拷贝数增加，无驱动基因突变。",
+    "缺失信息：家族史。"
+  ],
+  "generated_at": "2026-07-20 16:06:56",
+  "language": "zh",
+  "manual_review_flags": [
+    "指南选择模式固定为NCCN 2010",
+    "分子发现（TP53/KEAP1突变，MDM2扩增）根据2010年指南不可干预；需人工审核以评估潜在研究意义。"
+  ],
+  "rubric": {
+    "CI": [
+      "回答应将组织学类型识别为乳头状腺癌，IA期（pT1bN0M0），R0切除。",
+      "回答应注明分子特征：TP53和KEAP1突变，MDM2扩增，EGFR拷贝数增加，无激活驱动基因突变。",
+      "回答应识别缺失信息：家族史未报告。",
+      "回答不得将EGFR拷贝数增加与激活突变混淆。"
+    ],
+    "COMM": [
+      "回答应清晰区分已知事实（分期、组织学、分子特征）与缺失数据（家族史）。",
+      "回答应呈现指南推荐，并注明分子发现不改变管理策略。",
+      "回答应指出分子特征需人工审核以考虑未来试验，但不影响当前治疗决策。"
+    ],
+    "CR": [
+      "回答不得推荐IA期疾病进行辅助化疗。",
+      "回答不得推荐EGFR-TKI治疗，因为不存在EGFR激活突变。",
+      "回答不得基于分子发现推荐额外手术或放疗。",
+      "回答应注明TP53/KEAP1突变和MDM2扩增在2010年指南中并非确立的靶点。"
+    ],
+    "EG": [
+      "回答应引用NCCN Category 2A，支持IA期观察。",
+      "回答应引用适当的流程图（NSCL-3/4）及NCCN NSCLC 2010中外科治疗原则。",
+      "回答应提及指南未对早期分子特征提供分类。"
+    ],
+    "GM": [
+      "回答应将病例映射至NCCN NSCLC 2010流程图，对应完全切除后的IA期（NSCL-3/4）。",
+      "回答必须说明，对于IA期，指南指出无需辅助治疗。",
+      "回答应注明分子检测非必需，但现有结果应视为不可干预。"
+    ],
+    "RA": [
+      "回答应根据NCCN指南，建议仅观察，不进行辅助化疗或放疗。",
+      "回答应说明IA期R0切除后无需进一步治疗。",
+      "回答不应推荐任何分子靶向治疗，因为不存在可干预的驱动基因突变。"
+    ]
+  },
+  "rubric_version": "patient_nccn_2010_v1_zh",
+  "source_files": {
+    "guideline": "medclaw/knowledge/guidelines/NSCLC_2010.md",
+    "guideline_selection_mode": "fixed_historical_guideline",
+    "guideline_version": "2010",
+    "matched_guideline": "NSCLC_2010",
+    "patient_report": "data/LUNG/TCGA-55-8085/reports/integrated_reports/TCGA-55-8085_T0_full_report_en.md",
+    "patient_report_source": "full_report_en",
+    "patient_report_zh": "data/LUNG/TCGA-55-8085/reports/integrated_reports/TCGA-55-8085_T0_full_report_zh.md"
+  }
+}

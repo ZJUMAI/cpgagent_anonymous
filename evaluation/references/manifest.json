@@ -1,0 +1,260 @@
+{
+  "cancer_counts": {
+    "LUNG": 30
+  },
+  "case_count": 30,
+  "cases": [
+    {
+      "cancer_type": "LUNG",
+      "case_id": "TCGA-38-4625",
+      "rubric_path": "LUNG/TCGA-38-4625/rubric.json",
+      "rubric_sha256": "63f0b27aad1d5d511437c182cb551f34bc908aefa8bd789d4453b263fe938f6f",
+      "trajectory_path": "LUNG/TCGA-38-4625/trajectory.json",
+      "trajectory_sha256": "a62f6626227d6f6233d75a539dad80cea3aac6706c5d208d1ce6a9bc4c605cfb"
+    },
+    {
+      "cancer_type": "LUNG",
+      "case_id": "TCGA-38-A44F",
+      "rubric_path": "LUNG/TCGA-38-A44F/rubric.json",
+      "rubric_sha256": "e45cb2f89886a2500897769aba5543728be70b479d114b56d8874dee6b400c35",
+      "trajectory_path": "LUNG/TCGA-38-A44F/trajectory.json",
+      "trajectory_sha256": "33d61907eaebbced42d7d83bde6e0aaa8f8bfb04d408cb206e9924cca0805dad"
+    },
+    {
+      "cancer_type": "LUNG",
+      "case_id": "TCGA-44-2655",
+      "rubric_path": "LUNG/TCGA-44-2655/rubric.json",
+      "rubric_sha256": "e4a71790323c55f2896d535c083eef055fd3436e1bf39fd8d584bc8fc446cb5d",
+      "trajectory_path": "LUNG/TCGA-44-2655/trajectory.json",
+      "trajectory_sha256": "2ae23522a65a76e1a1db16ace0d2d331d99ad4ff1170a464da222bc1d1115482"
+    },
+    {
+      "cancer_type": "LUNG",
+      "case_id": "TCGA-44-2661",
+      "rubric_path": "LUNG/TCGA-44-2661/rubric.json",
+      "rubric_sha256": "0ec521771b45f37da5011ba9650825061ee8ab48e0c495cde4cb73e27363123c",
+      "trajectory_path": "LUNG/TCGA-44-2661/trajectory.json",
+      "trajectory_sha256": "42a6a44e364210ff1eb7ecb71d6af777c42ad0613b8fdd9e2d7f9fd8d67e8af6"
+    },
+    {
+      "cancer_type": "LUNG",
+      "case_id": "TCGA-44-2668",
+      "rubric_path": "LUNG/TCGA-44-2668/rubric.json",
+      "rubric_sha256": "9e84bcd268d4be38f3ce41ea2934e7d610f2f1a0b0d3a35d27b92f603a48caba",
+      "trajectory_path": "LUNG/TCGA-44-2668/trajectory.json",
+      "trajectory_sha256": "eaa6c7b6f994ee570f58ad624da1cbaaa96603a1db748bbce8a8e0b1943021dd"
+    },
+    {
+      "cancer_type": "LUNG",
+      "case_id": "TCGA-44-A47B",
+      "rubric_path": "LUNG/TCGA-44-A47B/rubric.json",
+      "rubric_sha256": "eaa9065b2a0065c3848f827bbe74be2d77b2a868730e71fd568f78c059a48b6c",
+      "trajectory_path": "LUNG/TCGA-44-A47B/trajectory.json",
+      "trajectory_sha256": "c3124cc874fea97e0338f28f36962e14181e838e71eb1454a82bec38bc69f860"
+    },
+    {
+      "cancer_type": "LUNG",
+      "case_id": "TCGA-44-A47G",
+      "rubric_path": "LUNG/TCGA-44-A47G/rubric.json",
+      "rubric_sha256": "ac2b965a71dc044f2e17d46708a9a8efba52113cf5ada5d0384f97532c038fef",
+      "trajectory_path": "LUNG/TCGA-44-A47G/trajectory.json",
+      "trajectory_sha256": "c6f72cc57bea93971179da29095c9ba1946495525927db21b06090e71618ed9b"
+    },
+    {
+      "cancer_type": "LUNG",
+      "case_id": "TCGA-4B-A93V",
+      "rubric_path": "LUNG/TCGA-4B-A93V/rubric.json",
+      "rubric_sha256": "ea2b347cbe4ab7929f4d2f51a1c033a6edb0f3ba3c6b949fba91f394e2ea9df6",
+      "trajectory_path": "LUNG/TCGA-4B-A93V/trajectory.json",
+      "trajectory_sha256": "a618fc03058b458090707af4093ee27fee0741afbe239cca7e7b600c0f856547"
+    },
+    {
+      "cancer_type": "LUNG",
+      "case_id": "TCGA-55-7995",
+      "rubric_path": "LUNG/TCGA-55-7995/rubric.json",
+      "rubric_sha256": "34dcf6f4169e47d712ab7d54ac439ddc5e3d9266360e2690ae2a78e12ea36707",
+      "trajectory_path": "LUNG/TCGA-55-7995/trajectory.json",
+      "trajectory_sha256": "7df5c8d13aa2660f634d4a80029fde1b3ab6901bfc2949f51db15055b898647c"
+    },
+    {
+      "cancer_type": "LUNG",
+      "case_id": "TCGA-55-8085",
+      "rubric_path": "LUNG/TCGA-55-8085/rubric.json",
+      "rubric_sha256": "34331ff5be09c58ff4cf7fef8f87479c2058bb16c252c57d230f6060fa3bb7c1",
+      "trajectory_path": "LUNG/TCGA-55-8085/trajectory.json",
+      "trajectory_sha256": "a18f61d7024716c6c4501f7a8fadafcd6201c312b1f7bdceb83878cb52607084"
+    },
+    {
+      "cancer_type": "LUNG",
+      "case_id": "TCGA-55-8089",
+      "rubric_path": "LUNG/TCGA-55-8089/rubric.json",
+      "rubric_sha256": "aeed2f6e36ff61231b9a964fec79d246be6f52500ff3e2eca42feda231a8ee15",
+      "trajectory_path": "LUNG/TCGA-55-8089/trajectory.json",
+      "trajectory_sha256": "7ba9da6a97096f373b2d48e4970754038f96ed76becdb68ec13a37d69dae84ec"
+    },
+    {
+      "cancer_type": "LUNG",
+      "case_id": "TCGA-75-7025",
+      "rubric_path": "LUNG/TCGA-75-7025/rubric.json",
+      "rubric_sha256": "93760470866910fd58c9a1c68409730cc6acdbabb36b31e3c082b149f4f01b12",
+      "trajectory_path": "LUNG/TCGA-75-7025/trajectory.json",
+      "trajectory_sha256": "f32704287ddea41564125136d15ebd2b4ac7644a7588cfa103e50ea69c8421c6"
+    },
+    {
+      "cancer_type": "LUNG",
+      "case_id": "TCGA-78-7159",
+      "rubric_path": "LUNG/TCGA-78-7159/rubric.json",
+      "rubric_sha256": "49f3d52353487c54e49ca2a3f67ba83ee53baacc2b02418a5ec4a77506c33751",
+      "trajectory_path": "LUNG/TCGA-78-7159/trajectory.json",
+      "trajectory_sha256": "25e2f4ebdf8410c2b953ec4a34f8e23b96dbdf274f63f949ca8f2a6f3c276599"
+    },
+    {
+      "cancer_type": "LUNG",
+      "case_id": "TCGA-78-7161",
+      "rubric_path": "LUNG/TCGA-78-7161/rubric.json",
+      "rubric_sha256": "da84ac068297063791f1b0a0f74f0ba7a6602694d50b99fa9f5c1a5c4b15be2d",
+      "trajectory_path": "LUNG/TCGA-78-7161/trajectory.json",
+      "trajectory_sha256": "41f6be05ffb4c64dbad98e5c87b3a203c208eefded964f09354157e1062d3442"
+    },
+    {
+      "cancer_type": "LUNG",
+      "case_id": "TCGA-78-7163",
+      "rubric_path": "LUNG/TCGA-78-7163/rubric.json",
+      "rubric_sha256": "76c38db8d3283a518e266d10178a318f4b8029c3497d4819be6f12d479352fa8",
+      "trajectory_path": "LUNG/TCGA-78-7163/trajectory.json",
+      "trajectory_sha256": "5f9142343772b228a5d35ed05a6138fb42add1c35e7308d235e766302dbe5abb"
+    },
+    {
+      "cancer_type": "LUNG",
+      "case_id": "TCGA-78-7540",
+      "rubric_path": "LUNG/TCGA-78-7540/rubric.json",
+      "rubric_sha256": "b19ddee6499e47ab04716b0704afed53945647f20bc2d019a0c9e9d25ee726fa",
+      "trajectory_path": "LUNG/TCGA-78-7540/trajectory.json",
+      "trajectory_sha256": "956981f497c4cb30024f3e9a6571197ef1aa3ace7a6525f1485c55edae720fcf"
+    },
+    {
+      "cancer_type": "LUNG",
+      "case_id": "TCGA-78-7542",
+      "rubric_path": "LUNG/TCGA-78-7542/rubric.json",
+      "rubric_sha256": "edb93ed4d100f055bae9df38464b5f906de57c17b385fa505d3c61e62f9cdafd",
+      "trajectory_path": "LUNG/TCGA-78-7542/trajectory.json",
+      "trajectory_sha256": "7755e1675bd4ae54ad284a0664cbff80c5c0952ae7a41174ee9c0eb2c0d202d2"
+    },
+    {
+      "cancer_type": "LUNG",
+      "case_id": "TCGA-78-7633",
+      "rubric_path": "LUNG/TCGA-78-7633/rubric.json",
+      "rubric_sha256": "ec83174560eb2375f0746181b3e647f2b13197595ed8d0cfb96e107624b69ef0",
+      "trajectory_path": "LUNG/TCGA-78-7633/trajectory.json",
+      "trajectory_sha256": "78f80d5da7ec12be96d0ef2481241e320197913e892882f14b8a16efcf964601"
+    },
+    {
+      "cancer_type": "LUNG",
+      "case_id": "TCGA-78-8640",
+      "rubric_path": "LUNG/TCGA-78-8640/rubric.json",
+      "rubric_sha256": "30eda6e5bd4f79b4bfbc04867eb9b40c3e8b2003d36154a8f7b6da56a7ff7d71",
+      "trajectory_path": "LUNG/TCGA-78-8640/trajectory.json",
+      "trajectory_sha256": "14df9eadaaa12920c79402fd31f388a525864ddef26830350ab315c1697ff091"
+    },
+    {
+      "cancer_type": "LUNG",
+      "case_id": "TCGA-86-8054",
+      "rubric_path": "LUNG/TCGA-86-8054/rubric.json",
+      "rubric_sha256": "73d6c694b8f03e1a69132a31bc9933b2ffe020fb590d40d3aafbb27c5ad60c3c",
+      "trajectory_path": "LUNG/TCGA-86-8054/trajectory.json",
+      "trajectory_sha256": "ce7f972bf04d0c861b945b659ffbafb195ff7e65b600f98ceb35291059f07955"
+    },
+    {
+      "cancer_type": "LUNG",
+      "case_id": "TCGA-86-8279",
+      "rubric_path": "LUNG/TCGA-86-8279/rubric.json",
+      "rubric_sha256": "dc58a540eb9e873d4c1c053c72111665d998853ec9efff32d0b4c49fa1e71c87",
+      "trajectory_path": "LUNG/TCGA-86-8279/trajectory.json",
+      "trajectory_sha256": "20bd44affd32f62dd87d025783cee9a08b08046820c6f5fe709e72df68b34761"
+    },
+    {
+      "cancer_type": "LUNG",
+      "case_id": "TCGA-86-8358",
+      "rubric_path": "LUNG/TCGA-86-8358/rubric.json",
+      "rubric_sha256": "9d6a88fbfec515e85f1df005550cffcc44a33a290450f25ce394c5f8a54aa387",
+      "trajectory_path": "LUNG/TCGA-86-8358/trajectory.json",
+      "trajectory_sha256": "d6ea5c075d431aad175f8cacf9027d08af0b54c991c65a89cfa87aa796cd4aa9"
+    },
+    {
+      "cancer_type": "LUNG",
+      "case_id": "TCGA-86-8671",
+      "rubric_path": "LUNG/TCGA-86-8671/rubric.json",
+      "rubric_sha256": "f5a6b41d2c1071c8551058fb969330c200aa291af7d8705cca817dc98651933b",
+      "trajectory_path": "LUNG/TCGA-86-8671/trajectory.json",
+      "trajectory_sha256": "4f556ac1c8d20fec6a0083811e2e5c9f33f806d8869afc792ebe3fffcfe5ebea"
+    },
+    {
+      "cancer_type": "LUNG",
+      "case_id": "TCGA-97-A4M2",
+      "rubric_path": "LUNG/TCGA-97-A4M2/rubric.json",
+      "rubric_sha256": "9cb020c95a045c52acadd45044e503c8f9e5299c2fbc6a9a390ced7dffa812be",
+      "trajectory_path": "LUNG/TCGA-97-A4M2/trajectory.json",
+      "trajectory_sha256": "0f289b288e3bbc838432b64ff78d7d873bfc74bc983ad178c56a0ab4e4ad3968"
+    },
+    {
+      "cancer_type": "LUNG",
+      "case_id": "TCGA-99-8032",
+      "rubric_path": "LUNG/TCGA-99-8032/rubric.json",
+      "rubric_sha256": "ff007523e365b7534185879a0f0be8bf6e849c7f75f3d83023d4d18edfdb87cd",
+      "trajectory_path": "LUNG/TCGA-99-8032/trajectory.json",
+      "trajectory_sha256": "459c2f51f8eed825a20f14d95c638fd864ae1fadeb2a26bee85474280c6f97d6"
+    },
+    {
+      "cancer_type": "LUNG",
+      "case_id": "TCGA-99-AA5R",
+      "rubric_path": "LUNG/TCGA-99-AA5R/rubric.json",
+      "rubric_sha256": "b72ebc54b2eb031f88213d742b1d91840a695c3141778db00f3b67d5db74aeea",
+      "trajectory_path": "LUNG/TCGA-99-AA5R/trajectory.json",
+      "trajectory_sha256": "c5fad95b82788ace0e344e8029ae5061a3a05cd8f8846564e1fc025d3691094f"
+    },
+    {
+      "cancer_type": "LUNG",
+      "case_id": "TCGA-J2-A4AE",
+      "rubric_path": "LUNG/TCGA-J2-A4AE/rubric.json",
+      "rubric_sha256": "69f27335a3e1073d06a6c203b4d66a9b5a548479d3cb7a364a3676b432098033",
+      "trajectory_path": "LUNG/TCGA-J2-A4AE/trajectory.json",
+      "trajectory_sha256": "735602158b969ffbbd8cffe9251d2f46f447af95d32caf0c3080d3c2edf7726d"
+    },
+    {
+      "cancer_type": "LUNG",
+      "case_id": "TCGA-J2-A4AG",
+      "rubric_path": "LUNG/TCGA-J2-A4AG/rubric.json",
+      "rubric_sha256": "98c32f923cdd096802c71318108b79e728641f0a7cdcbef6cbb62d4301ccf420",
+      "trajectory_path": "LUNG/TCGA-J2-A4AG/trajectory.json",
+      "trajectory_sha256": "f1beb0d091ad052699be894ed35bd98281777f908fdecf3ceff6521618a9d1e7"
+    },
+    {
+      "cancer_type": "LUNG",
+      "case_id": "TCGA-L4-A4E5",
+      "rubric_path": "LUNG/TCGA-L4-A4E5/rubric.json",
+      "rubric_sha256": "e706e982088f7e6e9ba514b0f3944ffc60f995ec1fe0659dd3284aa4265e1144",
+      "trajectory_path": "LUNG/TCGA-L4-A4E5/trajectory.json",
+      "trajectory_sha256": "73ed0c2f9c4f74005bc90fb63e8965fd4004c768062d1c19b2ba6a1dc9d03838"
+    },
+    {
+      "cancer_type": "LUNG",
+      "case_id": "TCGA-MN-A4N5",
+      "rubric_path": "LUNG/TCGA-MN-A4N5/rubric.json",
+      "rubric_sha256": "9e0268eac5234c1cce0591576eac581b393a714df64e2fae65f9809c0c84c249",
+      "trajectory_path": "LUNG/TCGA-MN-A4N5/trajectory.json",
+      "trajectory_sha256": "27fc713bed8dbd9215ed0d0d7e612329bb076c524a5d2583a782ec28fa5af8af"
+    }
+  ],
+  "generator": "scripts/build_anonymous_release.py",
+  "guideline_target": {
+    "decision_date": "2010-12-31",
+    "evaluation_mode": "fixed_historical_guideline",
+    "guideline_id": "NSCLC_2010",
+    "version": "2010"
+  },
+  "revision": {
+    "historical_scores_recomputed": false,
+    "reason": "Correct sex extraction, case-specific TNM actions, and guideline-version mismatch."
+  },
+  "schema_version": "portable_judge_references.v2"
+}

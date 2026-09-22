@@ -1,0 +1,146 @@
+schema_version: planner_training_pipeline.v2
+name: planner_v2_lung_endometrial_npc
+seed: 17
+
+# GPT generation/review is deliberately separated from model training. The
+# source two-cancer dataset and its trained artifacts are never overwritten.
+paths:
+  npc_case_root: data/patient_data/NPC
+  lung_case_root: data/patient_data/LUNG
+  ucec_case_root: data/patient_data/UCEC
+  source_dataset_root: datasets/planner_v2_pilot
+  npc_workspace: datasets/planner_v2_npc_gpt
+  review_workspace: datasets/planner_v2_lung_endometrial_gpt_review
+  merged_dataset_root: datasets/planner_v2_lung_endometrial_npc_gpt
+  trajectory_data: datasets/planner_v2_lung_endometrial_npc_gpt/dataset
+  release_scope: datasets/planner_v2_lung_endometrial_npc_gpt/release_scope.json
+  guideline_chunks_path: datasets/planner_v2_pilot/guideline_chunks.jsonl
+  guideline_chunks: datasets/planner_v2_pilot/guideline_chunks.jsonl
+  memory_dir: datasets/planner_v2_pilot/memory_catalog_mock
+  legacy_rule_registry_path: datasets/planner_v2_pilot/guideline_rules.v2.jsonl
+  manual_approval_path: datasets/planner_v2_lung_endometrial_npc_manual_review.json
+
+  # The 79-chunk Memory Encoder/Store can be reused. Decoder and Router
+  # training for the merged dataset use a new output namespace.
+  memory_training_data: guideline_planner/outputs/planner_v2_lung_endometrial/memory_training_data
+  memory_encoder: guideline_planner/outputs/planner_v2_lung_endometrial/memory_encoder
+  memory_store: guideline_planner/outputs/planner_v2_lung_endometrial/memory_store
+  planner_decoder: guideline_planner/outputs/planner_v2_lung_endometrial_npc/planner_decoder
+  routing_data: guideline_planner/outputs/planner_v2_lung_endometrial_npc/routing_data
+  router_daa: guideline_planner/outputs/planner_v2_lung_endometrial_npc/router_daa
+  evaluation: guideline_planner/outputs/planner_v2_lung_endometrial_npc/evaluation
+  release: guideline_planner/outputs/planner_v2_lung_endometrial_npc/release
+
+expected:
+  npc_cases: 39
+  existing_cases: 70
+  existing_records: 420
+
+generation:
+  teacher_model: gpt-5.6-sol
+  verifier_model: gpt-5.6-sol
+  reasoning_effort: high
+  max_parallel: 3
+  max_repair_cycles: 2
+  npc_min_real_turns: 3
+  npc_max_real_turns: 6
+  counterfactuals_per_case: 2
+  default_decision_date: "2022-12-31"
+  guideline_id: CSCO鼻咽癌2022
+  guideline_version: "2022"
+  exclude_case_evaluation_assets: true
+  forbid_rule_generated_targets: true
+  require_independent_verifier: true
+  preserve_valid_hash_matched_outputs: true
+
+review:
+  unit: case
+  existing_decisions: [pass_unchanged, repair_required, unusable]
+  repair_requires_fresh_verifier: true
+  changed_records_human_reviewed: false
+  model_reviewer_id: gpt-5.6-sol-independent-verifier
+  model_approval_type: model_review
+  manual_reviewer_id: professional-clinician-review-team
+  manual_approval_type: professional_clinician_manual_review
+
+split:
+  group_key: base_case_id
+  npc_case_counts: {train: 27, validation: 6, test: 6}
+  keep_existing_assignments: true
+
+scope:
+  planner_action:
+    - cancer_family: lung
+      disease_subtypes: [nsclc]
+      guideline_id: NSCLC_2010
+      version: "2010"
+      default_decision_date: "2010-12-31"
+    - cancer_family: endometrial
+      disease_subtypes: [ucec]
+      guideline_id: CSCO子宫内膜癌2023
+      version: "2023"
+      default_decision_date: "2023-12-31"
+    - cancer_family: nasopharyngeal
+      disease_subtypes: [npc]
+      guideline_id: CSCO鼻咽癌2022
+      version: "2022"
+      default_decision_date: "2022-12-31"
+  memory:
+    - {guideline_id: NSCLC_2010, cancer_family: lung}
+    - {guideline_id: SCLC_2010, cancer_family: lung}
+    - {guideline_id: CSCO子宫内膜癌2023, cancer_family: endometrial}
+    - {guideline_id: CSCO鼻咽癌2022, cancer_family: nasopharyngeal}
+  deferred_action:
+    - {cancer_family: lung, disease_subtypes: [sclc]}
+
+common:
+  seed: 17
+  top_k: 4
+  memory_tokens: 64
+  eval_steps: 100
+  save_steps: 500
+  keep_last_checkpoints: 2
+  auto_resume: true
+
+model:
+  name: Qwen/Qwen3.5-9B
+  revision: null
+  snapshot_lock: guideline_planner/outputs/planner_v2_lung_endometrial_npc/model_snapshot.json
+  dtype: bf16
+
+hardware:
+  accelerator: cuda
+  expected_gpu: A100-or-H100-80GB
+  world_size: 1
+
+planner_decoder:
+  max_steps: 5000
+  training_memory_strategy: non_reentrant_segmented_v1
+  max_decoder_tokens: 2048
+  learning_rate: 2.0e-4
+  gradient_accumulation_steps: 4
+  generation_eval_steps: 500
+  generation_eval_examples: 8
+  generation_max_new_tokens: 1024
+  loss_weights:
+    structured_sft: 1.0
+    action_preference: 0.30
+    state_progress: 0.20
+    phase_transition: 0.10
+    memory_provenance: 0.20
+
+router_daa:
+  max_steps: 5000
+  eval_steps: 500
+  training_memory_strategy: non_reentrant_v1
+  max_decoder_tokens: 2048
+  learning_rate: 1.0e-4
+  gradient_accumulation_steps: 4
+  generation_eval_steps: 500
+  generation_eval_examples: 8
+  generation_max_new_tokens: 1024
+  retrieval_pretrain_steps: 100
+  identity_warmup_steps: 100
+  joint_calibration_fraction: 0.10
+  joint_decoder_lr_multiplier: 0.10
+  routing_config: guideline_planner/configs/latent_guideline_routing.yaml

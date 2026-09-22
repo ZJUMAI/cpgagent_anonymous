@@ -1,0 +1,63 @@
+{
+  "case_id": "TCGA-44-2655",
+  "case_summary": [
+    "65岁女性，IA期肺腺癌（右上叶，pT1N0M0，R0切除），中分化，TTF1阳性，无淋巴/血管/动脉侵犯，11个淋巴结阴性。",
+    "既往左乳腺导管内癌（非浸润性）病史，目前为已戒烟者（30包年，戒烟>15年）。",
+    "分子谱：无可靶向驱动突变（EGFR、KRAS、ALK、BRAF、MET、ERBB2、ROS1、RET、NTRK1/2/3均为野生型）；KEAP1突变；STK11低表达；高CNV负荷。IA期，根据2010年NCCN指南，无需辅助治疗。"
+  ],
+  "generated_at": "2026-07-20 16:05:37",
+  "language": "zh",
+  "manual_review_flags": [
+    "指南选择模式：固定为2010年",
+    "分期版本差异：报告使用AJCC第6版，指南使用AJCC第7版；两者均导致该患者为IA期。",
+    "分子谱（KEAP1突变、STK11低表达）已记录，但根据2010年NCCN指南，不影响IA期治疗。"
+  ],
+  "rubric": {
+    "CI": [
+      "回答应识别患者组织学类型为腺癌（非特指型），伴有支气管肺泡生长模式。",
+      "回答应说明病理分期为IA期（pT1N0M0），按报告采用的AJCC第6版，并指出按AJCC第7版（用于NCCN 2010）同样为IA期（T1aN0M0）。",
+      "回答必须注明患者接受了R0切除（切缘阴性，11个淋巴结阴性）。",
+      "回答应报告分子谱：EGFR、KRAS、ALK、BRAF、MET、ERBB2、ROS1、RET、NTRK1/2/3无激活突变；KEAP1突变；STK11低表达；高CNV负荷。",
+      "回答应提及既往恶性肿瘤（左乳腺导管内癌，非浸润性）。",
+      "回答不得将分子检测结果与早期肺癌靶向治疗指征混淆。"
+    ],
+    "COMM": [
+      "回答应清晰区分已知临床事实（分期、组织学、分子状态）与缺失信息及指南匹配的推荐。",
+      "回答应明确说明分子检测结果（KEAP1、STK11）对此早期病例无临床可操作性，且不改变治疗策略。",
+      "回答应包含关于报告所用AJCC第6版与NCCN 2010指南所用AJCC第7版之间差异的人工审核要点。",
+      "回答应按以下部分组织沟通：患者事实、指南匹配、推荐管理方案及人工审核标记。"
+    ],
+    "CR": [
+      "回答不得推荐IA期疾病使用辅助铂类化疗（根据NCCN 2010，因缺乏生存获益且存在潜在毒性，为禁忌）。",
+      "回答不得推荐EGFR-TKI或ALK抑制剂治疗，因缺乏驱动突变且为IA期（无指征）。",
+      "回答不得推荐免疫检查点抑制剂（2010年未获批用于IA期，且STK11缺失可能预示疗效不佳）。",
+      "回答不得推荐对原发肿瘤进行放疗（R0切除，无残留病灶）。"
+    ],
+    "EG": [
+      "回答应引用单纯手术切除是IA期NSCLC的标准治疗，为2A类推荐（根据NCCN 2010，手术是可手术I期的标准）。",
+      "回答应指出IA期不推荐辅助化疗为NCCN 2010的1类推荐。",
+      "回答应引用NCCN 2010分期分类（AJCC第7版）将患者分期为IA期（T1aN0M0）。",
+      "回答不得编造页码，而应使用流程图编号（如NSCL-7）和一般原则。"
+    ],
+    "GM": [
+      "回答应将此病例映射至NCCN 2010 IA期NSCLC（T1N0M0）指南，该分期属于早期治疗流程（NSCL-7或等效流程）。",
+      "回答应指出指南包中未完整提供“T1-3，N0-1治疗”相关流程图，但IA期标准治疗为单纯手术切除。",
+      "回答必须认识到根据NCCN 2010，IA期不推荐辅助全身治疗或放疗（不推荐辅助化疗为1类推荐）。"
+    ],
+    "RA": [
+      "回答必须说明根治性手术切除（已实施）是IA期NSCLC的主要治疗。",
+      "回答应推荐按NCCN 2010随访指南进行监测（病史、体格检查、胸部CT；未提供具体频率，但标准为每6-12个月一次，持续2年，之后每年一次）。",
+      "回答不得对此IA期R0切除患者推荐任何辅助化疗、靶向治疗或放疗。"
+    ]
+  },
+  "rubric_version": "patient_nccn_2010_v1_zh",
+  "source_files": {
+    "guideline": "medclaw/knowledge/guidelines/NSCLC_2010.md",
+    "guideline_selection_mode": "fixed_historical_guideline",
+    "guideline_version": "2010",
+    "matched_guideline": "NSCLC_2010",
+    "patient_report": "data/LUNG/TCGA-44-2655/reports/integrated_reports/TCGA-44-2655_T0_full_report_en.md",
+    "patient_report_source": "full_report_en",
+    "patient_report_zh": "data/LUNG/TCGA-44-2655/reports/integrated_reports/TCGA-44-2655_T0_full_report_zh.md"
+  }
+}

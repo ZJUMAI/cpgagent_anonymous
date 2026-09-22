@@ -1,0 +1,14 @@
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+torch==2.4.1+cu121
+torchvision==0.19.1+cu121
+monai==1.4.0
+nibabel==5.2.1
+numpy==1.26.4
+scipy==1.15.3
+SimpleITK==2.5.5
+lungmask==0.2.20
+Pillow>=10.0
+scikit-image>=0.22
+fill-voids>=2.0.4
+fastremap>=1.13.5

@@ -1,0 +1,68 @@
+{
+  "case_id": "TCGA-75-7025",
+  "case_summary": [
+    "男性患者，IB期（AJCC第7版T2a N0 M0）肺腺癌，R0切除术后，既往未接受治疗。",
+    "分子检测显示EGFR突变伴拷贝数增加，但缺乏其他常见驱动基因突变。EGFR拷贝数增加不等同于激活突变。",
+    "肿瘤大小3.4 cm，Grade 3，无不良特征（如大小>4 cm）记录。",
+    "初始分期按AJCC第6版为IB期；按AJCC第7版重新分期仍为IB期。"
+  ],
+  "generated_at": "2026-07-20 16:07:25",
+  "language": "zh",
+  "manual_review_flags": [
+    "指南选择模式固定为NCCN 2010，使用AJCC第7版分期；患者初始分期为AJCC第6版，需重新分期。",
+    "存在EGFR突变伴拷贝数增加，但其功能意义不确定；需人工审核以确定是否符合NCCN 2010标准的激活突变。",
+    "病理报告在注释中提及'VALCSG'，可能影响分期解读；建议人工审核原始记录。",
+    "纵隔淋巴结评估的具体方法未记录；建议人工验证N0状态。"
+  ],
+  "rubric": {
+    "CI": [
+      "回答应明确组织学类型为肺腺癌（LUAD）。",
+      "回答应说明病理分期为IB期（T2a N0 M0），依据AJCC第7版分期。",
+      "回答应指出患者接受了R0手术切除。",
+      "回答应报告EGFR突变伴拷贝数增加，但需澄清根据NCCN 2010标准，这并非已明确的EGFR激活突变。",
+      "回答应指出不存在其他常见驱动基因突变（KRAS、ALK等）或高水平扩增。",
+      "回答应说明患者有戒烟史（戒烟>15年）。"
+    ],
+    "COMM": [
+      "回答应清晰区分患者人口学信息、病理分期、分子发现和治疗建议。",
+      "回答应明确说明分子特征（EGFR突变伴拷贝数增加）已记录，但在早期阶段不被视为可干预。",
+      "回答应指出缺失信息：纵隔淋巴结评估的具体方法未详述；N0状态应经病理确认。",
+      "回答应包含关于EGFR突变（非经典激活）解释及需按AJCC第7版重新分期的人工审核标记。",
+      "回答应按逻辑顺序组织报告：摘要、事实、指南匹配、建议和人工审核要点。"
+    ],
+    "CR": [
+      "回答不得推荐IB期辅助化疗，因为NCCN 2010不支持该分期使用。",
+      "回答不得推荐EGFR酪氨酸激酶抑制剂治疗，因为NCCN 2010不适用于早期NSCLC。",
+      "回答不得将EGFR拷贝数增加解释为激活突变或治疗靶点。",
+      "回答不得推荐放射治疗，因为IB期R0切除后无指征。",
+      "回答不得混淆AJCC第6版和第7版分期；病例应按第7版重新分期。"
+    ],
+    "EG": [
+      "回答应引用NCCN Flowchart 002.mmd进行IB期NSCLC的临床评估，并注明所遵循的建议为Category 2A。",
+      "回答应引用IIA/IIB期辅助化疗为Category 1，但不适用于IB期。",
+      "回答应说明纵隔镜和EBUS在IB期为Category 2B（如适用，参考002.mmd脚注）。",
+      "回答应引用使用AJCC第7版（表6和表7）作为标准的分期讨论。",
+      "回答应说明，根据NCCN 2010，分子检测结果不用于指导IB期治疗。"
+    ],
+    "GM": [
+      "回答应将病例映射至NCCN 2010临床评估流程图（Flowchart 002.mmd）中IB期（周围型T2a，N0）分支。",
+      "回答应指出，在预处理评估（纵隔淋巴结阴性且可手术）后，患者按NSCL-3算法进入初始治疗和辅助治疗。",
+      "回答应说明，所提供的指南中NSCL-3未完全展开，但IB期不在辅助化疗推荐范围内（IIA/IIB期和IIIA期在推荐范围内）。"
+    ],
+    "RA": [
+      "回答应说明，对于IB期R0切除且无不良特征的患者，根据NCCN 2010，不推荐辅助化疗。",
+      "回答应建议按标准实践进行监测计划（如临床评估和影像学检查），但所提供的摘录中未详述NCCN具体监测时间表。",
+      "回答应承认，鉴于早期分期，患者的EGFR突变不改变NCCN 2010的管理建议。"
+    ]
+  },
+  "rubric_version": "patient_nccn_2010_v1_zh",
+  "source_files": {
+    "guideline": "medclaw/knowledge/guidelines/NSCLC_2010.md",
+    "guideline_selection_mode": "fixed_historical_guideline",
+    "guideline_version": "2010",
+    "matched_guideline": "NSCLC_2010",
+    "patient_report": "data/LUNG/TCGA-75-7025/reports/integrated_reports/TCGA-75-7025_T0_full_report_en.md",
+    "patient_report_source": "full_report_en",
+    "patient_report_zh": "data/LUNG/TCGA-75-7025/reports/integrated_reports/TCGA-75-7025_T0_full_report_zh.md"
+  }
+}

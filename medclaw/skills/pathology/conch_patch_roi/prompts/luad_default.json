@@ -1,0 +1,28 @@
+{
+  "prompts": [
+    {
+      "id": "tumor",
+      "text": "lung adenocarcinoma tumor tissue"
+    },
+    {
+      "id": "tumor_nests",
+      "text": "malignant tumor nests in lung tissue"
+    },
+    {
+      "id": "stromal",
+      "text": "desmoplastic stromal reaction"
+    },
+    {
+      "id": "lymphocytes",
+      "text": "lymphocyte infiltration"
+    },
+    {
+      "id": "necrosis",
+      "text": "tumor necrosis"
+    },
+    {
+      "id": "normal_alveoli",
+      "text": "normal lung alveolar tissue"
+    }
+  ]
+}

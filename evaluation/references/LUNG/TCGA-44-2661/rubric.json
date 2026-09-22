@@ -1,0 +1,61 @@
+{
+  "case_id": "TCGA-44-2661",
+  "case_summary": [
+    "69岁女性，非吸烟者，原发性肺腺癌IA期（T1 N0 M0），楔形切除术后切缘阴性（R0）。",
+    "分子检测显示EGFR突变伴拷贝数增加（突变类型未明确），CDKN2A浅缺失，PTPRD深缺失。",
+    "第二同步原发肿瘤：右侧乳腺浸润性导管癌。"
+  ],
+  "generated_at": "2026-07-20 16:05:51",
+  "language": "zh",
+  "manual_review_flags": [
+    "指南选择模式固定为NCCN 2010版。",
+    "EGFR突变类型未明确——临床意义需关联分析。",
+    "患者有同步乳腺癌，可能需要单独处理。",
+    "分子发现（CDKN2A缺失、PTPRD缺失）根据2010年NCCN无临床可操作性。"
+  ],
+  "rubric": {
+    "CI": [
+      "回答应确认患者为69岁女性，肺腺癌IA期（T1 N0 M0），楔形切除术后切缘阴性（R0）。",
+      "回答应指出分子报告提示EGFR突变伴拷贝数增加，但未明确具体突变类型（如19号外显子缺失、L858R）。",
+      "回答应指出存在CDKN2A浅缺失和PTPRD深缺失。",
+      "回答应指出有同步乳腺癌（浸润性导管癌）病史。",
+      "回答应指出患者为终身非吸烟者。"
+    ],
+    "COMM": [
+      "回答应清晰区分已知事实（IA期、R0、EGFR突变存在但类型未明确、同步乳腺癌）与缺失信息（EGFR突变类型、2010年未将EGFR检测作为标准）。",
+      "回答应说明指南推荐为观察，并明确指出根据2010年NCCN，EGFR突变不改变治疗方案。",
+      "回答应指出因EGFR突变类型缺失及存在第二原发恶性肿瘤，需人工复核。",
+      "回答应结构化呈现：病例摘要、指南匹配、推荐意见、人工复核要点。"
+    ],
+    "CR": [
+      "回答不得推荐辅助化疗、放疗或放化疗，因为根据NCCN 2010版，IA期R0无需辅助治疗。",
+      "回答不得推荐EGFR-TKI治疗，因为具体EGFR突变类型未知，且NCCN 2010版不支持IA期辅助靶向治疗。",
+      "回答不得将EGFR拷贝数增加等同于激活突变；仅拷贝数增加不提示TKI敏感性。"
+    ],
+    "EG": [
+      "回答应引用NCCN NSCLC 2010版中IA期不推荐辅助治疗为Category 2A。",
+      "回答应引用相应流程图：IA期术后，按NSCL-3进行辅助治疗决策，IA期为观察。",
+      "回答应指出任何靶向治疗推荐均超出指南范围，且NCCN 2010版不支持此分期。"
+    ],
+    "GM": [
+      "回答应将病例映射至NCCN NSCLC 2010版IA期（T1ab N0）完全手术切除且切缘阴性，对应NSCL-3辅助治疗路径。",
+      "回答应说明根据NCCN 2010版，IA期R0切除后不推荐辅助治疗（Category 2A）。",
+      "回答应指出指南未涉及IA期NSCLC的EGFR突变检测或靶向治疗。"
+    ],
+    "RA": [
+      "回答应推荐按NCCN指南进行常规随访（病史、体格检查、胸部CT平扫或增强每6-12个月一次，持续2年，之后每年一次）。",
+      "回答应推荐对此IA期R0患者不进行辅助化疗、放疗或放化疗。",
+      "回答应推荐按相应指南单独处理同步乳腺癌。"
+    ]
+  },
+  "rubric_version": "patient_nccn_2010_v1_zh",
+  "source_files": {
+    "guideline": "medclaw/knowledge/guidelines/NSCLC_2010.md",
+    "guideline_selection_mode": "fixed_historical_guideline",
+    "guideline_version": "2010",
+    "matched_guideline": "NSCLC_2010",
+    "patient_report": "data/LUNG/TCGA-44-2661/reports/integrated_reports/TCGA-44-2661_T0_full_report_en.md",
+    "patient_report_source": "full_report_en",
+    "patient_report_zh": "data/LUNG/TCGA-44-2661/reports/integrated_reports/TCGA-44-2661_T0_full_report_zh.md"
+  }
+}

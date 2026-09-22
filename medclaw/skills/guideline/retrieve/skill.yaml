@@ -1,0 +1,122 @@
+name: guideline.retrieve
+version: 0.1.0
+description: Retrieve focused evidence snippets from the local Markdown guideline corpus using cached DashScope embeddings and FAISS when available.
+modalities:
+  input:
+    - TEXT_QUERY
+    - GUIDELINE_CORPUS
+  output:
+    - GUIDELINE_SNIPPETS
+    - STRUCTURED_JSON
+runtime:
+  entrypoint: python run.py
+resources:
+  gpu: none
+  cpu: 1
+  memory_gb: 1
+  timeout_sec: 900
+input_schema:
+  type: object
+  additionalProperties: false
+  required:
+    - case_id
+  properties:
+    case_id:
+      type: string
+      minLength: 1
+      description: Benchmark case identifier used for audit provenance.
+    query:
+      type: string
+      minLength: 1
+      description: Guideline question or clinical context to search. Defaults to a broad oncology workup and treatment query.
+    cancer_type:
+      type: string
+      default: auto
+      description: Restrict retrieval to a corpus cancer tag such as nsclc, sclc, ucec, or all; auto infers from the query when possible.
+    guideline_family:
+      type: string
+      default: auto
+      description: Restrict retrieval to a guideline family such as nccn or csco; auto infers an explicit family named in the query.
+    guideline_version:
+      type: string
+      default: auto
+      description: Restrict retrieval to a four-digit guideline version such as 2010 or 2025; auto infers a year adjacent to NCCN or CSCO in the query.
+    max_snippets:
+      type: integer
+      minimum: 1
+      maximum: 8
+      default: 5
+      description: Maximum number of guideline snippets to return.
+    chunk_mode:
+      type: string
+      enum:
+        - page
+        - chapter
+      default: chapter
+      description: chapter reuses guideline_planner's first-level heading chunks and is the default; page remains available for legacy page/window retrieval experiments.
+    retrieval_mode:
+      type: string
+      enum:
+        - auto
+        - vector
+        - lexical
+      default: auto
+      description: auto uses cached/generated embeddings and FAISS when possible, falling back to lexical only if embeddings are unavailable; vector requires embeddings.
+    rerank_mode:
+      type: string
+      enum:
+        - auto
+        - llm
+        - none
+      default: auto
+      description: auto reranks retrieved candidates with the configured local_openai or qwen core model when its API key is available; llm requires reranking; none preserves retrieval order.
+    rerank_candidate_count:
+      type: integer
+      minimum: 1
+      maximum: 24
+      default: 12
+      description: Number of retrieved candidates sent to the core model for reranking before returning max_snippets.
+    force_rebuild_embeddings:
+      type: boolean
+      default: false
+      description: Force rebuilding local guideline document embeddings and FAISS index from DashScope.
+output_schema:
+  type: object
+  required:
+    - status
+    - findings
+    - artifacts
+    - provenance
+    - warnings
+  properties:
+    status:
+      enum:
+        - success
+        - failed
+    findings:
+      type: object
+      required:
+        - summary
+        - retrieved
+    artifacts:
+      type: array
+      items:
+        type: object
+        required:
+          - type
+    provenance:
+      type: object
+      required:
+        - skill_name
+        - skill_version
+        - input_hash
+        - started_at
+        - finished_at
+    warnings:
+      type: array
+visibility:
+  expose_to_agent: true
+  agent_card: SKILL.md
+  capabilities:
+    - guideline.retrieve
+    - guideline.csco_retrieve

@@ -1,0 +1,66 @@
+{
+  "case_id": "TCGA-86-8358",
+  "case_summary": [
+    "44岁男性，IB期（T2a N0 M0）低分化肺腺癌，R0肺叶切除术后，0/6个淋巴结阳性。",
+    "分子图谱：驱动基因突变阴性（EGFR、KRAS、ALK、BRAF、ROS1、RET、NTRK），TP53/KEAP1/RB1共突变，67个基因高扩增，无可靶向驱动基因。",
+    "当前吸烟者，20包年吸烟史，既往未接受治疗。",
+    "指南摘录未明确IB期R0切除术后辅助治疗建议；仅提及NSCL-3（未展开）。"
+  ],
+  "generated_at": "2026-07-20 16:09:32",
+  "language": "zh",
+  "manual_review_flags": [
+    "guideline_selection_mode: fixed_2010",
+    "提供的指南摘录缺少NSCL-3模块；需要人工审核完整的NCCN 2010指南以确定IB期辅助治疗建议。",
+    "患者存在低分化和分子风险特征（TP53/KEAP1/RB1突变）；临床判断可能将这些视为辅助治疗的高危因素，但提供的指南文本未涉及。"
+  ],
+  "rubric": {
+    "CI": [
+      "回答应识别组织学类型为腺癌。",
+      "回答应根据AJCC第7版识别病理分期为IB期（T2a N0 M0）。",
+      "回答应说明患者接受了R0切除术，0/6个淋巴结阳性。",
+      "回答应注明分子图谱：无经典驱动基因突变（EGFR、KRAS、ALK等），TP53/KEAP1/RB1突变，以拷贝数变异为主模式。",
+      "回答应注明吸烟史（当前吸烟者，20包年）。",
+      "回答应说明指南摘录未提供IB期的明确辅助治疗建议。"
+    ],
+    "COMM": [
+      "回答应清晰区分已知事实（分期、组织学、R0、分子发现）与缺失信息（NSCL-3细节、具体辅助治疗建议）。",
+      "回答应结构化沟通，包含以下部分：病例摘要、指南匹配、推荐行动、证据缺口及人工审核要点。",
+      "回答应明确说明需要人工审核以查阅完整的NCCN 2010指南，获取IB期辅助治疗建议。",
+      "回答应避免将临床建议与证据引用混合；在单独部分引用证据。"
+    ],
+    "CR": [
+      "回答不得仅基于低分化而推荐该IB期患者接受辅助化疗，因为指南摘录不支持。",
+      "回答不得推荐靶向治疗（如EGFR-TKI），因无可靶向驱动基因突变且EGFR拷贝数增益阴性。",
+      "回答不得推荐放化疗，因患者为IB期且R0切除、切缘阴性（无II期标准中的不良因素）。",
+      "回答不得将IB期与IIA/IIB期混淆，后者有明确的辅助化疗推荐。"
+    ],
+    "EG": [
+      "回答应引用“预处理评估后决策”流程图（002.mmd）作为适当的指南分支。",
+      "回答应注明该流程图中的所有推荐均为Category 2A，除非另有说明。",
+      "回答应引用流程图的脚注e，该脚注交叉引用外科治疗原则（NSCLC-B）。",
+      "回答应说明提供的指南摘录不包含NSCL-3模块，因此IB期的确切辅助治疗建议不可用。",
+      "回答应根据AJCC第7版定义将IB期类别识别为T2a N0 M0。"
+    ],
+    "GM": [
+      "回答应将病例映射至IB期（周围型T2a，N0）的“预处理评估后决策”流程图，纵隔淋巴结阴性，可手术状态。",
+      "回答应指出流程图指向“根据NSCL-3进行初始治疗和辅助治疗”。",
+      "回答应说明指南摘录中未提供NSCL-3内容，因此IB期的完整建议不完整。"
+    ],
+    "RA": [
+      "回答应说明由于患者已接受R0切除术，无需进一步初始治疗。",
+      "回答应说明根据提供的指南，IB期无特定辅助治疗推荐（因NSCL-3细节缺失）。",
+      "回答应建议按照早期NSCLC常规随访进行临床观察和监测，并指出指南缺口。",
+      "回答应要求在最终确定辅助治疗建议前，澄清缺失的NSCL-3内容。"
+    ]
+  },
+  "rubric_version": "patient_nccn_2010_v1_zh",
+  "source_files": {
+    "guideline": "medclaw/knowledge/guidelines/NSCLC_2010.md",
+    "guideline_selection_mode": "fixed_historical_guideline",
+    "guideline_version": "2010",
+    "matched_guideline": "NSCLC_2010",
+    "patient_report": "data/LUNG/TCGA-86-8358/reports/integrated_reports/TCGA-86-8358_T0_full_report_en.md",
+    "patient_report_source": "full_report_en",
+    "patient_report_zh": "data/LUNG/TCGA-86-8358/reports/integrated_reports/TCGA-86-8358_T0_full_report_zh.md"
+  }
+}

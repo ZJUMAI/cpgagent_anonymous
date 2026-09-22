@@ -1,0 +1,64 @@
+{
+  "case_id": "TCGA-97-A4M2",
+  "case_summary": [
+    "66岁男性，IA期（pT1a pN0）肺腺癌，乳头状为主型（70%乳头状，30%微乳头状），中分化（G2级），无脏层胸膜侵犯、淋巴血管侵犯或切缘受累。肺叶切除术后R0切除。分子检测：常见驱动基因阴性——EGFR、KRAS、ALK、ROS1、BRAF、MET、ERBB2、RET、NTRK1/2/3未检测到突变；ALK FISH阴性；TP53、STK11、KEAP1、SMARCA4、RB1、CDKN2A、NF1、ATM为野生型；无高扩增或深度缺失。目前吸烟者（100包年）。既往有前列腺癌病史。"
+  ],
+  "generated_at": "2026-07-20 16:09:45",
+  "language": "zh",
+  "manual_review_flags": [
+    "指南选择模式固定为NCCN 2010版。",
+    "分子检测全面但IA期无需进行；结果不改变治疗方案。",
+    "既往前列腺癌病史不影响肺癌治疗决策。"
+  ],
+  "rubric": {
+    "CI": [
+      "回答应根据AJCC第7版分期，明确分期为IA期（pT1a pN0）。",
+      "回答应说明组织学类型为肺腺癌，乳头状为主型。",
+      "回答应指出肺叶切除术后手术切缘为R0（无残留）。",
+      "回答应报告分子检测结果为常见驱动基因阴性，EGFR、KRAS、ALK、ROS1、BRAF、MET、ERBB2、RET、NTRK1/2/3中无可靶向突变。",
+      "回答应指出KRAS和EGFR为野生型，ALK FISH阴性。",
+      "回答不应在此维度中包含治疗建议。"
+    ],
+    "COMM": [
+      "回答应清晰区分已知事实（分期、组织学、手术、分子结果）与缺失数据（无显著缺失）。",
+      "回答应说明无缺失数据妨碍为该患者提出建议。",
+      "回答应呈现符合指南的建议（手术、监测），并明确说明不进行辅助治疗。",
+      "回答应包含人工审核要点：指南选择固定为NCCN 2010版，且分子检测不改变此分期的治疗方案。"
+    ],
+    "CR": [
+      "回答不得推荐IA期（pN0）患者接受辅助化疗，因为根据NCCN，该治疗不适用。",
+      "回答不得推荐任何靶向治疗（如EGFR-TKI、ALK抑制剂），鉴于无可靶向突变且为IA期。",
+      "回答不得推荐免疫治疗（2010年对于IA期并非标准治疗）。",
+      "回答不得推荐额外的分期检查（如PET/CT、纵隔镜检查），因为这些检查已适当进行且结果为阴性。",
+      "回答不得暗示既往前列腺癌病史会改变肺癌的治疗方案。"
+    ],
+    "EG": [
+      "回答应引用NCCN 2A类证据，支持IA期NSCLC的手术切除。",
+      "回答应引用外科治疗原则（NSCL-B）以说明手术选择。",
+      "回答应指出不推荐辅助治疗的建议基于NCCN默认推荐（2A类证据）。",
+      "回答应提及根据2010年指南，IA期无需分子检测结果，但已进行全面的检测且结果为阴性。"
+    ],
+    "GM": [
+      "回答应将病例映射至NCCN NSCLC 2010版预处理评估后决策流程图（流程图002）的IA期（T1aN0M0）分支。",
+      "回答应说明对于IA期且纵隔淋巴结阴性、可手术的患者，指南指引至“根据NSCL-3进行初始治疗和辅助治疗”。",
+      "回答应引用对于IA期，根据外科治疗原则（NSCL-B），初始治疗为手术切除（肺叶切除或局限性切除）。",
+      "回答应指出IA期完全切除后不推荐辅助治疗。"
+    ],
+    "RA": [
+      "回答应推荐手术切除（肺叶切除术）作为初始治疗，该治疗已实施。",
+      "回答应推荐术后监测，包括病史和体格检查、胸部CT及肿瘤标志物评估，遵循根治性手术后的标准随访。",
+      "回答不应推荐辅助化疗、放疗或靶向治疗，鉴于IA期且生物标志物阴性。",
+      "回答应说明对于此早期阶段，无需进一步分子检测来指导治疗决策。"
+    ]
+  },
+  "rubric_version": "patient_nccn_2010_v1_zh",
+  "source_files": {
+    "guideline": "medclaw/knowledge/guidelines/NSCLC_2010.md",
+    "guideline_selection_mode": "fixed_historical_guideline",
+    "guideline_version": "2010",
+    "matched_guideline": "NSCLC_2010",
+    "patient_report": "data/LUNG/TCGA-97-A4M2/reports/integrated_reports/TCGA-97-A4M2_T0_full_report_en.md",
+    "patient_report_source": "full_report_en",
+    "patient_report_zh": "data/LUNG/TCGA-97-A4M2/reports/integrated_reports/TCGA-97-A4M2_T0_full_report_zh.md"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "case_id": "TCGA-38-4625",
+  "case_summary": [
+    "66岁女性，当前吸烟者（50包年），病理分期IB期（T2a N0 M0）肺腺癌，行右上肺叶切除术，切缘阴性，无淋巴结受累。",
+    "分子检测显示无可靶向驱动突变（EGFR、KRAS、ALK等）及CDKN2A深度缺失；无靶向治疗指征。",
+    "分期按AJCC第5版报告；NCCN 2010要求使用AJCC第7版。所提供的指南节选未包含NSCL-3流程图的完整辅助治疗建议。"
+  ],
+  "generated_at": "2026-07-20 16:05:25",
+  "language": "zh",
+  "manual_review_flags": [
+    "guideline_selection_mode: fixed NCCN 2010",
+    "Staging edition discrepancy: patient reported as AJCC 5th edition; NCCN 2010 uses AJCC 7th edition.",
+    "Molecular testing not standard for Stage IB; results do not alter management but may be relevant for future background.",
+    "Full NSCL-3 flowchart not provided; adjuvant therapy recommendations for high-risk Stage IB require manual review of complete guideline."
+  ],
+  "rubric": {
+    "CI": [
+      "回答应确认患者为66岁女性，病理分期IB期（T2a N0 M0）肺腺癌，已行右上肺叶切除术，切缘阴性，无淋巴结受累。",
+      "回答必须注明患者的吸烟史（50包年，当前吸烟者）。",
+      "回答应报告分子检测结果：无可靶向驱动突变（EGFR、KRAS、ALK等）及CDKN2A深度缺失，但须说明这些结果不影响IB期患者的治疗决策。",
+      "回答必须承认分期采用AJCC第5版，而NCCN 2010使用AJCC第7版，需重新分期。"
+    ],
+    "COMM": [
+      "回答应清晰区分病例摘要、已识别的缺口（缺少完整NSCL-3细节、分期版本差异、体能状态）、指南匹配的推荐及人工审核要点。",
+      "回答必须明确注明任何缺失的关键信息（如ECOG体能状态、NSCL-3中辅助治疗细节），这些信息阻碍了推荐的最终确定。",
+      "回答应以结构化格式呈现信息，包含不同部分。"
+    ],
+    "CR": [
+      "回答不得推荐靶向治疗（如EGFR-TKI、ALK抑制剂），因无驱动突变且分期早。",
+      "回答不得推荐免疫治疗，因2010年非标准治疗。",
+      "回答不得推荐化疗，若患者有禁忌证（如体能状态差），但本患者PS未报告；因此若缺失，应说明无体能状态信息时不能推荐化疗。",
+      "回答不得推荐放疗作为观察的替代方案，除非患者医学上不可手术（本患者并非如此）。"
+    ],
+    "EG": [
+      "回答应引用具体流程图和节点：'预处理评估后的决策'（002.mmd）导向'按NSCL-3进行初始治疗和辅助治疗'。",
+      "回答必须提及所有推荐均为Category 2A，除非另有说明（来源：002.mmd注释）。",
+      "回答应引用外科治疗原则（NSCLC-B）以讨论肺叶切除术的手术细节。",
+      "回答必须说明指南选择模式固定为NCCN 2010。"
+    ],
+    "GM": [
+      "回答必须将病例映射至NCCN 2010流程图模块中预处理评估后的IB期路径：'预处理评估后的决策'导向'按NSCL-3进行初始治疗和辅助治疗'（来源：002.mmd）。",
+      "回答应指出患者可手术且纵隔淋巴结阴性，符合该分支的前提条件。",
+      "回答必须说明，现有指南节选未提供辅助治疗的具体建议，需参考完整的NSCL-3流程图。"
+    ],
+    "RA": [
+      "回答应说明，对于IB期NSCLC患者完全切除（R0）后，根据NCCN 2010，观察是标准推荐（Category 2A）。",
+      "回答必须考虑患者肿瘤大小（5.0 cm）及高级别组织学为高危特征，可能促使考虑辅助化疗作为Category 2B选项，但所提供指南未明确定义，需人工审核。",
+      "回答应建议按NCCN指南进行常规监测影像和临床随访（尽管节选中未详述）。",
+      "回答不得推荐额外手术或放疗，因患者为R0且可手术。"
+    ]
+  },
+  "rubric_version": "patient_nccn_2010_v1_zh",
+  "source_files": {
+    "guideline": "medclaw/knowledge/guidelines/NSCLC_2010.md",
+    "guideline_selection_mode": "fixed_historical_guideline",
+    "guideline_version": "2010",
+    "matched_guideline": "NSCLC_2010",
+    "patient_report": "data/LUNG/TCGA-38-4625/reports/integrated_reports/TCGA-38-4625_T0_full_report_en.md",
+    "patient_report_source": "full_report_en",
+    "patient_report_zh": "data/LUNG/TCGA-38-4625/reports/integrated_reports/TCGA-38-4625_T0_full_report_zh.md"
+  }
+}

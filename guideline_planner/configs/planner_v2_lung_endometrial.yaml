@@ -1,0 +1,94 @@
+schema_version: planner_training_pipeline.v2
+name: planner_v2_lung_endometrial
+
+model:
+  name: Qwen/Qwen3.5-9B
+  revision: null  # preflight resolves this to an exact commit before training
+  snapshot_lock: guideline_planner/outputs/planner_v2_lung_endometrial/model_snapshot.json
+  dtype: bf16
+
+hardware:
+  accelerator: cuda
+  expected_gpu: A100-or-H100-80GB
+  world_size: 1
+
+paths:
+  dataset_root: datasets/planner_v2_pilot
+  trajectory_data: datasets/planner_v2_pilot/dataset
+  release_scope: datasets/planner_v2_pilot/release_scope.json
+  guideline_chunks: datasets/planner_v2_pilot/guideline_chunks.jsonl
+  memory_training_data: guideline_planner/outputs/planner_v2_lung_endometrial/memory_training_data
+  memory_encoder: guideline_planner/outputs/planner_v2_lung_endometrial/memory_encoder
+  memory_store: guideline_planner/outputs/planner_v2_lung_endometrial/memory_store
+  planner_decoder: guideline_planner/outputs/planner_v2_lung_endometrial/planner_decoder
+  routing_data: guideline_planner/outputs/planner_v2_lung_endometrial/routing_data
+  router_daa: guideline_planner/outputs/planner_v2_lung_endometrial/router_daa
+  evaluation: guideline_planner/outputs/planner_v2_lung_endometrial/evaluation
+  release: guideline_planner/outputs/planner_v2_lung_endometrial/release
+
+scope:
+  planner_action:
+    - cancer_family: lung
+      disease_subtypes: [nsclc]
+      guideline_id: NSCLC_2010
+      version: "2010"
+      default_decision_date: "2010-12-31"
+    - cancer_family: endometrial
+      disease_subtypes: [ucec]
+      guideline_id: CSCO子宫内膜癌2023
+      version: "2023"
+      default_decision_date: "2023-12-31"
+  memory:
+    - {guideline_id: NSCLC_2010, cancer_family: lung}
+    - {guideline_id: SCLC_2010, cancer_family: lung}
+    - {guideline_id: CSCO子宫内膜癌2023, cancer_family: endometrial}
+    - {guideline_id: CSCO鼻咽癌2022, cancer_family: nasopharyngeal}
+  deferred_action:
+    - {cancer_family: lung, disease_subtypes: [sclc]}
+    - {cancer_family: nasopharyngeal, disease_subtypes: [npc]}
+
+common:
+  seed: 17
+  top_k: 4
+  memory_tokens: 64
+  eval_steps: 100
+  save_steps: 500
+  keep_last_checkpoints: 2
+  auto_resume: true
+
+memory_encoder:
+  max_steps: 5000
+  learning_rate: 2.0e-4
+  gradient_accumulation_steps: 4
+  task_ratios: {AE: 5, RETRIEVE: 5, CONTINUE: 3}
+
+planner_decoder:
+  max_steps: 5000
+  training_memory_strategy: non_reentrant_segmented_v1
+  max_decoder_tokens: 2048
+  generation_eval_steps: 500
+  generation_eval_examples: 8
+  generation_max_new_tokens: 1024
+  learning_rate: 2.0e-4
+  gradient_accumulation_steps: 4
+  loss_weights:
+    structured_sft: 1.0
+    action_preference: 0.30
+    state_progress: 0.20
+    phase_transition: 0.10
+    memory_provenance: 0.20
+
+router_daa:
+  max_steps: 5000
+  training_memory_strategy: non_reentrant_v1
+  max_decoder_tokens: 2048
+  generation_eval_steps: 500
+  generation_eval_examples: 8
+  generation_max_new_tokens: 1024
+  learning_rate: 1.0e-4
+  gradient_accumulation_steps: 4
+  retrieval_pretrain_steps: 100
+  identity_warmup_steps: 100
+  joint_calibration_fraction: 0.10
+  joint_decoder_lr_multiplier: 0.10
+  routing_config: guideline_planner/configs/latent_guideline_routing.yaml

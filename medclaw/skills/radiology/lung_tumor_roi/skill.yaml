@@ -1,0 +1,73 @@
+name: radiology.lung_tumor_roi
+version: 0.1.0
+description: Segment a lung cancer tumor in a 1 mm lung-window preprocessed NIfTI CT, keep the largest 3D component, and export ROI and context images for visual review.
+modalities:
+  input:
+    - CT
+  output:
+    - SEGMENTATION_MASK
+    - IMAGE_ROI
+    - IMAGE_SLICE
+    - STRUCTURED_JSON
+runtime:
+  entrypoint: python run.py
+resources:
+  gpu: optional
+  cpu: 4
+  memory_gb: 16
+  timeout_sec: 3600
+input_schema:
+  type: object
+  additionalProperties: false
+  required:
+    - case_id
+  properties:
+    case_id:
+      type: string
+      minLength: 1
+      description: Benchmark case identifier. Normally this is the only argument needed.
+    ct_uri:
+      type: string
+      minLength: 1
+      description: Optional trusted override. Omit for normal case-based calls; relative paths resolve from the repository root.
+    tumor_mask_uri:
+      type: string
+      minLength: 1
+      description: Optional trusted override for a cached tumor mask aligned to the preprocessed CT. When available, GPU inference is skipped.
+output_schema:
+  type: object
+  required:
+    - status
+    - findings
+    - artifacts
+    - provenance
+    - warnings
+  properties:
+    status:
+      enum:
+        - success
+        - failed
+    findings:
+      type: object
+      required:
+        - summary
+        - tumor_detected
+    artifacts:
+      type: array
+      items:
+        type: object
+        required:
+          - type
+    provenance:
+      type: object
+      required:
+        - skill_name
+        - skill_version
+        - input_hash
+        - started_at
+        - finished_at
+    warnings:
+      type: array
+visibility:
+  expose_to_agent: true
+  agent_card: SKILL.md

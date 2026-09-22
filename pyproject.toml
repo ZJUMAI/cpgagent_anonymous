@@ -1,0 +1,70 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "medclaw-runtime"
+version = "0.1.0"
+description = "A reproducible multimodal medical benchmark agent runtime."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "jsonschema>=4.18",
+  "openai>=1.52",
+  "PyYAML>=6.0",
+]
+
+[project.optional-dependencies]
+anthropic = [
+  "anthropic>=0.40",
+]
+dev = [
+  "nibabel>=5.2",
+  "numpy>=1.26",
+  "Pillow>=10.0",
+  "pytest>=7.4",
+  "scipy>=1.11",
+]
+planner = [
+  "accelerate>=0.33",
+  "datasets>=2.19",
+  "numpy>=1.26",
+  "peft>=0.12",
+  "PyYAML>=6.0",
+  "safetensors>=0.4",
+  "scikit-learn>=1.4",
+  "torch>=2.2",
+  "transformers>=4.44",
+]
+planner-deepspeed = [
+  "deepspeed>=0.14",
+]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = ["medclaw*", "medclaw_benchmark*", "guideline_planner*"]
+
+[tool.setuptools.package-data]
+guideline_planner = [
+  "configs/*.yaml",
+]
+medclaw = [
+  "knowledge/guidelines/*.md",
+  "knowledge/guidelines/csco/*.md",
+  "skills/*/*/SKILL.md",
+  "skills/*/*/requirements.txt",
+  "skills/*/*/prompts/*.json",
+  "skills/*/*/run.py",
+  "skills/*/*/scripts/*.py",
+  "skills/*/*/skill.yaml",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+markers = [
+  "private_data: requires non-public institutional cases or training trajectories",
+  "integration: requires external models, services, or large modality assets",
+]

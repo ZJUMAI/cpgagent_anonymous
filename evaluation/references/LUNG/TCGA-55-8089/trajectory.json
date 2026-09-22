@@ -1,0 +1,1388 @@
+{
+  "canonical_state": {
+    "completed_actions": [
+      {
+        "action": "pathologic confirmation",
+        "evidence": "diagnoses.primary_diagnosis = 腺癌，非特指型（Adenocarcinoma, NOS）",
+        "status": "completed"
+      },
+      {
+        "action": "TNM staging",
+        "evidence": "diagnoses.ajcc_pathologic_t = T1a; diagnoses.ajcc_pathologic_n = N0; diagnoses.ajcc_pathologic_m = M0; diagnoses.ajcc_pathologic_stage = IA期",
+        "status": "completed"
+      }
+    ],
+    "known_facts": {
+      "M": "M0",
+      "N": "N0",
+      "T": "T1a",
+      "age": 56,
+      "diagnosis": "腺癌，非特指型（Adenocarcinoma, NOS）",
+      "disease_type": "腺瘤与腺癌（Adenomas and Adenocarcinomas）",
+      "primary_site": "支气管和肺",
+      "race": "白人",
+      "sex": "male",
+      "stage_group": "IA期"
+    },
+    "open_questions": [
+      "PD-L1 unknown",
+      "molecular status unknown"
+    ]
+  },
+  "case_id": "TCGA-55-8089",
+  "decision_date": "2010-12-31",
+  "diagnosis_year": null,
+  "evaluation_mode": "fixed_historical_guideline",
+  "guideline_id": "NSCLC_2010",
+  "guideline_rubric_rules": [
+    {
+      "applicable_stage": "baseline",
+      "condition": {
+        "suspected_or_known_lung_primary": true
+      },
+      "forbidden_actions": [
+        "start definitive systemic therapy before staging"
+      ],
+      "guideline_source": "NSCLC_2010",
+      "priority": "must",
+      "recommended_actions": [
+        "confirm histological subtype",
+        "complete clinical staging workup",
+        "assess performance status and comorbidities"
+      ],
+      "required_evidence": [
+        "pathology",
+        "T stage",
+        "N stage",
+        "M stage"
+      ],
+      "rule_id": "NSCLC_initial_workup_001"
+    },
+    {
+      "applicable_stage": "diagnosis_confirmation",
+      "condition": {
+        "nsclc_confirmed": true,
+        "stage_known": false
+      },
+      "forbidden_actions": [
+        "choose systemic regimen before stage and biomarkers"
+      ],
+      "guideline_source": "NSCLC_2010",
+      "priority": "must",
+      "recommended_actions": [
+        "complete TNM staging",
+        "evaluate resectability",
+        "perform molecular testing for non-squamous NSCLC",
+        "consider PD-L1 testing when systemic therapy may be needed"
+      ],
+      "required_evidence": [
+        "T stage",
+        "N stage",
+        "M stage",
+        "driver mutation status",
+        "PD-L1 status"
+      ],
+      "rule_id": "NSCLC_diagnosis_to_staging_001"
+    },
+    {
+      "applicable_stage": "staging",
+      "condition": {
+        "tnm_available": true
+      },
+      "forbidden_actions": [
+        "ignore nodal status when planning adjuvant therapy"
+      ],
+      "guideline_source": "NSCLC_2010",
+      "priority": "must",
+      "recommended_actions": [
+        "determine AJCC stage group",
+        "confirm surgical resectability if no distant metastasis",
+        "plan surgery-centered treatment if resectable",
+        "plan adjuvant therapy according to stage, margins, nodal status, and biomarkers"
+      ],
+      "required_evidence": [
+        "AJCC stage group",
+        "resectability",
+        "surgical margin status",
+        "nodal status",
+        "driver mutation status"
+      ],
+      "rule_id": "NSCLC_stage_known_001"
+    },
+    {
+      "applicable_stage": "biomarker_assessment",
+      "condition": {
+        "biomarker_status_known": false,
+        "non_squamous_nsclc": true
+      },
+      "forbidden_actions": [
+        "treat unknown biomarker status as negative"
+      ],
+      "guideline_source": "NSCLC_2010",
+      "priority": "should",
+      "recommended_actions": [
+        "recognize molecular and PD-L1 status are missing",
+        "recommend molecular testing if systemic therapy or adjuvant targeted therapy is being considered",
+        "document unknown biomarkers as open questions"
+      ],
+      "required_evidence": [
+        "EGFR",
+        "ALK",
+        "ROS1",
+        "BRAF",
+        "MET",
+        "RET",
+        "NTRK",
+        "KRAS",
+        "PD-L1"
+      ],
+      "rule_id": "NSCLC_biomarker_missing_001"
+    },
+    {
+      "applicable_stage": "initial_treatment_decision",
+      "condition": {
+        "distant_metastasis_absent": true,
+        "tnm_available": true
+      },
+      "forbidden_actions": [
+        "recommend metastatic systemic therapy for documented M0 disease"
+      ],
+      "guideline_source": "NSCLC_2010",
+      "priority": "must",
+      "recommended_actions": [
+        "derive AJCC stage group from {tnm}",
+        "evaluate whether disease is surgically resectable",
+        "recommend surgery-centered curative-intent treatment if medically operable",
+        "assess need for adjuvant therapy based on final stage, margin status, risk factors, and biomarkers",
+        "do not recommend metastatic systemic therapy unless distant metastasis is documented"
+      ],
+      "required_evidence": [
+        "T stage",
+        "N stage",
+        "M stage",
+        "AJCC stage group",
+        "resectability",
+        "margin status",
+        "risk factors",
+        "biomarkers"
+      ],
+      "rule_id": "NSCLC_initial_treatment_decision_001"
+    },
+    {
+      "applicable_stage": "treatment_observed",
+      "condition": {
+        "treatment_observed": true
+      },
+      "forbidden_actions": [
+        "treat observed historical treatment as the only gold answer"
+      ],
+      "guideline_source": "NSCLC_2010",
+      "priority": "must",
+      "recommended_actions": [
+        "compare observed treatment with the NCCN 2010 recommendation",
+        "identify missing staging, margin, biomarker, or performance-status evidence",
+        "separate observed care from the NCCN 2010 benchmark recommendation"
+      ],
+      "required_evidence": [
+        "observed treatment",
+        "diagnosis year",
+        "stage",
+        "biomarkers",
+        "performance status"
+      ],
+      "rule_id": "NSCLC_treatment_review_001"
+    }
+  ],
+  "guideline_version": "2010",
+  "patient_event_table": [
+    {
+      "attributes": {
+        "age": 56,
+        "disease_type": "腺瘤与腺癌（Adenomas and Adenocarcinomas）",
+        "primary_site": "支气管和肺",
+        "race": "白人",
+        "sex": "male"
+      },
+      "available_at_step": 0,
+      "case_id": "TCGA-55-8089",
+      "content": "56-year-old, male, 白人, 支气管和肺, 腺瘤与腺癌（Adenomas and Adenocarcinomas）",
+      "event_id": "e0",
+      "event_type": "demographic_and_disease_context",
+      "evidence_span": "demographic.age_at_index = 56; demographic.gender = male; demographic.race = 白人; cases.primary_site = 支气管和肺; cases.disease_type = 腺瘤与腺癌（Adenomas and Adenocarcinomas）",
+      "source": "patient_report",
+      "stage": "baseline"
+    },
+    {
+      "attributes": {
+        "diagnosis": "腺癌，非特指型（Adenocarcinoma, NOS）"
+      },
+      "available_at_step": 1,
+      "case_id": "TCGA-55-8089",
+      "content": "腺癌，非特指型（Adenocarcinoma, NOS）",
+      "event_id": "e1",
+      "event_type": "pathology",
+      "evidence_span": "diagnoses.primary_diagnosis = 腺癌，非特指型（Adenocarcinoma, NOS）",
+      "source": "patient_report",
+      "stage": "diagnosis_confirmation"
+    },
+    {
+      "attributes": {
+        "M": "M0",
+        "N": "N0",
+        "T": "T1a",
+        "stage_group": "IA期"
+      },
+      "available_at_step": 2,
+      "case_id": "TCGA-55-8089",
+      "content": "T1a N0 M0 IA期",
+      "event_id": "e2",
+      "event_type": "tnm",
+      "evidence_span": "diagnoses.ajcc_pathologic_t = T1a; diagnoses.ajcc_pathologic_n = N0; diagnoses.ajcc_pathologic_m = M0; diagnoses.ajcc_pathologic_stage = IA期",
+      "source": "patient_report",
+      "stage": "staging"
+    }
+  ],
+  "schema_version": "trajectory.dynamic_rubric.v1",
+  "trajectory": [
+    {
+      "action_set": {
+        "acceptable": [],
+        "conditional": [],
+        "required": [
+          {
+            "action": "confirm histological subtype",
+            "action_id": "s0_a0",
+            "action_type": "pathology",
+            "bucket": "required",
+            "guideline_rule_ids": [
+              "NSCLC_initial_workup_001"
+            ],
+            "priority": "high",
+            "rationale": "Recommended by NSCLC_2010 rule NSCLC_initial_workup_001.",
+            "required_evidence": [
+              "pathology",
+              "T stage",
+              "N stage",
+              "M stage"
+            ]
+          },
+          {
+            "action": "complete clinical staging workup",
+            "action_id": "s0_a1",
+            "action_type": "diagnostic_workup",
+            "bucket": "required",
+            "guideline_rule_ids": [
+              "NSCLC_initial_workup_001"
+            ],
+            "priority": "high",
+            "rationale": "Recommended by NSCLC_2010 rule NSCLC_initial_workup_001.",
+            "required_evidence": [
+              "pathology",
+              "T stage",
+              "N stage",
+              "M stage"
+            ]
+          },
+          {
+            "action": "assess performance status and comorbidities",
+            "action_id": "s0_a2",
+            "action_type": "diagnostic_workup",
+            "bucket": "required",
+            "guideline_rule_ids": [
+              "NSCLC_initial_workup_001"
+            ],
+            "priority": "high",
+            "rationale": "Recommended by NSCLC_2010 rule NSCLC_initial_workup_001.",
+            "required_evidence": [
+              "pathology",
+              "T stage",
+              "N stage",
+              "M stage"
+            ]
+          }
+        ],
+        "unsafe": [
+          {
+            "action": "start definitive systemic therapy before staging",
+            "action_id": "s0_u0",
+            "action_type": "treatment_planning",
+            "bucket": "required",
+            "guideline_rule_ids": [],
+            "priority": "high",
+            "rationale": "Forbidden or condition-mismatched action at the current state.",
+            "required_evidence": []
+          }
+        ]
+      },
+      "canonical_state_after_step": {
+        "completed_actions": [],
+        "known_facts": {
+          "age": 56,
+          "disease_type": "腺瘤与腺癌（Adenomas and Adenocarcinomas）",
+          "primary_site": "支气管和肺",
+          "race": "白人",
+          "sex": "male"
+        },
+        "open_questions": [
+          "AJCC stage group unknown",
+          "PD-L1 unknown",
+          "complete TNM stage unknown",
+          "molecular status unknown",
+          "pathology unknown"
+        ]
+      },
+      "hidden_future": [
+        "pathology",
+        "tnm"
+      ],
+      "model_prediction": null,
+      "observed_events": [
+        "e0"
+      ],
+      "phase": "baseline",
+      "step": 0,
+      "verification": [
+        {
+          "action": "confirm histological subtype",
+          "action_id": "s0_a0",
+          "category": "supported_by_report_and_guideline",
+          "classification": "supported_by_report_and_guideline",
+          "evidence_event_ids": [
+            "e1"
+          ],
+          "evidence_text": [
+            "diagnoses.primary_diagnosis = 腺癌，非特指型（Adenocarcinoma, NOS）"
+          ],
+          "guideline_support": "supported",
+          "report_support": "supported",
+          "state_update": {
+            "diagnosis": "腺癌，非特指型（Adenocarcinoma, NOS）"
+          }
+        },
+        {
+          "action": "complete clinical staging workup",
+          "action_id": "s0_a1",
+          "category": "guideline_supported_but_unobserved",
+          "classification": "guideline_supported_but_unobserved",
+          "evidence_event_ids": [],
+          "evidence_text": [],
+          "guideline_support": "supported",
+          "report_support": "not_observed",
+          "state_update": {}
+        },
+        {
+          "action": "assess performance status and comorbidities",
+          "action_id": "s0_a2",
+          "category": "guideline_supported_but_unobserved",
+          "classification": "guideline_supported_but_unobserved",
+          "evidence_event_ids": [],
+          "evidence_text": [],
+          "guideline_support": "supported",
+          "report_support": "not_observed",
+          "state_update": {}
+        }
+      ],
+      "visible_state": {
+        "age": 56,
+        "disease_type": "腺瘤与腺癌（Adenomas and Adenocarcinomas）",
+        "open_questions": [
+          "AJCC stage group unknown",
+          "PD-L1 unknown",
+          "complete TNM stage unknown",
+          "molecular status unknown",
+          "pathology unknown"
+        ],
+        "primary_site": "支气管和肺",
+        "race": "白人",
+        "sex": "male"
+      }
+    },
+    {
+      "action_set": {
+        "acceptable": [],
+        "conditional": [],
+        "required": [
+          {
+            "action": "complete TNM staging",
+            "action_id": "s1_a0",
+            "action_type": "staging",
+            "bucket": "required",
+            "guideline_rule_ids": [
+              "NSCLC_diagnosis_to_staging_001"
+            ],
+            "priority": "high",
+            "rationale": "Recommended by NSCLC_2010 rule NSCLC_diagnosis_to_staging_001.",
+            "required_evidence": [
+              "T stage",
+              "N stage",
+              "M stage",
+              "driver mutation status",
+              "PD-L1 status"
+            ]
+          },
+          {
+            "action": "evaluate resectability",
+            "action_id": "s1_a1",
+            "action_type": "diagnostic_workup",
+            "bucket": "required",
+            "guideline_rule_ids": [
+              "NSCLC_diagnosis_to_staging_001"
+            ],
+            "priority": "high",
+            "rationale": "Recommended by NSCLC_2010 rule NSCLC_diagnosis_to_staging_001.",
+            "required_evidence": [
+              "T stage",
+              "N stage",
+              "M stage",
+              "driver mutation status",
+              "PD-L1 status"
+            ]
+          },
+          {
+            "action": "perform molecular testing for non-squamous NSCLC",
+            "action_id": "s1_a2",
+            "action_type": "molecular_testing",
+            "bucket": "required",
+            "guideline_rule_ids": [
+              "NSCLC_diagnosis_to_staging_001"
+            ],
+            "priority": "high",
+            "rationale": "Recommended by NSCLC_2010 rule NSCLC_diagnosis_to_staging_001.",
+            "required_evidence": [
+              "T stage",
+              "N stage",
+              "M stage",
+              "driver mutation status",
+              "PD-L1 status"
+            ]
+          },
+          {
+            "action": "consider PD-L1 testing when systemic therapy may be needed",
+            "action_id": "s1_a3",
+            "action_type": "molecular_testing",
+            "bucket": "required",
+            "guideline_rule_ids": [
+              "NSCLC_diagnosis_to_staging_001"
+            ],
+            "priority": "high",
+            "rationale": "Recommended by NSCLC_2010 rule NSCLC_diagnosis_to_staging_001.",
+            "required_evidence": [
+              "T stage",
+              "N stage",
+              "M stage",
+              "driver mutation status",
+              "PD-L1 status"
+            ]
+          }
+        ],
+        "unsafe": [
+          {
+            "action": "choose systemic regimen before stage and biomarkers",
+            "action_id": "s1_u0",
+            "action_type": "staging",
+            "bucket": "required",
+            "guideline_rule_ids": [],
+            "priority": "high",
+            "rationale": "Forbidden or condition-mismatched action at the current state.",
+            "required_evidence": []
+          }
+        ]
+      },
+      "canonical_state_after_step": {
+        "completed_actions": [
+          {
+            "action": "pathologic confirmation",
+            "evidence": "diagnoses.primary_diagnosis = 腺癌，非特指型（Adenocarcinoma, NOS）",
+            "status": "completed"
+          }
+        ],
+        "known_facts": {
+          "age": 56,
+          "diagnosis": "腺癌，非特指型（Adenocarcinoma, NOS）",
+          "disease_type": "腺瘤与腺癌（Adenomas and Adenocarcinomas）",
+          "primary_site": "支气管和肺",
+          "race": "白人",
+          "sex": "male"
+        },
+        "open_questions": [
+          "AJCC stage group unknown",
+          "PD-L1 unknown",
+          "complete TNM stage unknown",
+          "molecular status unknown"
+        ]
+      },
+      "hidden_future": [
+        "tnm"
+      ],
+      "model_prediction": null,
+      "observed_events": [
+        "e0",
+        "e1"
+      ],
+      "phase": "diagnosis_confirmation",
+      "step": 1,
+      "verification": [
+        {
+          "action": "complete TNM staging",
+          "action_id": "s1_a0",
+          "category": "supported_by_report_and_guideline",
+          "classification": "supported_by_report_and_guideline",
+          "evidence_event_ids": [
+            "e2"
+          ],
+          "evidence_text": [
+            "diagnoses.ajcc_pathologic_t = T1a; diagnoses.ajcc_pathologic_n = N0; diagnoses.ajcc_pathologic_m = M0; diagnoses.ajcc_pathologic_stage = IA期"
+          ],
+          "guideline_support": "supported",
+          "report_support": "supported",
+          "state_update": {
+            "M": "M0",
+            "N": "N0",
+            "T": "T1a",
+            "stage_group": "IA期"
+          }
+        },
+        {
+          "action": "evaluate resectability",
+          "action_id": "s1_a1",
+          "category": "guideline_supported_but_unobserved",
+          "classification": "guideline_supported_but_unobserved",
+          "evidence_event_ids": [],
+          "evidence_text": [],
+          "guideline_support": "supported",
+          "report_support": "not_observed",
+          "state_update": {}
+        },
+        {
+          "action": "perform molecular testing for non-squamous NSCLC",
+          "action_id": "s1_a2",
+          "category": "guideline_supported_but_unobserved",
+          "classification": "guideline_supported_but_unobserved",
+          "evidence_event_ids": [],
+          "evidence_text": [],
+          "guideline_support": "supported",
+          "report_support": "not_observed",
+          "state_update": {}
+        },
+        {
+          "action": "consider PD-L1 testing when systemic therapy may be needed",
+          "action_id": "s1_a3",
+          "category": "guideline_supported_but_unobserved",
+          "classification": "guideline_supported_but_unobserved",
+          "evidence_event_ids": [],
+          "evidence_text": [],
+          "guideline_support": "supported",
+          "report_support": "not_observed",
+          "state_update": {}
+        }
+      ],
+      "visible_state": {
+        "age": 56,
+        "completed_actions": [
+          {
+            "action": "pathologic confirmation",
+            "evidence": "diagnoses.primary_diagnosis = 腺癌，非特指型（Adenocarcinoma, NOS）",
+            "status": "completed"
+          }
+        ],
+        "diagnosis": "腺癌，非特指型（Adenocarcinoma, NOS）",
+        "disease_type": "腺瘤与腺癌（Adenomas and Adenocarcinomas）",
+        "open_questions": [
+          "AJCC stage group unknown",
+          "PD-L1 unknown",
+          "complete TNM stage unknown",
+          "molecular status unknown"
+        ],
+        "primary_site": "支气管和肺",
+        "race": "白人",
+        "sex": "male"
+      }
+    },
+    {
+      "action_set": {
+        "acceptable": [],
+        "conditional": [],
+        "required": [
+          {
+            "action": "determine AJCC stage group",
+            "action_id": "s2_a0",
+            "action_type": "staging",
+            "bucket": "required",
+            "guideline_rule_ids": [
+              "NSCLC_stage_known_001"
+            ],
+            "priority": "high",
+            "rationale": "Recommended by NSCLC_2010 rule NSCLC_stage_known_001.",
+            "required_evidence": [
+              "AJCC stage group",
+              "resectability",
+              "surgical margin status",
+              "nodal status",
+              "driver mutation status"
+            ]
+          },
+          {
+            "action": "confirm surgical resectability if no distant metastasis",
+            "action_id": "s2_a1",
+            "action_type": "diagnostic_workup",
+            "bucket": "required",
+            "guideline_rule_ids": [
+              "NSCLC_stage_known_001"
+            ],
+            "priority": "high",
+            "rationale": "Recommended by NSCLC_2010 rule NSCLC_stage_known_001.",
+            "required_evidence": [
+              "AJCC stage group",
+              "resectability",
+              "surgical margin status",
+              "nodal status",
+              "driver mutation status"
+            ]
+          },
+          {
+            "action": "plan surgery-centered treatment if resectable",
+            "action_id": "s2_a2",
+            "action_type": "treatment_planning",
+            "bucket": "required",
+            "guideline_rule_ids": [
+              "NSCLC_stage_known_001"
+            ],
+            "priority": "high",
+            "rationale": "Recommended by NSCLC_2010 rule NSCLC_stage_known_001.",
+            "required_evidence": [
+              "AJCC stage group",
+              "resectability",
+              "surgical margin status",
+              "nodal status",
+              "driver mutation status"
+            ]
+          },
+          {
+            "action": "plan adjuvant therapy according to stage, margins, nodal status, and biomarkers",
+            "action_id": "s2_a3",
+            "action_type": "staging",
+            "bucket": "required",
+            "guideline_rule_ids": [
+              "NSCLC_stage_known_001"
+            ],
+            "priority": "high",
+            "rationale": "Recommended by NSCLC_2010 rule NSCLC_stage_known_001.",
+            "required_evidence": [
+              "AJCC stage group",
+              "resectability",
+              "surgical margin status",
+              "nodal status",
+              "driver mutation status"
+            ]
+          }
+        ],
+        "unsafe": [
+          {
+            "action": "ignore nodal status when planning adjuvant therapy",
+            "action_id": "s2_u0",
+            "action_type": "treatment_planning",
+            "bucket": "required",
+            "guideline_rule_ids": [],
+            "priority": "high",
+            "rationale": "Forbidden or condition-mismatched action at the current state.",
+            "required_evidence": []
+          }
+        ]
+      },
+      "canonical_state_after_step": {
+        "completed_actions": [
+          {
+            "action": "pathologic confirmation",
+            "evidence": "diagnoses.primary_diagnosis = 腺癌，非特指型（Adenocarcinoma, NOS）",
+            "status": "completed"
+          },
+          {
+            "action": "TNM staging",
+            "evidence": "diagnoses.ajcc_pathologic_t = T1a; diagnoses.ajcc_pathologic_n = N0; diagnoses.ajcc_pathologic_m = M0; diagnoses.ajcc_pathologic_stage = IA期",
+            "status": "completed"
+          }
+        ],
+        "known_facts": {
+          "M": "M0",
+          "N": "N0",
+          "T": "T1a",
+          "age": 56,
+          "diagnosis": "腺癌，非特指型（Adenocarcinoma, NOS）",
+          "disease_type": "腺瘤与腺癌（Adenomas and Adenocarcinomas）",
+          "primary_site": "支气管和肺",
+          "race": "白人",
+          "sex": "male",
+          "stage_group": "IA期"
+        },
+        "open_questions": [
+          "PD-L1 unknown",
+          "molecular status unknown"
+        ]
+      },
+      "hidden_future": [],
+      "model_prediction": null,
+      "observed_events": [
+        "e0",
+        "e1",
+        "e2"
+      ],
+      "phase": "staging",
+      "step": 2,
+      "verification": [
+        {
+          "action": "determine AJCC stage group",
+          "action_id": "s2_a0",
+          "category": "guideline_supported_but_unobserved",
+          "classification": "guideline_supported_but_unobserved",
+          "evidence_event_ids": [],
+          "evidence_text": [],
+          "guideline_support": "supported",
+          "report_support": "not_observed",
+          "state_update": {}
+        },
+        {
+          "action": "confirm surgical resectability if no distant metastasis",
+          "action_id": "s2_a1",
+          "category": "guideline_supported_but_unobserved",
+          "classification": "guideline_supported_but_unobserved",
+          "evidence_event_ids": [],
+          "evidence_text": [],
+          "guideline_support": "supported",
+          "report_support": "not_observed",
+          "state_update": {}
+        },
+        {
+          "action": "plan surgery-centered treatment if resectable",
+          "action_id": "s2_a2",
+          "category": "guideline_supported_but_unobserved",
+          "classification": "guideline_supported_but_unobserved",
+          "evidence_event_ids": [],
+          "evidence_text": [],
+          "guideline_support": "supported",
+          "report_support": "not_observed",
+          "state_update": {}
+        },
+        {
+          "action": "plan adjuvant therapy according to stage, margins, nodal status, and biomarkers",
+          "action_id": "s2_a3",
+          "category": "guideline_supported_but_unobserved",
+          "classification": "guideline_supported_but_unobserved",
+          "evidence_event_ids": [],
+          "evidence_text": [],
+          "guideline_support": "supported",
+          "report_support": "not_observed",
+          "state_update": {}
+        }
+      ],
+      "visible_state": {
+        "M": "M0",
+        "N": "N0",
+        "T": "T1a",
+        "age": 56,
+        "completed_actions": [
+          {
+            "action": "pathologic confirmation",
+            "evidence": "diagnoses.primary_diagnosis = 腺癌，非特指型（Adenocarcinoma, NOS）",
+            "status": "completed"
+          },
+          {
+            "action": "TNM staging",
+            "evidence": "diagnoses.ajcc_pathologic_t = T1a; diagnoses.ajcc_pathologic_n = N0; diagnoses.ajcc_pathologic_m = M0; diagnoses.ajcc_pathologic_stage = IA期",
+            "status": "completed"
+          }
+        ],
+        "diagnosis": "腺癌，非特指型（Adenocarcinoma, NOS）",
+        "disease_type": "腺瘤与腺癌（Adenomas and Adenocarcinomas）",
+        "open_questions": [
+          "PD-L1 unknown",
+          "molecular status unknown"
+        ],
+        "primary_site": "支气管和肺",
+        "race": "白人",
+        "sex": "male",
+        "stage_group": "IA期"
+      }
+    },
+    {
+      "action_set": {
+        "acceptable": [
+          {
+            "action": "recognize molecular and PD-L1 status are missing",
+            "action_id": "s3_a0",
+            "action_type": "molecular_testing",
+            "bucket": "acceptable",
+            "guideline_rule_ids": [
+              "NSCLC_biomarker_missing_001"
+            ],
+            "priority": "medium",
+            "rationale": "Recommended by NSCLC_2010 rule NSCLC_biomarker_missing_001.",
+            "required_evidence": [
+              "EGFR",
+              "ALK",
+              "ROS1",
+              "BRAF",
+              "MET",
+              "RET",
+              "NTRK",
+              "KRAS",
+              "PD-L1"
+            ]
+          },
+          {
+            "action": "recommend molecular testing if systemic therapy or adjuvant targeted therapy is being considered",
+            "action_id": "s3_a1",
+            "action_type": "molecular_testing",
+            "bucket": "acceptable",
+            "guideline_rule_ids": [
+              "NSCLC_biomarker_missing_001"
+            ],
+            "priority": "medium",
+            "rationale": "Recommended by NSCLC_2010 rule NSCLC_biomarker_missing_001.",
+            "required_evidence": [
+              "EGFR",
+              "ALK",
+              "ROS1",
+              "BRAF",
+              "MET",
+              "RET",
+              "NTRK",
+              "KRAS",
+              "PD-L1"
+            ]
+          },
+          {
+            "action": "document unknown biomarkers as open questions",
+            "action_id": "s3_a2",
+            "action_type": "molecular_testing",
+            "bucket": "acceptable",
+            "guideline_rule_ids": [
+              "NSCLC_biomarker_missing_001"
+            ],
+            "priority": "medium",
+            "rationale": "Recommended by NSCLC_2010 rule NSCLC_biomarker_missing_001.",
+            "required_evidence": [
+              "EGFR",
+              "ALK",
+              "ROS1",
+              "BRAF",
+              "MET",
+              "RET",
+              "NTRK",
+              "KRAS",
+              "PD-L1"
+            ]
+          }
+        ],
+        "conditional": [],
+        "required": [],
+        "unsafe": [
+          {
+            "action": "treat unknown biomarker status as negative",
+            "action_id": "s3_u0",
+            "action_type": "molecular_testing",
+            "bucket": "required",
+            "guideline_rule_ids": [],
+            "priority": "high",
+            "rationale": "Forbidden or condition-mismatched action at the current state.",
+            "required_evidence": []
+          }
+        ]
+      },
+      "canonical_state_after_step": {
+        "completed_actions": [
+          {
+            "action": "pathologic confirmation",
+            "evidence": "diagnoses.primary_diagnosis = 腺癌，非特指型（Adenocarcinoma, NOS）",
+            "status": "completed"
+          },
+          {
+            "action": "TNM staging",
+            "evidence": "diagnoses.ajcc_pathologic_t = T1a; diagnoses.ajcc_pathologic_n = N0; diagnoses.ajcc_pathologic_m = M0; diagnoses.ajcc_pathologic_stage = IA期",
+            "status": "completed"
+          }
+        ],
+        "known_facts": {
+          "M": "M0",
+          "N": "N0",
+          "T": "T1a",
+          "age": 56,
+          "diagnosis": "腺癌，非特指型（Adenocarcinoma, NOS）",
+          "disease_type": "腺瘤与腺癌（Adenomas and Adenocarcinomas）",
+          "primary_site": "支气管和肺",
+          "race": "白人",
+          "sex": "male",
+          "stage_group": "IA期"
+        },
+        "open_questions": [
+          "PD-L1 unknown",
+          "molecular status unknown"
+        ]
+      },
+      "hidden_future": [],
+      "model_prediction": null,
+      "observed_events": [
+        "e0",
+        "e1",
+        "e2"
+      ],
+      "phase": "biomarker_assessment",
+      "step": 3,
+      "verification": [],
+      "visible_state": {
+        "M": "M0",
+        "N": "N0",
+        "PD-L1": "unknown",
+        "T": "T1a",
+        "age": 56,
+        "completed_actions": [
+          {
+            "action": "pathologic confirmation",
+            "evidence": "diagnoses.primary_diagnosis = 腺癌，非特指型（Adenocarcinoma, NOS）",
+            "status": "completed"
+          },
+          {
+            "action": "TNM staging",
+            "evidence": "diagnoses.ajcc_pathologic_t = T1a; diagnoses.ajcc_pathologic_n = N0; diagnoses.ajcc_pathologic_m = M0; diagnoses.ajcc_pathologic_stage = IA期",
+            "status": "completed"
+          }
+        ],
+        "diagnosis": "腺癌，非特指型（Adenocarcinoma, NOS）",
+        "disease_type": "腺瘤与腺癌（Adenomas and Adenocarcinomas）",
+        "molecular_status": "unknown",
+        "open_questions": [
+          "PD-L1 unknown",
+          "molecular status unknown"
+        ],
+        "primary_site": "支气管和肺",
+        "race": "白人",
+        "sex": "male",
+        "stage_group": "IA期"
+      }
+    },
+    {
+      "action_set": {
+        "acceptable": [],
+        "conditional": [],
+        "required": [
+          {
+            "action": "derive AJCC stage group from T1aN0M0",
+            "action_id": "s4_a0",
+            "action_type": "staging",
+            "bucket": "required",
+            "guideline_rule_ids": [
+              "NSCLC_initial_treatment_decision_001"
+            ],
+            "priority": "high",
+            "rationale": "Recommended by NSCLC_2010 rule NSCLC_initial_treatment_decision_001.",
+            "required_evidence": [
+              "T stage",
+              "N stage",
+              "M stage",
+              "AJCC stage group",
+              "resectability",
+              "margin status",
+              "risk factors",
+              "biomarkers"
+            ]
+          },
+          {
+            "action": "evaluate whether disease is surgically resectable",
+            "action_id": "s4_a1",
+            "action_type": "diagnostic_workup",
+            "bucket": "required",
+            "guideline_rule_ids": [
+              "NSCLC_initial_treatment_decision_001"
+            ],
+            "priority": "high",
+            "rationale": "Recommended by NSCLC_2010 rule NSCLC_initial_treatment_decision_001.",
+            "required_evidence": [
+              "T stage",
+              "N stage",
+              "M stage",
+              "AJCC stage group",
+              "resectability",
+              "margin status",
+              "risk factors",
+              "biomarkers"
+            ]
+          },
+          {
+            "action": "recommend surgery-centered curative-intent treatment if medically operable",
+            "action_id": "s4_a2",
+            "action_type": "treatment_planning",
+            "bucket": "required",
+            "guideline_rule_ids": [
+              "NSCLC_initial_treatment_decision_001"
+            ],
+            "priority": "high",
+            "rationale": "Recommended by NSCLC_2010 rule NSCLC_initial_treatment_decision_001.",
+            "required_evidence": [
+              "T stage",
+              "N stage",
+              "M stage",
+              "AJCC stage group",
+              "resectability",
+              "margin status",
+              "risk factors",
+              "biomarkers"
+            ]
+          },
+          {
+            "action": "assess need for adjuvant therapy based on final stage, margin status, risk factors, and biomarkers",
+            "action_id": "s4_a3",
+            "action_type": "staging",
+            "bucket": "required",
+            "guideline_rule_ids": [
+              "NSCLC_initial_treatment_decision_001"
+            ],
+            "priority": "high",
+            "rationale": "Recommended by NSCLC_2010 rule NSCLC_initial_treatment_decision_001.",
+            "required_evidence": [
+              "T stage",
+              "N stage",
+              "M stage",
+              "AJCC stage group",
+              "resectability",
+              "margin status",
+              "risk factors",
+              "biomarkers"
+            ]
+          },
+          {
+            "action": "do not recommend metastatic systemic therapy unless distant metastasis is documented",
+            "action_id": "s4_a4",
+            "action_type": "treatment_planning",
+            "bucket": "required",
+            "guideline_rule_ids": [
+              "NSCLC_initial_treatment_decision_001"
+            ],
+            "priority": "high",
+            "rationale": "Recommended by NSCLC_2010 rule NSCLC_initial_treatment_decision_001.",
+            "required_evidence": [
+              "T stage",
+              "N stage",
+              "M stage",
+              "AJCC stage group",
+              "resectability",
+              "margin status",
+              "risk factors",
+              "biomarkers"
+            ]
+          }
+        ],
+        "unsafe": [
+          {
+            "action": "recommend metastatic systemic therapy for documented M0 disease",
+            "action_id": "s4_u0",
+            "action_type": "treatment_planning",
+            "bucket": "required",
+            "guideline_rule_ids": [],
+            "priority": "high",
+            "rationale": "Forbidden or condition-mismatched action at the current state.",
+            "required_evidence": []
+          }
+        ]
+      },
+      "canonical_state_after_step": {
+        "completed_actions": [
+          {
+            "action": "pathologic confirmation",
+            "evidence": "diagnoses.primary_diagnosis = 腺癌，非特指型（Adenocarcinoma, NOS）",
+            "status": "completed"
+          },
+          {
+            "action": "TNM staging",
+            "evidence": "diagnoses.ajcc_pathologic_t = T1a; diagnoses.ajcc_pathologic_n = N0; diagnoses.ajcc_pathologic_m = M0; diagnoses.ajcc_pathologic_stage = IA期",
+            "status": "completed"
+          }
+        ],
+        "known_facts": {
+          "M": "M0",
+          "N": "N0",
+          "T": "T1a",
+          "age": 56,
+          "diagnosis": "腺癌，非特指型（Adenocarcinoma, NOS）",
+          "disease_type": "腺瘤与腺癌（Adenomas and Adenocarcinomas）",
+          "primary_site": "支气管和肺",
+          "race": "白人",
+          "sex": "male",
+          "stage_group": "IA期"
+        },
+        "open_questions": [
+          "PD-L1 unknown",
+          "molecular status unknown"
+        ]
+      },
+      "hidden_future": [],
+      "model_prediction": null,
+      "observed_events": [
+        "e0",
+        "e1",
+        "e2"
+      ],
+      "phase": "initial_treatment_decision",
+      "step": 4,
+      "verification": [
+        {
+          "action": "derive AJCC stage group from T1aN0M0",
+          "action_id": "s4_a0",
+          "category": "guideline_supported_but_unobserved",
+          "classification": "guideline_supported_but_unobserved",
+          "evidence_event_ids": [],
+          "evidence_text": [],
+          "guideline_support": "supported",
+          "report_support": "not_observed",
+          "state_update": {}
+        },
+        {
+          "action": "evaluate whether disease is surgically resectable",
+          "action_id": "s4_a1",
+          "category": "guideline_supported_but_unobserved",
+          "classification": "guideline_supported_but_unobserved",
+          "evidence_event_ids": [],
+          "evidence_text": [],
+          "guideline_support": "supported",
+          "report_support": "not_observed",
+          "state_update": {}
+        },
+        {
+          "action": "recommend surgery-centered curative-intent treatment if medically operable",
+          "action_id": "s4_a2",
+          "category": "guideline_supported_but_unobserved",
+          "classification": "guideline_supported_but_unobserved",
+          "evidence_event_ids": [],
+          "evidence_text": [],
+          "guideline_support": "supported",
+          "report_support": "not_observed",
+          "state_update": {}
+        },
+        {
+          "action": "assess need for adjuvant therapy based on final stage, margin status, risk factors, and biomarkers",
+          "action_id": "s4_a3",
+          "category": "guideline_supported_but_unobserved",
+          "classification": "guideline_supported_but_unobserved",
+          "evidence_event_ids": [],
+          "evidence_text": [],
+          "guideline_support": "supported",
+          "report_support": "not_observed",
+          "state_update": {}
+        },
+        {
+          "action": "do not recommend metastatic systemic therapy unless distant metastasis is documented",
+          "action_id": "s4_a4",
+          "category": "guideline_supported_but_unobserved",
+          "classification": "guideline_supported_but_unobserved",
+          "evidence_event_ids": [],
+          "evidence_text": [],
+          "guideline_support": "supported",
+          "report_support": "not_observed",
+          "state_update": {}
+        }
+      ],
+      "visible_state": {
+        "M": "M0",
+        "N": "N0",
+        "T": "T1a",
+        "age": 56,
+        "completed_actions": [
+          {
+            "action": "pathologic confirmation",
+            "evidence": "diagnoses.primary_diagnosis = 腺癌，非特指型（Adenocarcinoma, NOS）",
+            "status": "completed"
+          },
+          {
+            "action": "TNM staging",
+            "evidence": "diagnoses.ajcc_pathologic_t = T1a; diagnoses.ajcc_pathologic_n = N0; diagnoses.ajcc_pathologic_m = M0; diagnoses.ajcc_pathologic_stage = IA期",
+            "status": "completed"
+          }
+        ],
+        "diagnosis": "腺癌，非特指型（Adenocarcinoma, NOS）",
+        "disease_type": "腺瘤与腺癌（Adenomas and Adenocarcinomas）",
+        "open_questions": [
+          "PD-L1 unknown",
+          "molecular status unknown"
+        ],
+        "primary_site": "支气管和肺",
+        "race": "白人",
+        "sex": "male",
+        "stage_group": "IA期"
+      }
+    },
+    {
+      "action_set": {
+        "acceptable": [],
+        "conditional": [],
+        "required": [
+          {
+            "action": "compare observed treatment with the NCCN 2010 recommendation",
+            "action_id": "s5_a0",
+            "action_type": "treatment_planning",
+            "bucket": "required",
+            "guideline_rule_ids": [
+              "NSCLC_treatment_review_001"
+            ],
+            "priority": "high",
+            "rationale": "Recommended by NSCLC_2010 rule NSCLC_treatment_review_001.",
+            "required_evidence": [
+              "observed treatment",
+              "diagnosis year",
+              "stage",
+              "biomarkers",
+              "performance status"
+            ]
+          },
+          {
+            "action": "identify missing staging, margin, biomarker, or performance-status evidence",
+            "action_id": "s5_a1",
+            "action_type": "molecular_testing",
+            "bucket": "required",
+            "guideline_rule_ids": [
+              "NSCLC_treatment_review_001"
+            ],
+            "priority": "high",
+            "rationale": "Recommended by NSCLC_2010 rule NSCLC_treatment_review_001.",
+            "required_evidence": [
+              "observed treatment",
+              "diagnosis year",
+              "stage",
+              "biomarkers",
+              "performance status"
+            ]
+          },
+          {
+            "action": "separate observed care from the NCCN 2010 benchmark recommendation",
+            "action_id": "s5_a2",
+            "action_type": "diagnostic_workup",
+            "bucket": "required",
+            "guideline_rule_ids": [
+              "NSCLC_treatment_review_001"
+            ],
+            "priority": "high",
+            "rationale": "Recommended by NSCLC_2010 rule NSCLC_treatment_review_001.",
+            "required_evidence": [
+              "observed treatment",
+              "diagnosis year",
+              "stage",
+              "biomarkers",
+              "performance status"
+            ]
+          }
+        ],
+        "unsafe": [
+          {
+            "action": "treat observed historical treatment as the only gold answer",
+            "action_id": "s5_u0",
+            "action_type": "treatment_planning",
+            "bucket": "required",
+            "guideline_rule_ids": [],
+            "priority": "high",
+            "rationale": "Forbidden or condition-mismatched action at the current state.",
+            "required_evidence": []
+          }
+        ]
+      },
+      "canonical_state_after_step": {
+        "completed_actions": [
+          {
+            "action": "pathologic confirmation",
+            "evidence": "diagnoses.primary_diagnosis = 腺癌，非特指型（Adenocarcinoma, NOS）",
+            "status": "completed"
+          },
+          {
+            "action": "TNM staging",
+            "evidence": "diagnoses.ajcc_pathologic_t = T1a; diagnoses.ajcc_pathologic_n = N0; diagnoses.ajcc_pathologic_m = M0; diagnoses.ajcc_pathologic_stage = IA期",
+            "status": "completed"
+          }
+        ],
+        "known_facts": {
+          "M": "M0",
+          "N": "N0",
+          "T": "T1a",
+          "age": 56,
+          "diagnosis": "腺癌，非特指型（Adenocarcinoma, NOS）",
+          "disease_type": "腺瘤与腺癌（Adenomas and Adenocarcinomas）",
+          "primary_site": "支气管和肺",
+          "race": "白人",
+          "sex": "male",
+          "stage_group": "IA期"
+        },
+        "open_questions": [
+          "PD-L1 unknown",
+          "molecular status unknown"
+        ]
+      },
+      "hidden_future": [],
+      "model_prediction": null,
+      "observed_events": [
+        "e0",
+        "e1",
+        "e2"
+      ],
+      "phase": "treatment_observed",
+      "step": 5,
+      "verification": [
+        {
+          "action": "compare observed treatment with the NCCN 2010 recommendation",
+          "action_id": "s5_a0",
+          "category": "guideline_supported_but_unobserved",
+          "classification": "guideline_supported_but_unobserved",
+          "evidence_event_ids": [],
+          "evidence_text": [],
+          "guideline_support": "supported",
+          "report_support": "not_observed",
+          "state_update": {}
+        },
+        {
+          "action": "identify missing staging, margin, biomarker, or performance-status evidence",
+          "action_id": "s5_a1",
+          "category": "guideline_supported_but_unobserved",
+          "classification": "guideline_supported_but_unobserved",
+          "evidence_event_ids": [],
+          "evidence_text": [],
+          "guideline_support": "supported",
+          "report_support": "not_observed",
+          "state_update": {}
+        },
+        {
+          "action": "separate observed care from the NCCN 2010 benchmark recommendation",
+          "action_id": "s5_a2",
+          "category": "guideline_supported_but_unobserved",
+          "classification": "guideline_supported_but_unobserved",
+          "evidence_event_ids": [],
+          "evidence_text": [],
+          "guideline_support": "supported",
+          "report_support": "not_observed",
+          "state_update": {}
+        }
+      ],
+      "visible_state": {
+        "M": "M0",
+        "N": "N0",
+        "T": "T1a",
+        "age": 56,
+        "completed_actions": [
+          {
+            "action": "pathologic confirmation",
+            "evidence": "diagnoses.primary_diagnosis = 腺癌，非特指型（Adenocarcinoma, NOS）",
+            "status": "completed"
+          },
+          {
+            "action": "TNM staging",
+            "evidence": "diagnoses.ajcc_pathologic_t = T1a; diagnoses.ajcc_pathologic_n = N0; diagnoses.ajcc_pathologic_m = M0; diagnoses.ajcc_pathologic_stage = IA期",
+            "status": "completed"
+          }
+        ],
+        "diagnosis": "腺癌，非特指型（Adenocarcinoma, NOS）",
+        "disease_type": "腺瘤与腺癌（Adenomas and Adenocarcinomas）",
+        "open_questions": [
+          "PD-L1 unknown",
+          "molecular status unknown"
+        ],
+        "primary_site": "支气管和肺",
+        "race": "白人",
+        "sex": "male",
+        "stage_group": "IA期"
+      }
+    }
+  ]
+}

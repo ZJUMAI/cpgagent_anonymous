@@ -1,0 +1,94 @@
+# Python bytecode and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+htmlcov/
+
+# Local caches and environments
+.cache/
+.venv/
+.conda/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# IDE and OS metadata
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Downloaded model weights and inference binaries
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.onnx
+*.safetensors
+*.tflite
+
+# Skill-local runtime scratch directories
+medclaw/skills/**/cache/
+medclaw/skills/**/model_cache/
+medclaw/skills/**/weights/
+medclaw/skills/**/checkpoints/
+medclaw/skills/**/outputs/
+medclaw/skills/**/logs/
+
+# Local guideline embedding/vector indexes
+medclaw/knowledge/guidelines/**/.embedding_cache/
+medclaw/knowledge/guidelines/**/*.faiss
+
+# Local latent guideline planner training outputs
+guideline_planner/cache/
+guideline_planner/checkpoints/
+guideline_planner/outputs/
+guideline_planner/runs/
+
+# Runtime outputs
+artifacts/
+runs/
+runs_casestudy/
+
+# Local data processing workspace
+data/
+
+# Versioned Planner V2 pilot dataset (including its tiny mock grounding slots).
+!datasets/planner_v2_pilot/memory_catalog_mock/**/*.pt
+
+# Local benchmark case data. Keep source reports and evaluation metadata visible to Git.
+examples/cases/**
+!examples/cases/**/
+!examples/cases/**/evaluation/
+!examples/cases/**/evaluation/**/
+!examples/cases/**/evaluation/**/*.json
+!examples/cases/**/evaluation/**/*.md
+!examples/cases/**/evaluation/**/*.txt
+!examples/cases/**/evaluation/**/*.tsv
+!examples/cases/**/evaluation/**/*.csv
+!examples/cases/**/reports/
+!examples/cases/**/reports/**/
+!examples/cases/**/reports/**/*.md
+!examples/cases/**/reports/**/*.txt
+!examples/cases/**/reports/**/*.json
+
+# Keep large local case modalities ignored.
+examples/cases/**/radiology/nifti/**
+examples/cases/**/radiology/masks/**
+examples/cases/**/pathology/wsi/**
+examples/cases/**/pathology/roi_*/**
+examples/cases/**/pathology/conch_roi/**
+examples/cases/**/radiology/lungtumormask_meta.json
+
+# Packaging outputs
+dist/
+build/
+*.egg-info/
+/new_run

@@ -1,0 +1,64 @@
+{
+  "case_id": "TCGA-55-7995",
+  "case_summary": [
+    "73岁女性，左肺上叶IA期（pT1bN0M0）实体型腺癌，R0切除，无淋巴结受累。",
+    "分子谱：EGFR/KRAS/BRAF/MET/ERBB2/RET/ROS1无激活突变；TP53、KEAP1、NF1、PIK3CA突变；CCNE1扩增；ALK突变伴低RNA表达（融合未确认）。",
+    "组织学：TTF-1阳性，Napsin A阴性，P63局灶阳性。",
+    "吸烟史：60包年，既往吸烟者。"
+  ],
+  "generated_at": "2026-07-20 16:06:50",
+  "language": "zh",
+  "manual_review_flags": [
+    "指南选择模式固定为NCCN 2010",
+    "ALK突变伴低RNA表达：需根据NCCN澄清融合状态（IA期不要求，但为完整性标记）"
+  ],
+  "rubric": {
+    "CI": [
+      "回答应确认患者为73岁女性，左肺上叶IA期（pT1bN0M0）实体型腺癌。",
+      "回答应指出肿瘤TTF-1阳性、Napsin A阴性、P63局灶/有限阳性。",
+      "回答应说明分子谱显示EGFR、KRAS、BRAF、MET、ERBB2、RET、ROS1无激活突变，并包含TP53、KEAP1、NF1、PIK3CA突变及CCNE1扩增。",
+      "回答应认识到患者接受了楔形切除后行肺叶切除术，达到R0切除且淋巴结阴性。",
+      "回答应提及患者有60包年吸烟史。"
+    ],
+    "COMM": [
+      "回答应清晰区分患者已知临床事实（分期、组织学、分子）与缺失数据（如体能状态、ALK详细分子融合确认）。",
+      "回答应明确陈述基于IA期的指南匹配推荐，并与推测性或偏离指南的建议区分。",
+      "回答应标记ALK突变伴低RNA表达为可能需要人工复核或进一步澄清的点，尽管目前无临床指导意义。",
+      "回答应以结构化方式呈现信息：病例总结、指南映射、推荐、证据及人工复核项目。"
+    ],
+    "CR": [
+      "回答不得推荐IA期NSCLC使用辅助化疗、放疗或靶向治疗。",
+      "回答不得基于分子谱（无激活突变或确认的融合）推荐EGFR-TKI或ALK抑制剂治疗。",
+      "回答不得推荐针对晚期或转移性疾病的全身治疗，因患者无转移证据。",
+      "回答不得建议在已完成的R0切除基础上进行额外手术。"
+    ],
+    "EG": [
+      "回答应引用NCCN NSCLC 2010（流程图NSCL-3，脚注e）中IA期手术切除为Category 2A推荐。",
+      "回答应指出根据NCCN，IA期不推荐辅助化疗（Category 2A）。",
+      "回答应说明分期采用AJCC第7版（依据NCCN 2010）。",
+      "回答应表明分子检测结果在此阶段无临床指导意义，且无NCCN推荐类别（类别不适用）。"
+    ],
+    "GM": [
+      "回答应将病例映射至NCCN流程图'预处理评估后决策'，对应IA期（外周型T1ab，N0）伴纵隔淋巴结阴性且可手术状态。",
+      "回答应指出合适的指南模块为NSCL-3（早期NSCLC的初始治疗和辅助治疗）。",
+      "回答应说明根据NCCN指南（Category 2A），IA期不推荐辅助治疗。",
+      "回答应确认根据NCCN 2010，IA期治疗决策无需分子检测结果。"
+    ],
+    "RA": [
+      "回答应推荐鉴于R0切除及IA期，无需进一步抗肿瘤治疗。",
+      "回答应推荐根据NCCN指南进行术后监测（每6-12个月病史及体格检查，持续2年，之后每年一次；可考虑低剂量CT）。",
+      "回答应说明分子检测结果不改变IA期疾病的管理方案。",
+      "回答应指出即使体能状态下降，此阶段也无需改变治疗。"
+    ]
+  },
+  "rubric_version": "patient_nccn_2010_v1_zh",
+  "source_files": {
+    "guideline": "medclaw/knowledge/guidelines/NSCLC_2010.md",
+    "guideline_selection_mode": "fixed_historical_guideline",
+    "guideline_version": "2010",
+    "matched_guideline": "NSCLC_2010",
+    "patient_report": "data/LUNG/TCGA-55-7995/reports/integrated_reports/TCGA-55-7995_T0_full_report_en.md",
+    "patient_report_source": "full_report_en",
+    "patient_report_zh": "data/LUNG/TCGA-55-7995/reports/integrated_reports/TCGA-55-7995_T0_full_report_zh.md"
+  }
+}

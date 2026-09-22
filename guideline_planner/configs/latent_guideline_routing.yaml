@@ -1,0 +1,75 @@
+latent_guideline_routing:
+  enabled: true
+  profile: dynamic_anchor
+
+  retrieval:
+    seed_top_k: 8
+    max_candidates: 12
+    similarity: cosine
+    filter_cancer_type: true
+    filter_guideline_id: true
+    filter_version: true
+    filter_language: true
+
+  gate:
+    enabled: true
+    active_top_k: 4
+    temperature: 1.0
+    routing_dim: 256
+    use_seed_score: true
+
+  memory_fusion:
+    strategy: dynamic_anchor_attention
+    output_num_emb: null
+    add_memory_identity_embedding: true
+    max_active_memories: 32
+    dynamic_anchor_attention:
+      enabled: true
+      num_heads: 8
+      ffn_multiplier: 4
+      dropout: 0.0
+      attention_dropout: 0.0
+      anchor_strategy: highest_gate_weight
+      use_patient_state_condition: true
+      use_gate_attention_bias: true
+      use_rank_embedding: true
+      use_memory_identity_embedding: false
+      max_num_memories: 4
+      train_with_variable_k: true
+      min_memories: 1
+      max_memories: 4
+      memory_dropout: 0.1
+      bypass_single_memory: false
+      return_attention_weights: false
+      log_memory_attention_mass: true
+      eps: 1.0e-8
+
+  training:
+    use_utility_distillation: false
+    utility_masks_per_sample: 1
+    utility_temperature: 1.0
+    train_decoder_lora: true
+    lambda_action: 1.0
+    lambda_retrieval: 0.3
+    lambda_utility: 0.0
+    lambda_provenance: 0.2
+    lambda_gate_margin: 0.1
+    lambda_sparse: 0.01
+    gate_margin: 0.1
+    retrieval_pretrain_steps: 100
+    identity_warmup_steps: 100
+    distillation_steps: 0
+    lambda_identity: 1.0
+    lambda_identity_cosine: 0.1
+    lambda_distillation: 1.0
+    lambda_attention_entropy: 0.0
+    lambda_anchor: 0.05
+    distillation_temperature: 1.0
+    joint_calibration_fraction: 0.10
+    joint_decoder_lr_multiplier: 0.10
+
+  runtime:
+    mode: test
+    checkpoint_path: null
+    allow_untrained: false
+    save_daa_attention_tensors: false

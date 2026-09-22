@@ -1,0 +1,67 @@
+{
+  "case_id": "TCGA-78-7163",
+  "case_summary": [
+    "60岁男性，肺黏液腺癌，IB期（T2a N0 M0），右肺下叶切除术后R0切除。",
+    "分子特征：常见驱动基因阴性（无EGFR/KRAS/ALK/ROS1/BRAF突变），仅EGFR拷贝数增加，ALK RNA表达升高但未检测到融合。",
+    "报告采用AJCC第6版分期；转换为AJCC第7版后分期相同（T2aN0M0，IB期）。",
+    "指南覆盖范围：仅限于治疗前评估流程图；提供的摘录中未明确IB期R0切除后的辅助治疗建议。"
+  ],
+  "generated_at": "2026-07-20 16:08:01",
+  "language": "zh",
+  "manual_review_flags": [
+    "指南选择模式：固定为NCCN 2010",
+    "需将AJCC第6版转换为第7版以准确分期",
+    "指南摘录缺少IB期R0切除后辅助治疗细节；需完整NCCN 2010文件或更新版指南",
+    "ALK RNA表达升高未确认融合；建议人工审查FISH或NGS结果"
+  ],
+  "rubric": {
+    "CI": [
+      "回答应识别组织学类型为黏液腺癌。",
+      "回答必须说明分期为IB期（T2a N0 M0），使用AJCC第7版，并澄清从AJCC第6版的转换。",
+      "回答应指出肿瘤已完全切除（R0），切缘及淋巴结阴性。",
+      "回答必须识别分子检测未发现经典驱动突变（EGFR、KRAS、ALK等），且EGFR拷贝数增加并非激活突变。",
+      "回答应提及ALK RNA表达升高，但澄清未确认ALK融合或突变，其意义不确定。",
+      "回答必须指出患者的吸烟史（41包年）相关，但非分期因素。"
+    ],
+    "COMM": [
+      "回答应清晰区分已知临床事实（分期、组织学、切除状态）与缺失信息（辅助治疗指导）。",
+      "回答必须明确说明哪些分子发现可靶向，哪些需要进一步验证。",
+      "回答应结构化答案，包括：已知事实、缺失数据、指南匹配建议及需人工审查的要点。",
+      "回答必须指出若无额外指南内容，无法给出最终治疗建议。"
+    ],
+    "CR": [
+      "回答不得仅基于提供的指南摘录推荐辅助化疗作为标准选项。",
+      "回答不得基于EGFR拷贝数增加推荐EGFR-TKI治疗。",
+      "回答不得仅基于ALK RNA表达推荐ALK抑制剂治疗。",
+      "回答不得将EGFR拷贝数增加与激活突变混淆。"
+    ],
+    "EG": [
+      "回答应引用“治疗前评估后决策”流程图（002.mmd）作为相关指南部分。",
+      "回答必须指出流程图中的推荐为2A类（除非另有说明），但辅助步骤未分配类别。",
+      "回答应引用AJCC第7版分期表作为分期分类标准。",
+      "回答不得编造超出所提供指南文本的页码或引用。"
+    ],
+    "GM": [
+      "回答应将病例映射至IB期（周围型T2a，N0）纵隔淋巴结阴性且可手术状态的“治疗前评估后决策”流程图（002.mmd）。",
+      "回答必须承认流程图指向“初始治疗和辅助治疗见NSCL-3”，但指南摘录中未提供NSCL-3。",
+      "回答应指出指南未包含IB期切除后辅助决策的专门分支。",
+      "回答必须说明指南使用AJCC第7版分期，需从报告的AJCC第6版进行转换。"
+    ],
+    "RA": [
+      "回答应说明提供的NCCN 2010指南未包含IB期R0切除后辅助治疗的具体建议。",
+      "回答必须建议从完整NCCN文件或通过人工审查获取进一步指导，因为现有摘录不充分。",
+      "回答应指出鉴于无可靶向驱动突变，不适用靶向治疗。",
+      "回答应指出ALK RNA表达升高，若无确认性融合检测，不适用ALK抑制剂治疗。"
+    ]
+  },
+  "rubric_version": "patient_nccn_2010_v1_zh",
+  "source_files": {
+    "guideline": "medclaw/knowledge/guidelines/NSCLC_2010.md",
+    "guideline_selection_mode": "fixed_historical_guideline",
+    "guideline_version": "2010",
+    "matched_guideline": "NSCLC_2010",
+    "patient_report": "data/LUNG/TCGA-78-7163/reports/integrated_reports/TCGA-78-7163_T0_full_report_en.md",
+    "patient_report_source": "full_report_en",
+    "patient_report_zh": "data/LUNG/TCGA-78-7163/reports/integrated_reports/TCGA-78-7163_T0_full_report_zh.md"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "prompts": [
+    {
+      "id": "undifferentiated_npc",
+      "text": "undifferentiated nasopharyngeal carcinoma tumor tissue"
+    },
+    {
+      "id": "nested_tumor",
+      "text": "nested nasopharyngeal carcinoma tumor nests"
+    },
+    {
+      "id": "lymphoepithelial",
+      "text": "lymphoepithelial carcinoma with mixed lymphoid stroma"
+    },
+    {
+      "id": "nucleoli",
+      "text": "tumor cells with prominent nucleoli"
+    },
+    {
+      "id": "stromal",
+      "text": "desmoplastic stromal reaction"
+    },
+    {
+      "id": "normal_nasopharynx",
+      "text": "normal nasopharyngeal mucosa and lymphoid tissue"
+    }
+  ]
+}

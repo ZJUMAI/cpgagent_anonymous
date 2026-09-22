@@ -1,0 +1,4886 @@
+{
+  "file_count": 976,
+  "files": [
+    {
+      "path": ".env.example",
+      "sha256": "846521121874575915c6a193b07e58a1976e2397239aa43c13d3dae95ac579a0",
+      "size": 585
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "cff2949f356860076dacf704c6686ab040146897fe5d924578fc4721dd094299",
+      "size": 2123
+    },
+    {
+      "path": "data/LUNG/TCGA-38-4625/clinical/clinical.json",
+      "sha256": "34474c0de9109cdd01224c8004052ea9d9dc88d6af90729263b79ac29bd8e52a",
+      "size": 12957
+    },
+    {
+      "path": "data/LUNG/TCGA-38-4625/clinical/follow_up.json",
+      "sha256": "9adbc605f3dc8a335e28889da2b13a57d6e331e614b999c129658353e1160a2e",
+      "size": 11955
+    },
+    {
+      "path": "data/LUNG/TCGA-38-4625/clinical/treatment.json",
+      "sha256": "c0282be90472a9e5e64650775e1695d62713208197ce3418c41151d85afdb10a",
+      "size": 12335
+    },
+    {
+      "path": "data/LUNG/TCGA-38-4625/evaluation/TCGA-38-4625_rubric.json",
+      "sha256": "63f0b27aad1d5d511437c182cb551f34bc908aefa8bd789d4453b263fe938f6f",
+      "size": 4549
+    },
+    {
+      "path": "data/LUNG/TCGA-38-4625/evaluation/TCGA-38-4625_trajectory.json",
+      "sha256": "a62f6626227d6f6233d75a539dad80cea3aac6706c5d208d1ce6a9bc4c605cfb",
+      "size": 47098
+    },
+    {
+      "path": "data/LUNG/TCGA-38-4625/guideline/relevant_nodes.json",
+      "sha256": "24a9f0ece38959a6c220ba00a791a33f8e645734f5bf6a0230d381d6f08ceb24",
+      "size": 1668
+    },
+    {
+      "path": "data/LUNG/TCGA-38-4625/hidden_state.json",
+      "sha256": "ccc57fc7f88941aeb2d5d988031e94906737304760b003f0252042df0bbcd259",
+      "size": 975
+    },
+    {
+      "path": "data/LUNG/TCGA-38-4625/molecular/biomarkers.json",
+      "sha256": "e736e2c330a17bd11c41a6f989dffdf01aa474a7696fa28d8066ce56b2d837e7",
+      "size": 20340
+    },
+    {
+      "path": "data/LUNG/TCGA-38-4625/pathology/pathology_report.txt",
+      "sha256": "ddf0a58483d069579ac566bd835b787c0bc73249472b62fb420cc490c7c8d7d0",
+      "size": 135
+    },
+    {
+      "path": "data/LUNG/TCGA-38-4625/pathology/pathology_report_metadata.json",
+      "sha256": "e19ca6cf01c6d011df3c76f4d3a36ae8b0e7976a994a225d5d09cfce47f30f9a",
+      "size": 115
+    },
+    {
+      "path": "data/LUNG/TCGA-38-4625/pathology/slide_metadata.json",
+      "sha256": "09abf8d9999edee052c4ba45519eee667caf5c53f39ebaf0bba3fed185e2d651",
+      "size": 472
+    },
+    {
+      "path": "data/LUNG/TCGA-38-4625/pathology/wsi_manifest.json",
+      "sha256": "d7603b76452a619bce92904b0b78d2236181f0eb2ece4e32066e03a10ab98c2b",
+      "size": 435
+    },
+    {
+      "path": "data/LUNG/TCGA-38-4625/pathology/wsi_roi_manifest.json",
+      "sha256": "5ed4cac24f4b11c9b678ad0306c8cfd49486c700509c2703ab3a21186a2546a9",
+      "size": 334
+    },
+    {
+      "path": "data/LUNG/TCGA-38-4625/radiology/ct_manifest.json",
+      "sha256": "b33b646abbb87808b1a32c4ac1ae0e1e7ef7a90e5cf9e94904f77498dff817d1",
+      "size": 329
+    },
+    {
+      "path": "data/LUNG/TCGA-38-4625/radiology/ct_roi_manifest.json",
+      "sha256": "f9eab648851a419dec6463de5455250772c3abc04cfe2575e2d4dffb70075e13",
+      "size": 229
+    },
+    {
+      "path": "data/LUNG/TCGA-38-4625/radiology/lungtumormask_meta.json",
+      "sha256": "0d5dfae13befed8923e7a98410ad1a654a00558ee4781bdecc1aca3ecc68c47f",
+      "size": 625
+    },
+    {
+      "path": "data/LUNG/TCGA-38-4625/release_policy.json",
+      "sha256": "8b9c2c60c6167d95598a2c3d6e1db9aa63e2c741f800f9d363594d5300d2f81e",
+      "size": 862
+    },
+    {
+      "path": "data/LUNG/TCGA-38-4625/report_extraction.json",
+      "sha256": "b156f7e9ade6e62bb003b674cbcddf0f1aecda084e82a3e10bcfa49d407d0d1c",
+      "size": 20383
+    },
+    {
+      "path": "data/LUNG/TCGA-38-4625/reports/integrated_reports/TCGA-38-4625_T0_full_report_en.md",
+      "sha256": "863b0dc648b6fc27d35de7f6618330302a1e3055ee1a26568e3d481696baed45",
+      "size": 12380
+    },
+    {
+      "path": "data/LUNG/TCGA-38-4625/reports/integrated_reports/TCGA-38-4625_T0_full_report_zh.md",
+      "sha256": "f12007c86c78afbdb72eb714877e13b39a353c9d7078ae788d58f48f2c1d6942",
+      "size": 12991
+    },
+    {
+      "path": "data/LUNG/TCGA-38-4625/reports/pathology_reports/TCGA-38-4625_T0_pathology_report.txt",
+      "sha256": "c92879ca8f16b52cedb91509d973e826ee84fa4c354bdd8eba38192c2aa93a0b",
+      "size": 3488
+    },
+    {
+      "path": "data/LUNG/TCGA-38-A44F/clinical/clinical.json",
+      "sha256": "b0e8a4e98dec79391c0f014ef03d8939315eb74cb2289ef837576e056bf7ec74",
+      "size": 6767
+    },
+    {
+      "path": "data/LUNG/TCGA-38-A44F/clinical/follow_up.json",
+      "sha256": "685901d7db1f9bcbcbfa6525b4831ef0ae96a871c02623c409bcb12b47ad9a19",
+      "size": 5754
+    },
+    {
+      "path": "data/LUNG/TCGA-38-A44F/clinical/treatment.json",
+      "sha256": "bc463a4a33a1d5cf6c3e304ce851b47b1103409b601cead158133cd50b4dda69",
+      "size": 5800
+    },
+    {
+      "path": "data/LUNG/TCGA-38-A44F/evaluation/TCGA-38-A44F_rubric.json",
+      "sha256": "e45cb2f89886a2500897769aba5543728be70b479d114b56d8874dee6b400c35",
+      "size": 4392
+    },
+    {
+      "path": "data/LUNG/TCGA-38-A44F/evaluation/TCGA-38-A44F_trajectory.json",
+      "sha256": "33d61907eaebbced42d7d83bde6e0aaa8f8bfb04d408cb206e9924cca0805dad",
+      "size": 47145
+    },
+    {
+      "path": "data/LUNG/TCGA-38-A44F/guideline/relevant_nodes.json",
+      "sha256": "f484f4419517a9a45b24629ecdf56e8c120f901d8ec0fe633349130eac0e521b",
+      "size": 1668
+    },
+    {
+      "path": "data/LUNG/TCGA-38-A44F/hidden_state.json",
+      "sha256": "bae3c34c6a14ca0b5098a33e1d56838ff129c4b8958f4aed3c4e932b7f91c603",
+      "size": 982
+    },
+    {
+      "path": "data/LUNG/TCGA-38-A44F/molecular/biomarkers.json",
+      "sha256": "f4c5b253fc149121c9fea41819b2eb1f730aa2c9e0a4376ac5811ef8eecda245",
+      "size": 12594
+    },
+    {
+      "path": "data/LUNG/TCGA-38-A44F/pathology/pathology_report.txt",
+      "sha256": "ddf0a58483d069579ac566bd835b787c0bc73249472b62fb420cc490c7c8d7d0",
+      "size": 135
+    },
+    {
+      "path": "data/LUNG/TCGA-38-A44F/pathology/pathology_report_metadata.json",
+      "sha256": "0f8246d741d6906e180782a1ce52498b4927cfda9eb1542b854c0f7c1637af92",
+      "size": 115
+    },
+    {
+      "path": "data/LUNG/TCGA-38-A44F/pathology/slide_metadata.json",
+      "sha256": "142a5eb6e0bd17b057d69c592107e1aacb50ed5d352863793210dbe204203334",
+      "size": 472
+    },
+    {
+      "path": "data/LUNG/TCGA-38-A44F/pathology/wsi_manifest.json",
+      "sha256": "ca1eebdfec5229dc9aad391516a89fc0bfaff4efd375e606dd5498da3c34ce95",
+      "size": 435
+    },
+    {
+      "path": "data/LUNG/TCGA-38-A44F/pathology/wsi_roi_manifest.json",
+      "sha256": "66e35cbcf4ad17ba925b1e6fd5ab74165e4641a690594193ed0e5aba089b0733",
+      "size": 334
+    },
+    {
+      "path": "data/LUNG/TCGA-38-A44F/radiology/ct_manifest.json",
+      "sha256": "4aab1aaac5006c7d899229b4353c90589e5095536f453c0b48d3f7ed539710f8",
+      "size": 329
+    },
+    {
+      "path": "data/LUNG/TCGA-38-A44F/radiology/ct_roi_manifest.json",
+      "sha256": "a9315f42980345da3f6033929e80884ffab43b0991c8ea60588dadeab913a3dc",
+      "size": 229
+    },
+    {
+      "path": "data/LUNG/TCGA-38-A44F/radiology/lungtumormask_meta.json",
+      "sha256": "e76498904148d4d8be0f324a5583f7d5f28f422b031055a0e9c4e2d5b92a6ae0",
+      "size": 651
+    },
+    {
+      "path": "data/LUNG/TCGA-38-A44F/release_policy.json",
+      "sha256": "8b9c2c60c6167d95598a2c3d6e1db9aa63e2c741f800f9d363594d5300d2f81e",
+      "size": 862
+    },
+    {
+      "path": "data/LUNG/TCGA-38-A44F/report_extraction.json",
+      "sha256": "fbe63654e104adc0b0d475e4887833deccb9512d79de19f93bcc5f21d71db896",
+      "size": 13193
+    },
+    {
+      "path": "data/LUNG/TCGA-38-A44F/reports/integrated_reports/TCGA-38-A44F_T0_full_report_en.md",
+      "sha256": "4588df6c2bfca05fa4232dbfc2934eec5f08ec056a94aa92ef3b2ce8f893aa79",
+      "size": 12534
+    },
+    {
+      "path": "data/LUNG/TCGA-38-A44F/reports/integrated_reports/TCGA-38-A44F_T0_full_report_zh.md",
+      "sha256": "4a199dd89b6be1b574d19867c373857b14707b8e0ad131e4a36439a3f85270cd",
+      "size": 10183
+    },
+    {
+      "path": "data/LUNG/TCGA-38-A44F/reports/pathology_reports/TCGA-38-A44F_T0_pathology_report.txt",
+      "sha256": "477b5d477372156f9c5654482bb5bb4dea3a85c1d16818161d261cc337d1a8e8",
+      "size": 2782
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2655/clinical/clinical.json",
+      "sha256": "f9ca5b6f450cb53b6014f5e0dd5d13c2d385b73e5cc91372ccdbda21ecef195e",
+      "size": 5883
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2655/clinical/follow_up.json",
+      "sha256": "87a2854615d50730a5f445f0e286294f97d9e7dfa1ff5e78323f130d4ee69e08",
+      "size": 4914
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2655/clinical/treatment.json",
+      "sha256": "2f269b753bf23dbbc9035f3b200c79ad6c09bc3d3a8cc537e627d70e6ce454ab",
+      "size": 4959
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2655/evaluation/TCGA-44-2655_rubric.json",
+      "sha256": "e4a71790323c55f2896d535c083eef055fd3436e1bf39fd8d584bc8fc446cb5d",
+      "size": 4575
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2655/evaluation/TCGA-44-2655_trajectory.json",
+      "sha256": "2ae23522a65a76e1a1db16ace0d2d331d99ad4ff1170a464da222bc1d1115482",
+      "size": 47211
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2655/guideline/relevant_nodes.json",
+      "sha256": "b91821609286f6750873dbf4f43257fc05f13c62dfe2a470a20bf003344bd5da",
+      "size": 1668
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2655/hidden_state.json",
+      "sha256": "f4911e307658a302dbaa8a69897b65aab632edc712931e25851987cc4cd6e186",
+      "size": 975
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2655/molecular/biomarkers.json",
+      "sha256": "b16dddccf854361830739c6254cb1c70178bc0827b1c524f98bbc2e0de251aa1",
+      "size": 11464
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2655/pathology/pathology_report.txt",
+      "sha256": "ddf0a58483d069579ac566bd835b787c0bc73249472b62fb420cc490c7c8d7d0",
+      "size": 135
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2655/pathology/pathology_report_metadata.json",
+      "sha256": "1bfc5dbf31049bfaa22ac461d2e69930fc9185d68dbed2c67cf9caad6c1f7317",
+      "size": 115
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2655/pathology/slide_metadata.json",
+      "sha256": "ad1f240ebd5833e79ed2a29abb8541c57d085aa2685fd9a533c7024700bfa2b1",
+      "size": 472
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2655/pathology/wsi_manifest.json",
+      "sha256": "6123da335caa608c664211ee048dcbc0a76ffc9f469c6d5af8f071c73734997c",
+      "size": 435
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2655/pathology/wsi_roi_manifest.json",
+      "sha256": "570b691bad297c9f4699158ebf213e59e6c5ee9e1744c53c9fd5d4e6595cc081",
+      "size": 334
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2655/radiology/ct_manifest.json",
+      "sha256": "2ee82a9afbfc4ac16723ffa9eb84b6d317bb7660d793b200399e1c38513a465b",
+      "size": 256
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2655/radiology/ct_roi_manifest.json",
+      "sha256": "c79eb467a04890e731366de0c32e5181eaa8e22865ae8fd93dc51113917c89a8",
+      "size": 158
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2655/release_policy.json",
+      "sha256": "8b9c2c60c6167d95598a2c3d6e1db9aa63e2c741f800f9d363594d5300d2f81e",
+      "size": 862
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2655/report_extraction.json",
+      "sha256": "0b36cf4257e317d30aa2554b9427863b1ff0f807c93ae38c458018a5a516616b",
+      "size": 12389
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2655/reports/integrated_reports/TCGA-44-2655_T0_full_report_en.md",
+      "sha256": "b5862fe9c6a4c1908e07be6b15fd69be262f35779efa022458d87e129aa87232",
+      "size": 12217
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2655/reports/integrated_reports/TCGA-44-2655_T0_full_report_zh.md",
+      "sha256": "a190c9dcc776fd4cd23fc0a6fd61db65a30e1f4681fa53a84ce753f5cff5a842",
+      "size": 18724
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2655/reports/pathology_reports/TCGA-44-2655_T0_pathology_report.txt",
+      "sha256": "b35511bf9da4ca13ac5ca8a27ddccd6c74e6848b8529a9bebbbf0d2436350f5e",
+      "size": 7111
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2661/clinical/clinical.json",
+      "sha256": "9aaf47e681a21e1d66234a6cf1101f41cd1d286b7fd135ac1a36ab825c6cd626",
+      "size": 6198
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2661/clinical/follow_up.json",
+      "sha256": "7da09859d87f1d77eb9f7d82f1de1f724a20ed29438344e0b9c85832adc5fa52",
+      "size": 5240
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2661/clinical/treatment.json",
+      "sha256": "f1be3bb70cad565906fa286ac9b9c3e0951f2d6ab7d3e1532380e60a064cb2cc",
+      "size": 5255
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2661/evaluation/TCGA-44-2661_rubric.json",
+      "sha256": "0ec521771b45f37da5011ba9650825061ee8ab48e0c495cde4cb73e27363123c",
+      "size": 3755
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2661/evaluation/TCGA-44-2661_trajectory.json",
+      "sha256": "42a6a44e364210ff1eb7ecb71d6af777c42ad0613b8fdd9e2d7f9fd8d67e8af6",
+      "size": 47346
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2661/guideline/relevant_nodes.json",
+      "sha256": "3eda2b51fd094f2ff763c216942e5bfe12f408b4bd97f630bb0935299a094f7a",
+      "size": 1668
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2661/hidden_state.json",
+      "sha256": "0cdaffe9eff6818b54efc7022ac75fa44a7cca77834bd50d78bd648461ea77da",
+      "size": 980
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2661/molecular/biomarkers.json",
+      "sha256": "1a9b7997008623eae3b2e830849ac2e087f7d1fbc28f22deb962868c75d0455d",
+      "size": 12336
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2661/pathology/pathology_report.txt",
+      "sha256": "ddf0a58483d069579ac566bd835b787c0bc73249472b62fb420cc490c7c8d7d0",
+      "size": 135
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2661/pathology/pathology_report_metadata.json",
+      "sha256": "2d947f024acec3c2e52e4154334c7bba7342a3a7b0e712a6162e123183d3c374",
+      "size": 115
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2661/pathology/slide_metadata.json",
+      "sha256": "73cfa9e6cea3ff4336272a41a33a089eacd2e2afd7e909b61981f630c4780be9",
+      "size": 472
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2661/pathology/wsi_manifest.json",
+      "sha256": "332ddb714e075b2a595974a494dab08dc58ae6e6fe7c9636dad0aad7dd9cec4a",
+      "size": 435
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2661/pathology/wsi_roi_manifest.json",
+      "sha256": "7569cc5a79053bdcaffca26cb91985f5a42197110a2ec3ca8d032f0834af8a22",
+      "size": 334
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2661/radiology/ct_manifest.json",
+      "sha256": "ad60868a6235d777c947bb2b87eb829683c918a682b5949146a870a4617e6907",
+      "size": 256
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2661/radiology/ct_roi_manifest.json",
+      "sha256": "236b99af1a2c7220fbc272d474e551e38e287ecd353c03f075f8a8077f9dfc15",
+      "size": 158
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2661/release_policy.json",
+      "sha256": "8b9c2c60c6167d95598a2c3d6e1db9aa63e2c741f800f9d363594d5300d2f81e",
+      "size": 862
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2661/report_extraction.json",
+      "sha256": "953f9253731c6b1d82b8e37796e98adff8f652260bbda76e22297041dc156887",
+      "size": 12526
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2661/reports/integrated_reports/TCGA-44-2661_T0_full_report_en.md",
+      "sha256": "1820846e4ac391f17b965a238b9bbfd3e2ab0f04eacf23089c368f3e1b03627d",
+      "size": 9663
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2661/reports/integrated_reports/TCGA-44-2661_T0_full_report_zh.md",
+      "sha256": "7152c0c28f2b6f0c4f3accf21d26ff1f3813b8bee3f06243464343542a109bc3",
+      "size": 10025
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2661/reports/pathology_reports/TCGA-44-2661_T0_pathology_report.txt",
+      "sha256": "6ca15e6440f253b1023f3ba90f742910e03e4d4aac6ba452ce8e23f19052b18c",
+      "size": 2130
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2668/clinical/clinical.json",
+      "sha256": "d7ddf36e49ceab73dd9daf8b8a4eea43febdaf665dcbcf5c244fa37e4af2beb3",
+      "size": 6362
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2668/clinical/follow_up.json",
+      "sha256": "13c1abb8ca17f889c464b8a97fa14490d07450fbdde2a1f4ed9460171c7f875c",
+      "size": 5132
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2668/clinical/treatment.json",
+      "sha256": "07a7c8da672ecce3848413a5504b37edbb70dfbd1fb4ddf63df65abf2578dcbe",
+      "size": 5098
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2668/evaluation/TCGA-44-2668_rubric.json",
+      "sha256": "9e84bcd268d4be38f3ce41ea2934e7d610f2f1a0b0d3a35d27b92f603a48caba",
+      "size": 4423
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2668/evaluation/TCGA-44-2668_trajectory.json",
+      "sha256": "eaa6c7b6f994ee570f58ad624da1cbaaa96603a1db748bbce8a8e0b1943021dd",
+      "size": 47204
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2668/guideline/relevant_nodes.json",
+      "sha256": "06f81210a8c90a0e374269c82f795d05416b460c400bd801b6a432194f9ebb3d",
+      "size": 1668
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2668/hidden_state.json",
+      "sha256": "c927f0878145e0efe0fd8957b551c5490ac0c5178a7b0a6b7583e84e697a3562",
+      "size": 973
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2668/molecular/biomarkers.json",
+      "sha256": "927f161228c1a51e891cb5469f096532c0b184debae027d8371db3402dde8fed",
+      "size": 13352
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2668/pathology/pathology_report.txt",
+      "sha256": "ddf0a58483d069579ac566bd835b787c0bc73249472b62fb420cc490c7c8d7d0",
+      "size": 135
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2668/pathology/pathology_report_metadata.json",
+      "sha256": "b946c36baeaf9162320c3181f5875db6cd51a950e5b48f543da1e95172fe3981",
+      "size": 115
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2668/pathology/slide_metadata.json",
+      "sha256": "2d3f46a07019e14509c29031e8dcbedf387d773f86da469d422184ce2919ab9f",
+      "size": 472
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2668/pathology/wsi_manifest.json",
+      "sha256": "70161bb4a2d91a2e951c4502a8a8e10882a9f8272fd8263109f1ba028790ea67",
+      "size": 435
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2668/pathology/wsi_roi_manifest.json",
+      "sha256": "eacd3ba25137713144cbfda507bfe054cb0e979851fad6f61f840adc9cf2a5dc",
+      "size": 334
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2668/radiology/ct_manifest.json",
+      "sha256": "fe1964aefc20c049987d7462ff6f577c2ed5c00d4c617a644510c5d28e55b84c",
+      "size": 256
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2668/radiology/ct_roi_manifest.json",
+      "sha256": "948ef6a9777714e9a891235958155f6602960c71418233432f0acefe35f05557",
+      "size": 158
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2668/release_policy.json",
+      "sha256": "8b9c2c60c6167d95598a2c3d6e1db9aa63e2c741f800f9d363594d5300d2f81e",
+      "size": 862
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2668/report_extraction.json",
+      "sha256": "b468fcde16969ddd33c8aeb00bfc4c936cd9a960e6f37f7d1ea951e5e24c415a",
+      "size": 13606
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2668/reports/integrated_reports/TCGA-44-2668_T0_full_report_en.md",
+      "sha256": "ca4ab4ee1fb10222489f39a242c77aa5db6586b27ec6fe484d276060cd7b8247",
+      "size": 11484
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2668/reports/integrated_reports/TCGA-44-2668_T0_full_report_zh.md",
+      "sha256": "ff270dfba7171910aa45dd8608f5efe0e179665dc431773adf2a2d02a868571d",
+      "size": 11541
+    },
+    {
+      "path": "data/LUNG/TCGA-44-2668/reports/pathology_reports/TCGA-44-2668_T0_pathology_report.txt",
+      "sha256": "e13c271d8ed3090388d34ac518ab6a9d4675adfbe5d88bda0efc27afdec6747f",
+      "size": 3424
+    },
+    {
+      "path": "data/LUNG/TCGA-44-A47B/clinical/clinical.json",
+      "sha256": "9dc969977b297afa38c563985dc9c98b93eeb793a83d11704e3c8192437c25c2",
+      "size": 6183
+    },
+    {
+      "path": "data/LUNG/TCGA-44-A47B/clinical/follow_up.json",
+      "sha256": "e7a6234053857822529e03b1513157f67a68004d8245048363590cb88538a586",
+      "size": 4914
+    },
+    {
+      "path": "data/LUNG/TCGA-44-A47B/clinical/treatment.json",
+      "sha256": "563efe041dfdac02979b51ff3dab3d89062d37048335c11321acd777a10e943d",
+      "size": 4975
+    },
+    {
+      "path": "data/LUNG/TCGA-44-A47B/evaluation/TCGA-44-A47B_rubric.json",
+      "sha256": "eaa9065b2a0065c3848f827bbe74be2d77b2a868730e71fd568f78c059a48b6c",
+      "size": 5080
+    },
+    {
+      "path": "data/LUNG/TCGA-44-A47B/evaluation/TCGA-44-A47B_trajectory.json",
+      "sha256": "c3124cc874fea97e0338f28f36962e14181e838e71eb1454a82bec38bc69f860",
+      "size": 47592
+    },
+    {
+      "path": "data/LUNG/TCGA-44-A47B/guideline/relevant_nodes.json",
+      "sha256": "cea8ab0de80826f51d77583498f281e7d4f95978faaa8823bfb1b83b937009c3",
+      "size": 1668
+    },
+    {
+      "path": "data/LUNG/TCGA-44-A47B/hidden_state.json",
+      "sha256": "884d5a197635066163a0034258034576cd25e550676f24ec175fcbce9f500dcb",
+      "size": 1009
+    },
+    {
+      "path": "data/LUNG/TCGA-44-A47B/molecular/biomarkers.json",
+      "sha256": "3fa54d987c488ddc17c2f023e430fc74c2557cede5278136bbc4f0b5ec768eca",
+      "size": 11314
+    },
+    {
+      "path": "data/LUNG/TCGA-44-A47B/pathology/pathology_report.txt",
+      "sha256": "ddf0a58483d069579ac566bd835b787c0bc73249472b62fb420cc490c7c8d7d0",
+      "size": 135
+    },
+    {
+      "path": "data/LUNG/TCGA-44-A47B/pathology/pathology_report_metadata.json",
+      "sha256": "732e8f4b3d7dc5e497c60c7b5e80b9ce2563a47df3a9acd003f1ad15a9c7d458",
+      "size": 115
+    },
+    {
+      "path": "data/LUNG/TCGA-44-A47B/pathology/slide_metadata.json",
+      "sha256": "b3515b87eae6569aff68d3372d977102ed9e7e79e832cdafcbdcd1a7631391e6",
+      "size": 472
+    },
+    {
+      "path": "data/LUNG/TCGA-44-A47B/pathology/wsi_manifest.json",
+      "sha256": "f83aeffbe43f830e8ffb3cca5b9b6f30d63d6cb25e35bd33cad2be3b2fcbdd7a",
+      "size": 435
+    },
+    {
+      "path": "data/LUNG/TCGA-44-A47B/pathology/wsi_roi_manifest.json",
+      "sha256": "fda8cabe080abf63ff16a3a156462285664a01d62b3ca8d6ba936ff30770d886",
+      "size": 334
+    },
+    {
+      "path": "data/LUNG/TCGA-44-A47B/radiology/ct_manifest.json",
+      "sha256": "91e6a0ab7efdb7a0ef26af0e9fb368995d6d86cd1c0496d5a8c04f3427ad5ebb",
+      "size": 256
+    },
+    {
+      "path": "data/LUNG/TCGA-44-A47B/radiology/ct_roi_manifest.json",
+      "sha256": "ee0175733a099895be171f7c95d2c0443c31e86ff316c177e71a383403181af5",
+      "size": 158
+    },
+    {
+      "path": "data/LUNG/TCGA-44-A47B/release_policy.json",
+      "sha256": "8b9c2c60c6167d95598a2c3d6e1db9aa63e2c741f800f9d363594d5300d2f81e",
+      "size": 862
+    },
+    {
+      "path": "data/LUNG/TCGA-44-A47B/report_extraction.json",
+      "sha256": "92db9abe84bcf492da46a5ee94db7e0dadc303ca793d21184a2bf6b505183c1f",
+      "size": 12666
+    },
+    {
+      "path": "data/LUNG/TCGA-44-A47B/reports/integrated_reports/TCGA-44-A47B_T0_full_report_en.md",
+      "sha256": "093937b5682dca4e7cb3d7c3ae8325a9c00954eaf5c4476fb76792252395ef4d",
+      "size": 11085
+    },
+    {
+      "path": "data/LUNG/TCGA-44-A47B/reports/integrated_reports/TCGA-44-A47B_T0_full_report_zh.md",
+      "sha256": "b987e1c2d994d80ae8f5765b408eb9a2696478de463a18f213df00fa7c894ddc",
+      "size": 10687
+    },
+    {
+      "path": "data/LUNG/TCGA-44-A47B/reports/pathology_reports/TCGA-44-A47B_T0_pathology_report.txt",
+      "sha256": "298da1685d23bcf3bb25b5e2d00536ac4efdf27de3976efae44b324c8efd1527",
+      "size": 3472
+    },
+    {
+      "path": "data/LUNG/TCGA-44-A47G/clinical/clinical.json",
+      "sha256": "3bd1dfb0f342b6b32a0f41d74d50d542c03eda8bd3c293390ffe6efd4fc1b67d",
+      "size": 5600
+    },
+    {
+      "path": "data/LUNG/TCGA-44-A47G/clinical/follow_up.json",
+      "sha256": "8f4ccf495f1038a38d5248fa3d68155fd360b0a95cedc59c799a1f3b479dc310",
+      "size": 4704
+    },
+    {
+      "path": "data/LUNG/TCGA-44-A47G/clinical/treatment.json",
+      "sha256": "4253ebb495c2933db71dbc8c282310de2d9ff2be14b53528592d8142c058d258",
+      "size": 4783
+    },
+    {
+      "path": "data/LUNG/TCGA-44-A47G/evaluation/TCGA-44-A47G_rubric.json",
+      "sha256": "ac2b965a71dc044f2e17d46708a9a8efba52113cf5ada5d0384f97532c038fef",
+      "size": 4292
+    },
+    {
+      "path": "data/LUNG/TCGA-44-A47G/evaluation/TCGA-44-A47G_trajectory.json",
+      "sha256": "c6f72cc57bea93971179da29095c9ba1946495525927db21b06090e71618ed9b",
+      "size": 46696
+    },
+    {
+      "path": "data/LUNG/TCGA-44-A47G/guideline/relevant_nodes.json",
+      "sha256": "14b017b1f6272019f882ecec263876ff335e9ecb8785246c862778925f068795",
+      "size": 1668
+    },
+    {
+      "path": "data/LUNG/TCGA-44-A47G/hidden_state.json",
+      "sha256": "3ff318651f1aaa747cb42323c494b2e4bb2d9eb54560478dffa8e968eb7cbfb1",
+      "size": 974
+    },
+    {
+      "path": "data/LUNG/TCGA-44-A47G/molecular/biomarkers.json",
+      "sha256": "8e71591d9b31ae5a30d02fad14521edf761add298937248659530bfdce8dde64",
+      "size": 14749
+    },
+    {
+      "path": "data/LUNG/TCGA-44-A47G/pathology/pathology_report.txt",
+      "sha256": "ddf0a58483d069579ac566bd835b787c0bc73249472b62fb420cc490c7c8d7d0",
+      "size": 135
+    },
+    {
+      "path": "data/LUNG/TCGA-44-A47G/pathology/pathology_report_metadata.json",
+      "sha256": "f3183db817486e5a4909b8db385e09d8914842e38f072bf3cfd1842a8807a9f4",
+      "size": 115
+    },
+    {
+      "path": "data/LUNG/TCGA-44-A47G/pathology/slide_metadata.json",
+      "sha256": "b29e254316aae5e94e103e1168bc874906d8ddcf2849d0b6d9736b730ff0ca07",
+      "size": 472
+    },
+    {
+      "path": "data/LUNG/TCGA-44-A47G/pathology/wsi_manifest.json",
+      "sha256": "2aaca4a192a537266beb58af6d4b7ab10659e65cddd3760905922e68da1efe0d",
+      "size": 435
+    },
+    {
+      "path": "data/LUNG/TCGA-44-A47G/pathology/wsi_roi_manifest.json",
+      "sha256": "fd64792f4f0aef0ffb1fa1fc19e090c788059efc5ddbeaf661237b9b75a54a64",
+      "size": 334
+    },
+    {
+      "path": "data/LUNG/TCGA-44-A47G/radiology/ct_manifest.json",
+      "sha256": "0a3c97a9abb00b3528b485a8a3c960e77566b04b30362ebd45e3dad28e41b2e0",
+      "size": 256
+    },
+    {
+      "path": "data/LUNG/TCGA-44-A47G/radiology/ct_roi_manifest.json",
+      "sha256": "cd3439d6b8d6aeb6fa74121605c23ffecd8fc7f9bcdc78399039d912a8e9b3fa",
+      "size": 158
+    },
+    {
+      "path": "data/LUNG/TCGA-44-A47G/release_policy.json",
+      "sha256": "8b9c2c60c6167d95598a2c3d6e1db9aa63e2c741f800f9d363594d5300d2f81e",
+      "size": 862
+    },
+    {
+      "path": "data/LUNG/TCGA-44-A47G/report_extraction.json",
+      "sha256": "d04a5cc4380b2b1c17da3579a4c542f1e46fbe8f54985d33f76548e97936559a",
+      "size": 13174
+    },
+    {
+      "path": "data/LUNG/TCGA-44-A47G/reports/integrated_reports/TCGA-44-A47G_T0_full_report_en.md",
+      "sha256": "cd57d59fde8dd3636811dcbf2afe6e70379d4280ff429391b448dfd712828d86",
+      "size": 11146
+    },
+    {
+      "path": "data/LUNG/TCGA-44-A47G/reports/integrated_reports/TCGA-44-A47G_T0_full_report_zh.md",
+      "sha256": "5530ca5068c06d725bf0b1460bbbafa543f402190d1a0be119b2957540f07a00",
+      "size": 10476
+    },
+    {
+      "path": "data/LUNG/TCGA-44-A47G/reports/pathology_reports/TCGA-44-A47G_T0_pathology_report.txt",
+      "sha256": "fe17e48d8d5902b729587f6c4a687fe5f5febbc1cb3b91b590541a853e16c644",
+      "size": 3575
+    },
+    {
+      "path": "data/LUNG/TCGA-4B-A93V/clinical/clinical.json",
+      "sha256": "e50cf27bba695951ae39508151d399bf17bc32b1fa1b0056a055ec6352596afa",
+      "size": 5617
+    },
+    {
+      "path": "data/LUNG/TCGA-4B-A93V/clinical/follow_up.json",
+      "sha256": "94c903ee4bdc5524a879896ee725bf08fb422c176e44feab6224b09462d84ff8",
+      "size": 4599
+    },
+    {
+      "path": "data/LUNG/TCGA-4B-A93V/clinical/treatment.json",
+      "sha256": "8cb3a5827fb280a0b94e7fbbcf0731156e2cfbe182138463176e2cdb7d8d21bc",
+      "size": 4614
+    },
+    {
+      "path": "data/LUNG/TCGA-4B-A93V/evaluation/TCGA-4B-A93V_rubric.json",
+      "sha256": "ea2b347cbe4ab7929f4d2f51a1c033a6edb0f3ba3c6b949fba91f394e2ea9df6",
+      "size": 4402
+    },
+    {
+      "path": "data/LUNG/TCGA-4B-A93V/evaluation/TCGA-4B-A93V_trajectory.json",
+      "sha256": "a618fc03058b458090707af4093ee27fee0741afbe239cca7e7b600c0f856547",
+      "size": 48040
+    },
+    {
+      "path": "data/LUNG/TCGA-4B-A93V/guideline/relevant_nodes.json",
+      "sha256": "6b30b2f2737b495c98a3425f0138fdd1905d288df8a124f94fd7fb69959203e7",
+      "size": 1668
+    },
+    {
+      "path": "data/LUNG/TCGA-4B-A93V/hidden_state.json",
+      "sha256": "287fc1657c23f9304dab5b53191c97472465d71660494a486fafe2afe9063d5b",
+      "size": 1026
+    },
+    {
+      "path": "data/LUNG/TCGA-4B-A93V/molecular/biomarkers.json",
+      "sha256": "e4bed9c3ff2822b9778356d5ba1ef9a1e10e669543db47494cf45eca8c54ccca",
+      "size": 11913
+    },
+    {
+      "path": "data/LUNG/TCGA-4B-A93V/pathology/pathology_report.txt",
+      "sha256": "ddf0a58483d069579ac566bd835b787c0bc73249472b62fb420cc490c7c8d7d0",
+      "size": 135
+    },
+    {
+      "path": "data/LUNG/TCGA-4B-A93V/pathology/pathology_report_metadata.json",
+      "sha256": "4e43b96acbcb9faa5951c233c26cfe67aeef45d9018e9f7e7d8ca3754f5e71df",
+      "size": 115
+    },
+    {
+      "path": "data/LUNG/TCGA-4B-A93V/pathology/slide_metadata.json",
+      "sha256": "aecf90126cf98181856c93f4e24dc5109b437d0d181dcf16fdfac98ff56b87e6",
+      "size": 472
+    },
+    {
+      "path": "data/LUNG/TCGA-4B-A93V/pathology/wsi_manifest.json",
+      "sha256": "eca7a03373672aaa614d9771ce888747138fea19bf013a9f124f1369bcaeba9b",
+      "size": 435
+    },
+    {
+      "path": "data/LUNG/TCGA-4B-A93V/pathology/wsi_roi_manifest.json",
+      "sha256": "a0c4e8ee52088ec2c90b5e67bcf08ff422e9bdfb175e30e3ee73d59bd2dd9128",
+      "size": 334
+    },
+    {
+      "path": "data/LUNG/TCGA-4B-A93V/radiology/ct_manifest.json",
+      "sha256": "5c1876a9ca165e5cc3c9e9de1a0da5886dd1b62208f6830f8baec0dd2e5243b4",
+      "size": 256
+    },
+    {
+      "path": "data/LUNG/TCGA-4B-A93V/radiology/ct_roi_manifest.json",
+      "sha256": "6523e4fc746e26962617fe94fedf9d61261d09b306dd2fbd7df824bbd975facc",
+      "size": 158
+    },
+    {
+      "path": "data/LUNG/TCGA-4B-A93V/release_policy.json",
+      "sha256": "8b9c2c60c6167d95598a2c3d6e1db9aa63e2c741f800f9d363594d5300d2f81e",
+      "size": 862
+    },
+    {
+      "path": "data/LUNG/TCGA-4B-A93V/report_extraction.json",
+      "sha256": "ef96d6afdbdd2177785e02e811e058494f5acb9e66d21a8f2715467fa9aa2d04",
+      "size": 12357
+    },
+    {
+      "path": "data/LUNG/TCGA-4B-A93V/reports/integrated_reports/TCGA-4B-A93V_T0_full_report_en.md",
+      "sha256": "7535f519c6c63be5cf70a39b7597d4d3603e817041d6b4dd11bf2c1f226bd40b",
+      "size": 11324
+    },
+    {
+      "path": "data/LUNG/TCGA-4B-A93V/reports/integrated_reports/TCGA-4B-A93V_T0_full_report_zh.md",
+      "sha256": "09d2b5d0c0d2175d81ba90351fa2d094b19b66e679a17d445755d57c1eb20656",
+      "size": 10564
+    },
+    {
+      "path": "data/LUNG/TCGA-4B-A93V/reports/pathology_reports/TCGA-4B-A93V_T0_pathology_report.txt",
+      "sha256": "a3e4b6adb6cc3a8a8875c6886847b9975a52c6527ac04237afccbe4e0c6feaed",
+      "size": 2837
+    },
+    {
+      "path": "data/LUNG/TCGA-55-7995/clinical/clinical.json",
+      "sha256": "6d0aa33eccc036863ff28f101f45439cbd813e548b278acdaaf92be122ec155b",
+      "size": 5689
+    },
+    {
+      "path": "data/LUNG/TCGA-55-7995/clinical/follow_up.json",
+      "sha256": "a9b944b53bacdf8564c7e4b33dcd08fa975cd50322a22bc9058982e820effd48",
+      "size": 4494
+    },
+    {
+      "path": "data/LUNG/TCGA-55-7995/clinical/treatment.json",
+      "sha256": "5c3a29b859868c3d030e8639008569a84980a537653acd010cb9cdf3e93f2da5",
+      "size": 4553
+    },
+    {
+      "path": "data/LUNG/TCGA-55-7995/evaluation/TCGA-55-7995_rubric.json",
+      "sha256": "34dcf6f4169e47d712ab7d54ac439ddc5e3d9266360e2690ae2a78e12ea36707",
+      "size": 4090
+    },
+    {
+      "path": "data/LUNG/TCGA-55-7995/evaluation/TCGA-55-7995_trajectory.json",
+      "sha256": "7df5c8d13aa2660f634d4a80029fde1b3ab6901bfc2949f51db15055b898647c",
+      "size": 47260
+    },
+    {
+      "path": "data/LUNG/TCGA-55-7995/guideline/relevant_nodes.json",
+      "sha256": "b62dd3e1c9e493dcc0c185e319e6b860f06859933b114ab00f6256dbd39afcc2",
+      "size": 1668
+    },
+    {
+      "path": "data/LUNG/TCGA-55-7995/hidden_state.json",
+      "sha256": "7d2f9e9cf9386c9145023bb607cdda9c078e7ea10e94f122dc9de9db6dd528bf",
+      "size": 981
+    },
+    {
+      "path": "data/LUNG/TCGA-55-7995/molecular/biomarkers.json",
+      "sha256": "82b87d203ae2d11de5aad14c6400aa47ccbe2af8ac174cf9f3f5648b0b3bc6ed",
+      "size": 12747
+    },
+    {
+      "path": "data/LUNG/TCGA-55-7995/pathology/pathology_report.txt",
+      "sha256": "ddf0a58483d069579ac566bd835b787c0bc73249472b62fb420cc490c7c8d7d0",
+      "size": 135
+    },
+    {
+      "path": "data/LUNG/TCGA-55-7995/pathology/pathology_report_metadata.json",
+      "sha256": "6a1a018e8681e1b8d6f5a9f0eedd4c57e0777c0089b3638a8dfbdc499a355387",
+      "size": 115
+    },
+    {
+      "path": "data/LUNG/TCGA-55-7995/pathology/slide_metadata.json",
+      "sha256": "bf81be092c77a59a3190b95c359b1d4897761633f3898dcb94b94ce3746b373a",
+      "size": 472
+    },
+    {
+      "path": "data/LUNG/TCGA-55-7995/pathology/wsi_manifest.json",
+      "sha256": "e0eb3375086220389b66aec7659f5f34d49376dec52f6ef8a14fe2f81f83842a",
+      "size": 435
+    },
+    {
+      "path": "data/LUNG/TCGA-55-7995/pathology/wsi_roi_manifest.json",
+      "sha256": "da3e5236792b276991b4016d0842402c8810d0610b17322023f658d67dcd242d",
+      "size": 334
+    },
+    {
+      "path": "data/LUNG/TCGA-55-7995/radiology/ct_manifest.json",
+      "sha256": "3554704c417a8914daf75796c031b5bb38b19c482865aac55aa4e6c9e6f241c4",
+      "size": 256
+    },
+    {
+      "path": "data/LUNG/TCGA-55-7995/radiology/ct_roi_manifest.json",
+      "sha256": "a31b51628d4a5706fb0ad469315534f67a086b2d512f9dcfb4e92d6c9792410f",
+      "size": 158
+    },
+    {
+      "path": "data/LUNG/TCGA-55-7995/release_policy.json",
+      "sha256": "8b9c2c60c6167d95598a2c3d6e1db9aa63e2c741f800f9d363594d5300d2f81e",
+      "size": 862
+    },
+    {
+      "path": "data/LUNG/TCGA-55-7995/report_extraction.json",
+      "sha256": "53d1d60caec3199eba3b5e6d7a238db059d864daf42063629add1603097e9a40",
+      "size": 12706
+    },
+    {
+      "path": "data/LUNG/TCGA-55-7995/reports/integrated_reports/TCGA-55-7995_T0_full_report_en.md",
+      "sha256": "822f62717699715d4949571c14cdb8d14d44869b8c4e759b1f591bfc27cb45c2",
+      "size": 11330
+    },
+    {
+      "path": "data/LUNG/TCGA-55-7995/reports/integrated_reports/TCGA-55-7995_T0_full_report_zh.md",
+      "sha256": "73e6ffbcce53921d336012255d902da95ea6a6885ba82ea271ff78cb4a1e6864",
+      "size": 12853
+    },
+    {
+      "path": "data/LUNG/TCGA-55-7995/reports/pathology_reports/TCGA-55-7995_T0_pathology_report.txt",
+      "sha256": "63a06462365e43232caab00678b4c255eb019aa9e0ca49f13aef5f9e3ad2499d",
+      "size": 8616
+    },
+    {
+      "path": "data/LUNG/TCGA-55-8085/clinical/clinical.json",
+      "sha256": "0dcca90b187fbf25f0a6958844d36b743dbf2ab05af09e2cbb7b8d734bdbb5c3",
+      "size": 5699
+    },
+    {
+      "path": "data/LUNG/TCGA-55-8085/clinical/follow_up.json",
+      "sha256": "c655115ace9806b9aca04042879f1e796cf1402f72162191dda289762f8031d8",
+      "size": 4741
+    },
+    {
+      "path": "data/LUNG/TCGA-55-8085/clinical/treatment.json",
+      "sha256": "794d22c69938f1480d3b5207a3a139aad2bb048d532a3f6243469aa1d815bf0b",
+      "size": 4775
+    },
+    {
+      "path": "data/LUNG/TCGA-55-8085/evaluation/TCGA-55-8085_rubric.json",
+      "sha256": "34331ff5be09c58ff4cf7fef8f87479c2058bb16c252c57d230f6060fa3bb7c1",
+      "size": 3004
+    },
+    {
+      "path": "data/LUNG/TCGA-55-8085/evaluation/TCGA-55-8085_trajectory.json",
+      "sha256": "a18f61d7024716c6c4501f7a8fadafcd6201c312b1f7bdceb83878cb52607084",
+      "size": 47474
+    },
+    {
+      "path": "data/LUNG/TCGA-55-8085/guideline/relevant_nodes.json",
+      "sha256": "65f9864cef56dcf55144379e98ed2f458398006d91c5869719e676fa13344f5d",
+      "size": 1668
+    },
+    {
+      "path": "data/LUNG/TCGA-55-8085/hidden_state.json",
+      "sha256": "621f45cd7454a104e38cff01c1ff656a4c97250eaa71289c471812b53c58c6e0",
+      "size": 983
+    },
+    {
+      "path": "data/LUNG/TCGA-55-8085/molecular/biomarkers.json",
+      "sha256": "cc9524b29e6fd058d8d6fcf03a7396581853ece3435c0305ffb2c95547d2181a",
+      "size": 10736
+    },
+    {
+      "path": "data/LUNG/TCGA-55-8085/pathology/pathology_report.txt",
+      "sha256": "ddf0a58483d069579ac566bd835b787c0bc73249472b62fb420cc490c7c8d7d0",
+      "size": 135
+    },
+    {
+      "path": "data/LUNG/TCGA-55-8085/pathology/pathology_report_metadata.json",
+      "sha256": "7ca3cdfda9ca24a54f99053e7370f2a948944051873d8a45bf2fd38cc7d6abb3",
+      "size": 115
+    },
+    {
+      "path": "data/LUNG/TCGA-55-8085/pathology/slide_metadata.json",
+      "sha256": "48f40a0965193b4bd8583335506c5e936518878a0585afd3897965ba476f2672",
+      "size": 472
+    },
+    {
+      "path": "data/LUNG/TCGA-55-8085/pathology/wsi_manifest.json",
+      "sha256": "46fe4e35132d02116abc11249f45b2be28ed2d4ae292c7e8c0b6455764756c45",
+      "size": 435
+    },
+    {
+      "path": "data/LUNG/TCGA-55-8085/pathology/wsi_roi_manifest.json",
+      "sha256": "f88683316d484df5e0b8b7c5fb3529f662799ed6a9bedace7a3b4ba5408b6b36",
+      "size": 334
+    },
+    {
+      "path": "data/LUNG/TCGA-55-8085/radiology/ct_manifest.json",
+      "sha256": "dfb9e68dace792f897a6c661f7afd933014a1abca2eb817ba94d49cd2c152b76",
+      "size": 256
+    },
+    {
+      "path": "data/LUNG/TCGA-55-8085/radiology/ct_roi_manifest.json",
+      "sha256": "d959015472c502bed4297ec6ba6e0d118570f7b83e9dd13e5ad65f5e3b299407",
+      "size": 158
+    },
+    {
+      "path": "data/LUNG/TCGA-55-8085/release_policy.json",
+      "sha256": "8b9c2c60c6167d95598a2c3d6e1db9aa63e2c741f800f9d363594d5300d2f81e",
+      "size": 862
+    },
+    {
+      "path": "data/LUNG/TCGA-55-8085/report_extraction.json",
+      "sha256": "fedbc02592f1bc3806f5f284bbaea7e827b720995a57d1ac70ec6667badeb8af",
+      "size": 12134
+    },
+    {
+      "path": "data/LUNG/TCGA-55-8085/reports/integrated_reports/TCGA-55-8085_T0_full_report_en.md",
+      "sha256": "882c9980167812873ed44ed461e6f10d19e32829022e66132ebcd410a8022140",
+      "size": 12526
+    },
+    {
+      "path": "data/LUNG/TCGA-55-8085/reports/integrated_reports/TCGA-55-8085_T0_full_report_zh.md",
+      "sha256": "c3c73b659d9ec2dd2300e4c8a8cc5f5fb8a28b73bb1913986a64ec1bafcd2190",
+      "size": 13180
+    },
+    {
+      "path": "data/LUNG/TCGA-55-8085/reports/pathology_reports/TCGA-55-8085_T0_pathology_report.txt",
+      "sha256": "0f5baa0032b3e7897e84b2f41c78c3a45437d563d34b86889992ab4795ee4f01",
+      "size": 6414
+    },
+    {
+      "path": "data/LUNG/TCGA-55-8089/clinical/clinical.json",
+      "sha256": "33d181467fd76dddfc1545bbd18ba5716cc7160447d860d1e0c49915d5518d71",
+      "size": 5812
+    },
+    {
+      "path": "data/LUNG/TCGA-55-8089/clinical/follow_up.json",
+      "sha256": "148c9ddedee4deeecaefabec60a862b0a1c711c7279c246a54eaac7f27f3c719",
+      "size": 4833
+    },
+    {
+      "path": "data/LUNG/TCGA-55-8089/clinical/treatment.json",
+      "sha256": "0cf65b522c250b8affb154b54f4359670801d74a02de7e2bb7755dd3648aa7b1",
+      "size": 4652
+    },
+    {
+      "path": "data/LUNG/TCGA-55-8089/evaluation/TCGA-55-8089_rubric.json",
+      "sha256": "aeed2f6e36ff61231b9a964fec79d246be6f52500ff3e2eca42feda231a8ee15",
+      "size": 4000
+    },
+    {
+      "path": "data/LUNG/TCGA-55-8089/evaluation/TCGA-55-8089_trajectory.json",
+      "sha256": "7ba9da6a97096f373b2d48e4970754038f96ed76becdb68ec13a37d69dae84ec",
+      "size": 48184
+    },
+    {
+      "path": "data/LUNG/TCGA-55-8089/guideline/relevant_nodes.json",
+      "sha256": "c74958da8dbff93525dd168ac16728168588e1749ab1806b85c3550614e6884a",
+      "size": 1668
+    },
+    {
+      "path": "data/LUNG/TCGA-55-8089/hidden_state.json",
+      "sha256": "58ae71301c7c6fb6460c0d87afa46ffd077f728699c5aaa6ac95b238e9f1311e",
+      "size": 1006
+    },
+    {
+      "path": "data/LUNG/TCGA-55-8089/molecular/biomarkers.json",
+      "sha256": "f8cb772ce2bba96b15733291db0161663710bd479cc6bfdca524679746caf5e3",
+      "size": 12763
+    },
+    {
+      "path": "data/LUNG/TCGA-55-8089/pathology/pathology_report.txt",
+      "sha256": "ddf0a58483d069579ac566bd835b787c0bc73249472b62fb420cc490c7c8d7d0",
+      "size": 135
+    },
+    {
+      "path": "data/LUNG/TCGA-55-8089/pathology/pathology_report_metadata.json",
+      "sha256": "55f7a125d65ce80140ba3c9bfd490cc5b399d2cb82673aef151caab0ed20b727",
+      "size": 115
+    },
+    {
+      "path": "data/LUNG/TCGA-55-8089/pathology/slide_metadata.json",
+      "sha256": "375e36b8c638c2f680465607921cbec1c3016fcb8ab443e97fef28c61dd429e5",
+      "size": 472
+    },
+    {
+      "path": "data/LUNG/TCGA-55-8089/pathology/wsi_manifest.json",
+      "sha256": "a3710ac758aaeec6398c20e27291bfe70afe406e3a6e8f7f56a6d7d653a85891",
+      "size": 435
+    },
+    {
+      "path": "data/LUNG/TCGA-55-8089/pathology/wsi_roi_manifest.json",
+      "sha256": "0690412f01f28d38a83eb6689d7bf35f363ceadea38526d47a6e520421fb64a4",
+      "size": 334
+    },
+    {
+      "path": "data/LUNG/TCGA-55-8089/radiology/ct_manifest.json",
+      "sha256": "5f85b2ce391fd53b99bbb2b28105065946c42e49525d3f5b316b3e62890e7000",
+      "size": 256
+    },
+    {
+      "path": "data/LUNG/TCGA-55-8089/radiology/ct_roi_manifest.json",
+      "sha256": "80c1f38647e9927f6cd079fa796b0b5e3c8e5faecf299010839e91af7f52d338",
+      "size": 158
+    },
+    {
+      "path": "data/LUNG/TCGA-55-8089/release_policy.json",
+      "sha256": "8b9c2c60c6167d95598a2c3d6e1db9aa63e2c741f800f9d363594d5300d2f81e",
+      "size": 862
+    },
+    {
+      "path": "data/LUNG/TCGA-55-8089/report_extraction.json",
+      "sha256": "9f51d915aec69a3d2604c8121806125e5bde38c0d60fbbd298bd4c012d36e72c",
+      "size": 12608
+    },
+    {
+      "path": "data/LUNG/TCGA-55-8089/reports/integrated_reports/TCGA-55-8089_T0_full_report_en.md",
+      "sha256": "6b47243a10919c0bb05489b2d6847590c28abe1bcf2b0c90b674fc2280df81c6",
+      "size": 13193
+    },
+    {
+      "path": "data/LUNG/TCGA-55-8089/reports/integrated_reports/TCGA-55-8089_T0_full_report_zh.md",
+      "sha256": "c362ab0a95afecbf8c53270023041ab230d8d2fdc7fe9ab8f0ffa53b132a046e",
+      "size": 11334
+    },
+    {
+      "path": "data/LUNG/TCGA-55-8089/reports/pathology_reports/TCGA-55-8089_T0_pathology_report.txt",
+      "sha256": "10aed2807a1dfa2dcbfd8c397ac0ae6ae06a473506bb28ecc6c07ccc47095a72",
+      "size": 5513
+    },
+    {
+      "path": "data/LUNG/TCGA-75-7025/clinical/clinical.json",
+      "sha256": "006a39858964fe45e3319a30f73d4903cc307cfa824ae44f8c86df0d3decafe2",
+      "size": 5692
+    },
+    {
+      "path": "data/LUNG/TCGA-75-7025/clinical/follow_up.json",
+      "sha256": "11a66e61ed54bad4805e8d6faf81e3206b9ec200cfb9305d086134f1a4797101",
+      "size": 4798
+    },
+    {
+      "path": "data/LUNG/TCGA-75-7025/clinical/treatment.json",
+      "sha256": "ace1b66d2b90b8ba5527af1fd84f0e47c1d57b8c06a3b1432df89b9fa907742b",
+      "size": 4802
+    },
+    {
+      "path": "data/LUNG/TCGA-75-7025/evaluation/TCGA-75-7025_rubric.json",
+      "sha256": "93760470866910fd58c9a1c68409730cc6acdbabb36b31e3c082b149f4f01b12",
+      "size": 4626
+    },
+    {
+      "path": "data/LUNG/TCGA-75-7025/evaluation/TCGA-75-7025_trajectory.json",
+      "sha256": "f32704287ddea41564125136d15ebd2b4ac7644a7588cfa103e50ea69c8421c6",
+      "size": 46339
+    },
+    {
+      "path": "data/LUNG/TCGA-75-7025/guideline/relevant_nodes.json",
+      "sha256": "fdf72aebc950395c089d591d5bd57858f3705f511ef1c1d4ab6e95e85e755d9e",
+      "size": 1668
+    },
+    {
+      "path": "data/LUNG/TCGA-75-7025/hidden_state.json",
+      "sha256": "4540038ad06f9a82137653a627976a723a5ed1080aba7774fcec1c10c6107c1e",
+      "size": 985
+    },
+    {
+      "path": "data/LUNG/TCGA-75-7025/molecular/biomarkers.json",
+      "sha256": "4fceb8810c5c1d4f5d4005b0a938ef9f0fbfe409c15298ce78d503a78c3dbd1b",
+      "size": 11071
+    },
+    {
+      "path": "data/LUNG/TCGA-75-7025/pathology/pathology_report.txt",
+      "sha256": "ddf0a58483d069579ac566bd835b787c0bc73249472b62fb420cc490c7c8d7d0",
+      "size": 135
+    },
+    {
+      "path": "data/LUNG/TCGA-75-7025/pathology/pathology_report_metadata.json",
+      "sha256": "32bb9abc502f8d6e527263dd692e1bd01e7a9442d96171db3ce2e0a839e4bbbe",
+      "size": 115
+    },
+    {
+      "path": "data/LUNG/TCGA-75-7025/pathology/slide_metadata.json",
+      "sha256": "63e8663931c94a861bdb5baf0d38c14e44d375cfcaf161181590007cfac26a0a",
+      "size": 472
+    },
+    {
+      "path": "data/LUNG/TCGA-75-7025/pathology/wsi_manifest.json",
+      "sha256": "98d07e9cd00453f9519393f88f313a7f72b1f1eeaada3c2d22c3d3b675c32195",
+      "size": 435
+    },
+    {
+      "path": "data/LUNG/TCGA-75-7025/pathology/wsi_roi_manifest.json",
+      "sha256": "209092403711c7ac72e9ce7b7824703a727322ca6a744aa932855edf7dfeac49",
+      "size": 334
+    },
+    {
+      "path": "data/LUNG/TCGA-75-7025/radiology/ct_manifest.json",
+      "sha256": "932ad745b0d219b72125c8c03577ecf8dd10c3c56a80b0a33e8ffa71d11ae8df",
+      "size": 256
+    },
+    {
+      "path": "data/LUNG/TCGA-75-7025/radiology/ct_roi_manifest.json",
+      "sha256": "2e11dde0c860cc7bdb36dcc7ff89f05e90a46cbc948c53d890174851a4687b9f",
+      "size": 158
+    },
+    {
+      "path": "data/LUNG/TCGA-75-7025/release_policy.json",
+      "sha256": "8b9c2c60c6167d95598a2c3d6e1db9aa63e2c741f800f9d363594d5300d2f81e",
+      "size": 862
+    },
+    {
+      "path": "data/LUNG/TCGA-75-7025/report_extraction.json",
+      "sha256": "728f0ef240e6401d57502efb8b4c24ac164823adb5e068d3f5a1431f1f438a87",
+      "size": 12291
+    },
+    {
+      "path": "data/LUNG/TCGA-75-7025/reports/integrated_reports/TCGA-75-7025_T0_full_report_en.md",
+      "sha256": "0de53bfec0e5cf3662ad804cc508ea5cf818098f9abaccc2de9116f259403d6f",
+      "size": 9624
+    },
+    {
+      "path": "data/LUNG/TCGA-75-7025/reports/integrated_reports/TCGA-75-7025_T0_full_report_zh.md",
+      "sha256": "2b91c115b5c301a25a4048b8932724e9a438459396289cea6fdd0faf8865d94e",
+      "size": 8637
+    },
+    {
+      "path": "data/LUNG/TCGA-75-7025/reports/pathology_reports/TCGA-75-7025_T0_pathology_report.txt",
+      "sha256": "906e7622bd5d107e3a352f7cf6ae80b9a1e7088c9d8f535a6e1d9126b2176352",
+      "size": 573
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7159/clinical/clinical.json",
+      "sha256": "c806673c72204902b6b4c1a5d12106a6cc31747851991c912b27fc35a4262bea",
+      "size": 5268
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7159/clinical/follow_up.json",
+      "sha256": "9e5321382f6f4e609ee72c51796aa55f57c4815a16d676ebf7ad3b3b2d3bf0de",
+      "size": 4284
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7159/clinical/treatment.json",
+      "sha256": "51183b05bc73c25f5112b583f246361621668683a8008572aef4bbacbab96ebb",
+      "size": 4310
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7159/evaluation/TCGA-78-7159_rubric.json",
+      "sha256": "49f3d52353487c54e49ca2a3f67ba83ee53baacc2b02418a5ec4a77506c33751",
+      "size": 6113
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7159/evaluation/TCGA-78-7159_trajectory.json",
+      "sha256": "25e2f4ebdf8410c2b953ec4a34f8e23b96dbdf274f63f949ca8f2a6f3c276599",
+      "size": 47568
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7159/guideline/relevant_nodes.json",
+      "sha256": "cb84e3db8678bb36df64990e741606f77d56df0ffa7bcb6f570aebb05a03d124",
+      "size": 1668
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7159/hidden_state.json",
+      "sha256": "ffd5a1572c989c811c44879ffbc59a0367973e96346d7cea913f2c74c55e6042",
+      "size": 981
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7159/molecular/biomarkers.json",
+      "sha256": "925aa482a9031ab3c55defe71c01527da78aab3c4265200d75c98e25911fd848",
+      "size": 11027
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7159/pathology/pathology_report.txt",
+      "sha256": "ddf0a58483d069579ac566bd835b787c0bc73249472b62fb420cc490c7c8d7d0",
+      "size": 135
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7159/pathology/pathology_report_metadata.json",
+      "sha256": "95a33e868d2f28f20f43c3276b08684b56f0a77aa058f8bbe6377b162c48bdf6",
+      "size": 115
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7159/pathology/slide_metadata.json",
+      "sha256": "f90cf766ce6545e889a6381f39d466948cca34d098ad04559d2525d8ad92405d",
+      "size": 472
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7159/pathology/wsi_manifest.json",
+      "sha256": "a437ec3ae46769da299c3d5fe902f632c0cf6357ea908c336f1e705bac7e3713",
+      "size": 435
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7159/pathology/wsi_roi_manifest.json",
+      "sha256": "0ed703798281da2f95ec0e9ee2a384763acd7dc7d26860d4646dd549a1e27aff",
+      "size": 334
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7159/radiology/ct_manifest.json",
+      "sha256": "7662ca1c7c0061e5f497eefcf748671f36609ca4bc3778cd81a4ded7c6fbaa33",
+      "size": 256
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7159/radiology/ct_roi_manifest.json",
+      "sha256": "383949e5241b21a332147db13d655689e346d39b27c1537fd9cd4cea74935a4d",
+      "size": 158
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7159/release_policy.json",
+      "sha256": "8b9c2c60c6167d95598a2c3d6e1db9aa63e2c741f800f9d363594d5300d2f81e",
+      "size": 862
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7159/report_extraction.json",
+      "sha256": "a39d55dfd137b9094c6ce597e720b95d82ec9eb32e0b926b455257af3ef45028",
+      "size": 12114
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7159/reports/integrated_reports/TCGA-78-7159_T0_full_report_en.md",
+      "sha256": "fc0563d915f431af9c6990baed20a9143b81ea28240417f4ffd66fefa636d5e2",
+      "size": 10653
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7159/reports/integrated_reports/TCGA-78-7159_T0_full_report_zh.md",
+      "sha256": "586f569d84f79fbe70192eb6448b0b46a57c361b320cd472fec4bf1b7e4bde9e",
+      "size": 12064
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7159/reports/pathology_reports/TCGA-78-7159_T0_pathology_report.txt",
+      "sha256": "8c0a636b9e45eda5444bb5e2750009ed73766f0c96a8dbd24693146df8bc0df9",
+      "size": 2245
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7161/clinical/clinical.json",
+      "sha256": "c712f498c04b2e8d78bcec8d4f70363abbe1f77e63243d72d5ca3e864e6ebbf9",
+      "size": 5262
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7161/clinical/follow_up.json",
+      "sha256": "2fefb3ce8b6331b4bed443521252648844e31e53fbbaef6f4a567da1786b06d8",
+      "size": 4284
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7161/clinical/treatment.json",
+      "sha256": "d993c54e1d370cde6af86b26edd1287aaffad98fba556d7ba4de14588582a174",
+      "size": 4103
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7161/evaluation/TCGA-78-7161_rubric.json",
+      "sha256": "da84ac068297063791f1b0a0f74f0ba7a6602694d50b99fa9f5c1a5c4b15be2d",
+      "size": 4782
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7161/evaluation/TCGA-78-7161_trajectory.json",
+      "sha256": "41f6be05ffb4c64dbad98e5c87b3a203c208eefded964f09354157e1062d3442",
+      "size": 47047
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7161/guideline/relevant_nodes.json",
+      "sha256": "58726d3f0dd4d7ca11f44cedc3d96230f1e3d1daf621febe081656e9679c3df4",
+      "size": 1668
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7161/hidden_state.json",
+      "sha256": "7762a5aaa278dd6b428a198fc7869b01d9152adacb6a2f7d47292e8c850554c6",
+      "size": 981
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7161/molecular/biomarkers.json",
+      "sha256": "1b72ed6aeb2e736fe2de8471ada28f2bb96155fb2629d6edae3cef00fd9110e2",
+      "size": 12567
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7161/pathology/pathology_report.txt",
+      "sha256": "ddf0a58483d069579ac566bd835b787c0bc73249472b62fb420cc490c7c8d7d0",
+      "size": 135
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7161/pathology/pathology_report_metadata.json",
+      "sha256": "84b3636100380336def424caac0c7fd75519768cd3ad9b07798cf36cf5328d80",
+      "size": 115
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7161/pathology/slide_metadata.json",
+      "sha256": "9e1e543a398cdf66c8eed9f5657cf75256efad8aa7d901a458a40a29b0b88b38",
+      "size": 472
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7161/pathology/wsi_manifest.json",
+      "sha256": "f5c86de86a637bbf00f5b85c011a7f693929a71b049d03427ff8a269ef19a8ce",
+      "size": 435
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7161/pathology/wsi_roi_manifest.json",
+      "sha256": "2d2ce63bdf3b6ea81dc40e69d88cdf57383033f1fe0c1a269ae199ee111e5e50",
+      "size": 334
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7161/radiology/ct_manifest.json",
+      "sha256": "204a2a32f5e26b58624ae29920a61d2700142eeceaacf49a6841041fc63e8a7b",
+      "size": 256
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7161/radiology/ct_roi_manifest.json",
+      "sha256": "b22239bd0aaa3d96a4da821ae1123da67a86c250d74b32287449d1ce42dc13e5",
+      "size": 158
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7161/release_policy.json",
+      "sha256": "8b9c2c60c6167d95598a2c3d6e1db9aa63e2c741f800f9d363594d5300d2f81e",
+      "size": 862
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7161/report_extraction.json",
+      "sha256": "49a0ff5099382fd3d98160e979e37cf6d59129de5ffc5184f081e127819afc1b",
+      "size": 12312
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7161/reports/integrated_reports/TCGA-78-7161_T0_full_report_en.md",
+      "sha256": "62f128d9979edd8f8cc76d2a401fc81c470aa66fab740c44a9967363bb13f89b",
+      "size": 16964
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7161/reports/integrated_reports/TCGA-78-7161_T0_full_report_zh.md",
+      "sha256": "8c8430fffd5684ce52debdc3dca6bccf73a92700597a1b90ab0650e489a0c6f2",
+      "size": 17895
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7161/reports/pathology_reports/TCGA-78-7161_T0_pathology_report.txt",
+      "sha256": "261059e60ef7d2ac8a20223f9cd27383cc18a6877d7cd28580449c20984e67a8",
+      "size": 3424
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7163/clinical/clinical.json",
+      "sha256": "b5e6503a985aceda02100e6d770ac2abffe3ff2c4cd1f8fb9e2ece9edc9a75e1",
+      "size": 5603
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7163/clinical/follow_up.json",
+      "sha256": "8d45f26df579061a7565b899e94c99c5ea7f2135f55dff62804fcc183da99144",
+      "size": 4473
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7163/clinical/treatment.json",
+      "sha256": "834fde1281daafe48d545bacf183d63a5670b8c1f5810863693ecdcef9afdfc7",
+      "size": 4480
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7163/evaluation/TCGA-78-7163_rubric.json",
+      "sha256": "76c38db8d3283a518e266d10178a318f4b8029c3497d4819be6f12d479352fa8",
+      "size": 4235
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7163/evaluation/TCGA-78-7163_trajectory.json",
+      "sha256": "5f9142343772b228a5d35ed05a6138fb42add1c35e7308d235e766302dbe5abb",
+      "size": 47204
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7163/guideline/relevant_nodes.json",
+      "sha256": "acb57e1daf162c2d579724d5c56329a779ed663c7d7c61b7be04fe908aa0443d",
+      "size": 1668
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7163/hidden_state.json",
+      "sha256": "db28c39d853c1c5e7f9f58f39b8bc8d59a74c5acd644e1cd610e8340ae8aa562",
+      "size": 964
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7163/molecular/biomarkers.json",
+      "sha256": "bf0a6c3c7136b078cb05f6aeb83b161d97e104fb9951cef78e6c6bf2c5c15c00",
+      "size": 11643
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7163/pathology/pathology_report.txt",
+      "sha256": "ddf0a58483d069579ac566bd835b787c0bc73249472b62fb420cc490c7c8d7d0",
+      "size": 135
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7163/pathology/pathology_report_metadata.json",
+      "sha256": "59aa444d8f59fe457e8df2e95fc58712f68026c5130226a43da324403a20dd38",
+      "size": 115
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7163/pathology/slide_metadata.json",
+      "sha256": "c39aabaf30a2793e2c5f477727ce252cd63c97b703c8a3cae5d5d40da3dca735",
+      "size": 472
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7163/pathology/wsi_manifest.json",
+      "sha256": "b47ea05fe6c45b311dfaa023b360643e12311a3c6efbf4c125d607f3703093c8",
+      "size": 435
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7163/pathology/wsi_roi_manifest.json",
+      "sha256": "41840fb7c108c14b307d00d6560b51bcae0525a4736ee3fd302bec8818eeb17d",
+      "size": 334
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7163/radiology/ct_manifest.json",
+      "sha256": "fcd542abd2780200e6ea136937884c111dc0ab828dd615df20976fa53cc64202",
+      "size": 256
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7163/radiology/ct_roi_manifest.json",
+      "sha256": "80074d4af39efd050df7ef0c9e370f0027b39bd03e9ef8c0c335658692740710",
+      "size": 158
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7163/release_policy.json",
+      "sha256": "8b9c2c60c6167d95598a2c3d6e1db9aa63e2c741f800f9d363594d5300d2f81e",
+      "size": 862
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7163/report_extraction.json",
+      "sha256": "e73f1f1f7f4c44bf55ef5cde54b2c6ab901387555962f2fc7e7ec625f7c85ea1",
+      "size": 12253
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7163/reports/integrated_reports/TCGA-78-7163_T0_full_report_en.md",
+      "sha256": "6393f42aa5f8112c0e5aaf24d32f1b35cd7c472b418af1d4bd69ec7728a1590d",
+      "size": 8980
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7163/reports/integrated_reports/TCGA-78-7163_T0_full_report_zh.md",
+      "sha256": "c324baf8671d60746bcd3a941509a84563cfb2b9e5c5aba86713b6a771d1a1fe",
+      "size": 10269
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7163/reports/pathology_reports/TCGA-78-7163_T0_pathology_report.txt",
+      "sha256": "8e9ba1b076e4f736729db06d9ee68f1ed1c4f0089436bd230f9aae32da8dc949",
+      "size": 679
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7540/clinical/clinical.json",
+      "sha256": "3a6d42b4bce412b64176f009273dc460cab6a1b39194e95aca951362ca42e161",
+      "size": 5934
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7540/clinical/follow_up.json",
+      "sha256": "fb89aa39c83e24dcb805d096a6d80e6270d4f0d571b159158831363e2c6238f4",
+      "size": 4691
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7540/clinical/treatment.json",
+      "sha256": "ff3917ffc51bff3d150ec430bd68f62b8c1295e1f8ec4c96014dcd980787fba7",
+      "size": 4518
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7540/evaluation/TCGA-78-7540_rubric.json",
+      "sha256": "b19ddee6499e47ab04716b0704afed53945647f20bc2d019a0c9e9d25ee726fa",
+      "size": 5130
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7540/evaluation/TCGA-78-7540_trajectory.json",
+      "sha256": "956981f497c4cb30024f3e9a6571197ef1aa3ace7a6525f1485c55edae720fcf",
+      "size": 47397
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7540/guideline/relevant_nodes.json",
+      "sha256": "ce9e81d8625919bf035ff88565324216aab34b41320aa1798326a45f57e797bb",
+      "size": 1668
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7540/hidden_state.json",
+      "sha256": "194f0eebcf3590bb5d8b8b9e19ea7265673aba6b84e12a052fa8e10a9eda3faf",
+      "size": 985
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7540/molecular/biomarkers.json",
+      "sha256": "01b3db47e144acc1088cda92641147437795a9dfe45345fd9d301ebdd58792d3",
+      "size": 11658
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7540/pathology/pathology_report.txt",
+      "sha256": "ddf0a58483d069579ac566bd835b787c0bc73249472b62fb420cc490c7c8d7d0",
+      "size": 135
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7540/pathology/pathology_report_metadata.json",
+      "sha256": "9922b324156fd44954984a46b2a00a20eac91d77c4ef1a29c5c9bdee7107b970",
+      "size": 115
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7540/pathology/slide_metadata.json",
+      "sha256": "de9494d6209b3495015d62325211d7283da7f0ebca6ec8a1b6d67d6f1e8ce90a",
+      "size": 472
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7540/pathology/wsi_manifest.json",
+      "sha256": "a1013b82628137f57df4fe82d17afda640d909ad268f0077e18e17f196350598",
+      "size": 435
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7540/pathology/wsi_roi_manifest.json",
+      "sha256": "eb0011c267052463e3689c5ea2fd5870a53a766acb1499d1177f5d834e45a1dc",
+      "size": 334
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7540/radiology/ct_manifest.json",
+      "sha256": "38cbeadc04391db86f0d2413b0afffd7eef0baf90818dbf6842733f431788e10",
+      "size": 256
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7540/radiology/ct_roi_manifest.json",
+      "sha256": "027e0717102b1af6a61ed324edbefadf015095a6c38a7fa2f672d2870a98cf0d",
+      "size": 158
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7540/release_policy.json",
+      "sha256": "8b9c2c60c6167d95598a2c3d6e1db9aa63e2c741f800f9d363594d5300d2f81e",
+      "size": 862
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7540/report_extraction.json",
+      "sha256": "7fbe7ccc7546e2c340537f9612a78a69822ff7d2aa51c761156add33019e5093",
+      "size": 12096
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7540/reports/integrated_reports/TCGA-78-7540_T0_full_report_en.md",
+      "sha256": "f8dc399ec34537bf918a78a4c6fa59e094370473d6757298bd73396993c26307",
+      "size": 12590
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7540/reports/integrated_reports/TCGA-78-7540_T0_full_report_zh.md",
+      "sha256": "a3967560979fe60ffccbe503bb8fce6ef87ba1627af6ad7cc0720d17b30959ba",
+      "size": 10583
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7540/reports/pathology_reports/TCGA-78-7540_T0_pathology_report.txt",
+      "sha256": "372c903f450cc54580e50a399113b6f4227489c8d2e70e396c2ffdb2a2ac1baf",
+      "size": 3259
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7542/clinical/clinical.json",
+      "sha256": "9a86e2d99e283bd879e2fa11ca88b2b18595d072df2f980bedd2f43d93129025",
+      "size": 5230
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7542/clinical/follow_up.json",
+      "sha256": "1474a0615a53364c3dbcb6026ceb42dd77cbeb22c0f721913b9a65c21dac747a",
+      "size": 4362
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7542/clinical/treatment.json",
+      "sha256": "0e4c038925dd6df6f4dfa89bf3724ebfbf951faf2d72f45027100aea57d221c4",
+      "size": 4412
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7542/evaluation/TCGA-78-7542_rubric.json",
+      "sha256": "edb93ed4d100f055bae9df38464b5f906de57c17b385fa505d3c61e62f9cdafd",
+      "size": 5880
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7542/evaluation/TCGA-78-7542_trajectory.json",
+      "sha256": "7755e1675bd4ae54ad284a0664cbff80c5c0952ae7a41174ee9c0eb2c0d202d2",
+      "size": 47179
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7542/guideline/relevant_nodes.json",
+      "sha256": "2c96ec2693dba2a8697bc5096cb4c2633a33e1de60f4f33fd923797fbabf954a",
+      "size": 1668
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7542/hidden_state.json",
+      "sha256": "75e4a342d56750b05df078e906848ef10f26af1e86419e9540f0c9d63c9bb03f",
+      "size": 964
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7542/molecular/biomarkers.json",
+      "sha256": "dabfddb238f43d9da60f3ce38f9e71fc04fa7053b8e3930401c5664f76724af1",
+      "size": 10229
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7542/pathology/pathology_report.txt",
+      "sha256": "ddf0a58483d069579ac566bd835b787c0bc73249472b62fb420cc490c7c8d7d0",
+      "size": 135
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7542/pathology/pathology_report_metadata.json",
+      "sha256": "b367ebc13279a4e52ccbc1bcb5d2f532fa29f812ee2d6023c7d45de614dbd1eb",
+      "size": 115
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7542/pathology/slide_metadata.json",
+      "sha256": "8250841727380170e49c25108cbabe20c0dfaaea1db06a74f4cd6f8d078bc51e",
+      "size": 472
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7542/pathology/wsi_manifest.json",
+      "sha256": "90e30b6e383a1d17fc620b46e3eb6c1e80eba2e33d9355e3f9f87d83e41e4a43",
+      "size": 435
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7542/pathology/wsi_roi_manifest.json",
+      "sha256": "1950aeff8176958699d6fd497f51fddd316f00f419fafe4b697257b8fd6a8e71",
+      "size": 334
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7542/radiology/ct_manifest.json",
+      "sha256": "f9c951bee40dd2a1dc85cfd09be9928c03b9e135550d7ed06b2b931db35a0655",
+      "size": 256
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7542/radiology/ct_roi_manifest.json",
+      "sha256": "23ee5cbaa14a7256716be68640ab79c603099da2b6608bfe3cdbc6c49fead2f1",
+      "size": 158
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7542/release_policy.json",
+      "sha256": "8b9c2c60c6167d95598a2c3d6e1db9aa63e2c741f800f9d363594d5300d2f81e",
+      "size": 862
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7542/report_extraction.json",
+      "sha256": "94e8468fbaa1b5aa8a2158c67568559e70cc3b122092a6d800da93c81526a1e7",
+      "size": 11517
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7542/reports/integrated_reports/TCGA-78-7542_T0_full_report_en.md",
+      "sha256": "cc7ff3ee4fdef3baa2a766b840c489e9d82470dfc75fb0068fc89a784c344a1b",
+      "size": 13151
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7542/reports/integrated_reports/TCGA-78-7542_T0_full_report_zh.md",
+      "sha256": "d03038140daff98b37b855f0774bee3c4e3368263fc76dafa122fb7e4b20acce",
+      "size": 12836
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7542/reports/pathology_reports/TCGA-78-7542_T0_pathology_report.txt",
+      "sha256": "be1b2fef214cc02922341b3961cc857bc3e850025c5850e4f14781dac2ef06a9",
+      "size": 1156
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7633/clinical/clinical.json",
+      "sha256": "d4d5838843e070a2bc590e8502114c607fcc7aa56a0e9c064a6c3b2eddebab9e",
+      "size": 5375
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7633/clinical/follow_up.json",
+      "sha256": "98ccb7cea41b68994a67b46b935346a772b9f9453acedcd8de79c1438c32c513",
+      "size": 4537
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7633/clinical/treatment.json",
+      "sha256": "394b653a9df4cbbc8d8d022941fb8651f776b3c3c0c2460b01a0ae5b0976e432",
+      "size": 4418
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7633/evaluation/TCGA-78-7633_rubric.json",
+      "sha256": "ec83174560eb2375f0746181b3e647f2b13197595ed8d0cfb96e107624b69ef0",
+      "size": 4936
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7633/evaluation/TCGA-78-7633_trajectory.json",
+      "sha256": "78f80d5da7ec12be96d0ef2481241e320197913e892882f14b8a16efcf964601",
+      "size": 47422
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7633/guideline/relevant_nodes.json",
+      "sha256": "38e19ef39f80eaac4d46e15485569fc50449ee1b7f0705bb02164c49426b88f3",
+      "size": 1668
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7633/hidden_state.json",
+      "sha256": "c92f83eb43fd32f7422e7e315729a0bbdfd84d596ed75611a00742a540ba16a2",
+      "size": 973
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7633/molecular/biomarkers.json",
+      "sha256": "06f73efe8ea0b5d775a52c3baf763d4052ffc83f3fc4022cc08d5e109beb3335",
+      "size": 10476
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7633/pathology/pathology_report.txt",
+      "sha256": "ddf0a58483d069579ac566bd835b787c0bc73249472b62fb420cc490c7c8d7d0",
+      "size": 135
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7633/pathology/pathology_report_metadata.json",
+      "sha256": "044a235a1e8cdfcad77d14a06801a7226f4d28c3eb5dd32b8d3d5ae901981120",
+      "size": 115
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7633/pathology/slide_metadata.json",
+      "sha256": "ed50f587faf871e3c2c2a6f63349315e01b8c5517014c020d72b7f2fa1496e21",
+      "size": 472
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7633/pathology/wsi_manifest.json",
+      "sha256": "153fce6fc6e939a0323469a90b932a446ef1421ef8f9dc7470a6af43fd54ca51",
+      "size": 435
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7633/pathology/wsi_roi_manifest.json",
+      "sha256": "e29f1f37c43f23f8f2b85079c0390b6c1ac642b11d39bb507809f107f3574391",
+      "size": 334
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7633/radiology/ct_manifest.json",
+      "sha256": "ae79cb7748bca9dd2a3a3a64a258b8b5d9ee10f97b7631942003fbe773c02407",
+      "size": 256
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7633/radiology/ct_roi_manifest.json",
+      "sha256": "4ed556ebf630f8d62ab313902cbcce79494e59cd8ada16ad1b34c22b1eead5cd",
+      "size": 158
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7633/release_policy.json",
+      "sha256": "8b9c2c60c6167d95598a2c3d6e1db9aa63e2c741f800f9d363594d5300d2f81e",
+      "size": 862
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7633/report_extraction.json",
+      "sha256": "f53cc13548fac657c5458b8508f1c0e83ac7575b1fce7b14451f4b75e1a41c15",
+      "size": 11687
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7633/reports/integrated_reports/TCGA-78-7633_T0_full_report_en.md",
+      "sha256": "3704fcb4ceef05ee240020759b0a80b49370d0d3167d563e116d0fc95c1c77fa",
+      "size": 10658
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7633/reports/integrated_reports/TCGA-78-7633_T0_full_report_zh.md",
+      "sha256": "aa66c6a813f28f14f5e06a76b08a4d34a2c09fb7e474432c80299951f252c4ec",
+      "size": 11260
+    },
+    {
+      "path": "data/LUNG/TCGA-78-7633/reports/pathology_reports/TCGA-78-7633_T0_pathology_report.txt",
+      "sha256": "8a89a0e6ffb658e32ba9d730fe4f897892fde033248e37e360b08ed1f2c60ee0",
+      "size": 4170
+    },
+    {
+      "path": "data/LUNG/TCGA-78-8640/clinical/clinical.json",
+      "sha256": "5cc249efa5c8e8bdf6f7c2f4008482fe67e21db589d4c8ac043b3da7b2f0a3a6",
+      "size": 4934
+    },
+    {
+      "path": "data/LUNG/TCGA-78-8640/clinical/follow_up.json",
+      "sha256": "236fc947eaa1cf059b61661eca42aee9846b45cb64b94671d58f3f9f3bf49936",
+      "size": 4066
+    },
+    {
+      "path": "data/LUNG/TCGA-78-8640/clinical/treatment.json",
+      "sha256": "1da166bc83ce555c6d18ba66a462781388fbf28941987616247d17995b0e6ea7",
+      "size": 4141
+    },
+    {
+      "path": "data/LUNG/TCGA-78-8640/evaluation/TCGA-78-8640_rubric.json",
+      "sha256": "30eda6e5bd4f79b4bfbc04867eb9b40c3e8b2003d36154a8f7b6da56a7ff7d71",
+      "size": 5312
+    },
+    {
+      "path": "data/LUNG/TCGA-78-8640/evaluation/TCGA-78-8640_trajectory.json",
+      "sha256": "14df9eadaaa12920c79402fd31f388a525864ddef26830350ab315c1697ff091",
+      "size": 46674
+    },
+    {
+      "path": "data/LUNG/TCGA-78-8640/guideline/relevant_nodes.json",
+      "sha256": "3f84e560005beac9df17ee980ab07357a9f6981f012dbed3f80c82469b554bb9",
+      "size": 1668
+    },
+    {
+      "path": "data/LUNG/TCGA-78-8640/hidden_state.json",
+      "sha256": "ac527b609bcf41507428db3972420bfaf14bfa9891c0e199b4757bec309e2282",
+      "size": 972
+    },
+    {
+      "path": "data/LUNG/TCGA-78-8640/molecular/biomarkers.json",
+      "sha256": "32f80a20d2425fce246236eac9ce31f618de5f40c05f25bf3882269310cc2bfa",
+      "size": 11263
+    },
+    {
+      "path": "data/LUNG/TCGA-78-8640/pathology/pathology_report.txt",
+      "sha256": "ddf0a58483d069579ac566bd835b787c0bc73249472b62fb420cc490c7c8d7d0",
+      "size": 135
+    },
+    {
+      "path": "data/LUNG/TCGA-78-8640/pathology/pathology_report_metadata.json",
+      "sha256": "8c1512749ff66b4f3c18e9cdf2e9a0e318aec6eeb5ad5c56734dfc575af04abd",
+      "size": 115
+    },
+    {
+      "path": "data/LUNG/TCGA-78-8640/pathology/slide_metadata.json",
+      "sha256": "e09133b8e83bd1847e39a80322f2a74cfb8f678de2763226c2fdfe840f51d847",
+      "size": 472
+    },
+    {
+      "path": "data/LUNG/TCGA-78-8640/pathology/wsi_manifest.json",
+      "sha256": "f1847b275a49273e20917dc23f062680177509a7753930fcf8d1aaa049d5c98b",
+      "size": 435
+    },
+    {
+      "path": "data/LUNG/TCGA-78-8640/pathology/wsi_roi_manifest.json",
+      "sha256": "43ab607bd75361010e1f6475f08a836b5d90fade5cdf95f8517c48e5597a0ca3",
+      "size": 334
+    },
+    {
+      "path": "data/LUNG/TCGA-78-8640/radiology/ct_manifest.json",
+      "sha256": "f0df6dbf8c7976ec768b8d90d4914ce633ddbf46eafb53105d0420fb3fb36160",
+      "size": 256
+    },
+    {
+      "path": "data/LUNG/TCGA-78-8640/radiology/ct_roi_manifest.json",
+      "sha256": "745c640390e9a2a0b502cf6ef7fe95116925c32256d18e6e9126f6958fc8023a",
+      "size": 158
+    },
+    {
+      "path": "data/LUNG/TCGA-78-8640/release_policy.json",
+      "sha256": "8b9c2c60c6167d95598a2c3d6e1db9aa63e2c741f800f9d363594d5300d2f81e",
+      "size": 862
+    },
+    {
+      "path": "data/LUNG/TCGA-78-8640/report_extraction.json",
+      "sha256": "e1c23cac350b8564a51678019ab11bc29d87447053d646a413a05fe8fd3e47bc",
+      "size": 11518
+    },
+    {
+      "path": "data/LUNG/TCGA-78-8640/reports/integrated_reports/TCGA-78-8640_T0_full_report_en.md",
+      "sha256": "f6aaccfea1b4069fdaa5d98169c5308f6450db6f54a7b89e5c9c375e077847d6",
+      "size": 13392
+    },
+    {
+      "path": "data/LUNG/TCGA-78-8640/reports/integrated_reports/TCGA-78-8640_T0_full_report_zh.md",
+      "sha256": "c45bef19af8c7eab1d3758093da3d21993ff246f478ea36798d00c3261022da1",
+      "size": 12164
+    },
+    {
+      "path": "data/LUNG/TCGA-78-8640/reports/pathology_reports/TCGA-78-8640_T0_pathology_report.txt",
+      "sha256": "51d6679c97ffb063da651e6d2025089f5ad7e2e366946286e3a1a138aaa24260",
+      "size": 2217
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8054/clinical/clinical.json",
+      "sha256": "d6f9625dd6585bc180ca7b1d08d1860906e8f3acb8d4230d74f96a35000c0044",
+      "size": 5051
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8054/clinical/follow_up.json",
+      "sha256": "272ee74a4601ff3a357e94fe4738c62010637e551889896bf0ad88698b6d69f6",
+      "size": 4214
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8054/clinical/treatment.json",
+      "sha256": "e978f0906ca455f7fc03b5aaf642a34d8d6d8cdb5ca47dbc13e15d70338586fa",
+      "size": 4033
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8054/evaluation/TCGA-86-8054_rubric.json",
+      "sha256": "73d6c694b8f03e1a69132a31bc9933b2ffe020fb590d40d3aafbb27c5ad60c3c",
+      "size": 4909
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8054/evaluation/TCGA-86-8054_trajectory.json",
+      "sha256": "ce7f972bf04d0c861b945b659ffbafb195ff7e65b600f98ceb35291059f07955",
+      "size": 46929
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8054/guideline/relevant_nodes.json",
+      "sha256": "3248983db9d807b4426faa9e38c3f9499908aff7620d579ee3476ec8a0a0f09f",
+      "size": 1668
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8054/hidden_state.json",
+      "sha256": "65fc005a0164708da905f96668e05d5e4ec082b07c92507cdcdc3c8f6ed792fa",
+      "size": 975
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8054/molecular/biomarkers.json",
+      "sha256": "b7715dfa57e94a00f88fd5459d0d494006c411708ed6059034c8be984d0bc816",
+      "size": 13435
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8054/pathology/pathology_report.txt",
+      "sha256": "ddf0a58483d069579ac566bd835b787c0bc73249472b62fb420cc490c7c8d7d0",
+      "size": 135
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8054/pathology/pathology_report_metadata.json",
+      "sha256": "00103f78b83321160bad07fb9764f27449315ec7cf87cc5b8f2898a9f44baed7",
+      "size": 115
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8054/pathology/slide_metadata.json",
+      "sha256": "0cde0020b552cd75c0031c997de02e30cedc13094090ee955552c26ef87f20d4",
+      "size": 472
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8054/pathology/wsi_manifest.json",
+      "sha256": "8025ab49e83f5b9e6681f87fc57bd022f3eb8c1fa4d25aba7d3f04a56d96f0e3",
+      "size": 435
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8054/pathology/wsi_roi_manifest.json",
+      "sha256": "d06509c32abc54a904b5e2ee3624b3c756aca63d8097f68bae01eafd9e0a5702",
+      "size": 334
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8054/radiology/ct_manifest.json",
+      "sha256": "3631708f1dc2f46822137df687502c62339c46f8adacca330ea9a85526d56227",
+      "size": 256
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8054/radiology/ct_roi_manifest.json",
+      "sha256": "c3e1c073287d013e7cd5c80152e90eb60dae681664c511840fd03c82afa0ef58",
+      "size": 158
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8054/release_policy.json",
+      "sha256": "8b9c2c60c6167d95598a2c3d6e1db9aa63e2c741f800f9d363594d5300d2f81e",
+      "size": 862
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8054/report_extraction.json",
+      "sha256": "004cb0943d3ccdc3aa0c4cfa4b32036f8b37fbe2f25f377f349fafc22b154459",
+      "size": 12496
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8054/reports/integrated_reports/TCGA-86-8054_T0_full_report_en.md",
+      "sha256": "931d17340f6a46f78a1f7915d08451953adc850bc5df20d62c69aecacd038ad7",
+      "size": 15711
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8054/reports/integrated_reports/TCGA-86-8054_T0_full_report_zh.md",
+      "sha256": "a88953adf6add8026a37d4fe177d75b3d6e7c842aa7a949c0113a67eb4a6fec6",
+      "size": 14910
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8054/reports/pathology_reports/TCGA-86-8054_T0_pathology_report.txt",
+      "sha256": "694151dd7559e9a5122bbe7f9adca8b98afa53c52b06c67d2babcc0c868a8843",
+      "size": 629
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8279/clinical/clinical.json",
+      "sha256": "7190f19d665ddd6d4bd63121f4b198492f8929a4218ce9265bcfd7d41fd5b4b7",
+      "size": 4868
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8279/clinical/follow_up.json",
+      "sha256": "c1eb63323810d957779d87f559f8405717181be79049ea4d2e122e260bc01bf2",
+      "size": 3969
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8279/clinical/treatment.json",
+      "sha256": "d9fad7ba87049044f8490919a91d75a7b9f0dd6ed002a8e59f82c558ec459903",
+      "size": 3788
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8279/evaluation/TCGA-86-8279_rubric.json",
+      "sha256": "dc58a540eb9e873d4c1c053c72111665d998853ec9efff32d0b4c49fa1e71c87",
+      "size": 5477
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8279/evaluation/TCGA-86-8279_trajectory.json",
+      "sha256": "20bd44affd32f62dd87d025783cee9a08b08046820c6f5fe709e72df68b34761",
+      "size": 47227
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8279/guideline/relevant_nodes.json",
+      "sha256": "36e193a7ccd7cdb5502b1d71d39c17d9783b658003f1bc9d3ea24c6e8301361c",
+      "size": 1668
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8279/hidden_state.json",
+      "sha256": "0fc4a26e9a45e88fcfa7db59d4259b8798380960412f3597b70b7ebadfaa4e6b",
+      "size": 973
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8279/molecular/biomarkers.json",
+      "sha256": "d61420918392f1e0154e04a382a57aa01a4cade3d6fb31536ee7281fb8da75b4",
+      "size": 10472
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8279/pathology/pathology_report.txt",
+      "sha256": "ddf0a58483d069579ac566bd835b787c0bc73249472b62fb420cc490c7c8d7d0",
+      "size": 135
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8279/pathology/pathology_report_metadata.json",
+      "sha256": "fc02bf536d3e710ee3d4e0d7cfda74ba0320804cb90431b20fdf4a14d21a8109",
+      "size": 115
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8279/pathology/slide_metadata.json",
+      "sha256": "79a43b5e4126d1ce471fdc9036a057a08c54ee007c37e340fee3999608e2972c",
+      "size": 472
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8279/pathology/wsi_manifest.json",
+      "sha256": "48a9e29605221d2289e1cc614bcc1061580925756637c4f23483c8fafa4d27c0",
+      "size": 435
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8279/pathology/wsi_roi_manifest.json",
+      "sha256": "d4f497bb7a7c018366fab596a33dbf9f8644886fad6d07b860bc1d30096f0278",
+      "size": 334
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8279/radiology/ct_manifest.json",
+      "sha256": "8339f88a9600c00e4961e7beb4fb60760f5578be3e1b489037bbd2a32c6efdb4",
+      "size": 256
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8279/radiology/ct_roi_manifest.json",
+      "sha256": "f83c8db22cde1957f6f8f7b9faa342d229f08cbc1790dd86c984297c70677a0b",
+      "size": 158
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8279/release_policy.json",
+      "sha256": "8b9c2c60c6167d95598a2c3d6e1db9aa63e2c741f800f9d363594d5300d2f81e",
+      "size": 862
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8279/report_extraction.json",
+      "sha256": "d091edbf6ff40455b57e7176d4d378f7848a5e9399b94c3d132fe5c21a1a43a9",
+      "size": 11248
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8279/reports/integrated_reports/TCGA-86-8279_T0_full_report_en.md",
+      "sha256": "6ba51f40e85195b35600e93b4ad11dc91f66736b8fd5d10006727dad84dcadc0",
+      "size": 11643
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8279/reports/integrated_reports/TCGA-86-8279_T0_full_report_zh.md",
+      "sha256": "85099af9dd48816df6e8151a99eeb5b2fae6c15f237b759bf8c9b3988981b51e",
+      "size": 13160
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8279/reports/pathology_reports/TCGA-86-8279_T0_pathology_report.txt",
+      "sha256": "672cf58c9ef8708177b7e27161b4573c9d6ca5050936bd9ff0a9271775b02486",
+      "size": 698
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8358/clinical/clinical.json",
+      "sha256": "3e759a2926ed8ff767e8c1ffdf85b776dcd7969d2430cd742aa74a1ee4da2b9a",
+      "size": 4703
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8358/clinical/follow_up.json",
+      "sha256": "5f3dd6fc170aae1512d51393cee153d4831aab24c19b5c6a5651e5792c52308a",
+      "size": 3856
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8358/clinical/treatment.json",
+      "sha256": "e73eb978e9ae7a6353735c8dcc116c4bd89183125832cf47459935fddb3330f2",
+      "size": 3854
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8358/evaluation/TCGA-86-8358_rubric.json",
+      "sha256": "9d6a88fbfec515e85f1df005550cffcc44a33a290450f25ce394c5f8a54aa387",
+      "size": 4403
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8358/evaluation/TCGA-86-8358_trajectory.json",
+      "sha256": "d6ea5c075d431aad175f8cacf9027d08af0b54c991c65a89cfa87aa796cd4aa9",
+      "size": 46980
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8358/guideline/relevant_nodes.json",
+      "sha256": "5370bc726602761c40231893d4f70a0196d2e990804e5dbd10a0294ce393532a",
+      "size": 1668
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8358/hidden_state.json",
+      "sha256": "c8946926e82199de218903aac8374c3f3b0be93d649edd60c5fb87bb06f97d4e",
+      "size": 973
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8358/molecular/biomarkers.json",
+      "sha256": "f907f17f725f143b31af93ace324e327bcfce79caeb76fd8089916f7b454558e",
+      "size": 16289
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8358/pathology/pathology_report.txt",
+      "sha256": "ddf0a58483d069579ac566bd835b787c0bc73249472b62fb420cc490c7c8d7d0",
+      "size": 135
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8358/pathology/pathology_report_metadata.json",
+      "sha256": "b6444c7fbde91b0e3921eac5b28fa0357ce9c5560346e776bbc0d592d97392c5",
+      "size": 115
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8358/pathology/slide_metadata.json",
+      "sha256": "8eb448c09444cffd7cb21ba687c6ef1bac3fd57e5a77674f71159d83f6690d39",
+      "size": 472
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8358/pathology/wsi_manifest.json",
+      "sha256": "ca0d56d85f8b0489d4859628df4a9bc7e6a865eeed07e25dffaf96b08fa94706",
+      "size": 435
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8358/pathology/wsi_roi_manifest.json",
+      "sha256": "d49558c97a0b2cc442c7c2758760acc79495777a4c6b86a71cd3c7ef063a4d91",
+      "size": 334
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8358/radiology/ct_manifest.json",
+      "sha256": "78aeccec2a7a606fcff2b459d608f550c0c404f8c1b70b56f3c08e1aa80efbb6",
+      "size": 256
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8358/radiology/ct_roi_manifest.json",
+      "sha256": "b41ceb8323478c819ce25919805fad15c7cf4494b2b5688629c8f60da881e534",
+      "size": 158
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8358/release_policy.json",
+      "sha256": "8b9c2c60c6167d95598a2c3d6e1db9aa63e2c741f800f9d363594d5300d2f81e",
+      "size": 862
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8358/report_extraction.json",
+      "sha256": "21b9cf8f20704b7fceda34e7ac6d300a378099cd0d100feb5f94406279ee57ac",
+      "size": 14024
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8358/reports/integrated_reports/TCGA-86-8358_T0_full_report_en.md",
+      "sha256": "89f5a6b2426725ec28462de8da6dd58c72810641a0038a760c78913a86165ec4",
+      "size": 11596
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8358/reports/integrated_reports/TCGA-86-8358_T0_full_report_zh.md",
+      "sha256": "973d5174e5b21852b7894401ed1849569011734cb9598272a1d8062685b789a0",
+      "size": 13910
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8358/reports/pathology_reports/TCGA-86-8358_T0_pathology_report.txt",
+      "sha256": "64b2ac16ef84c555c31e21a5084912c85edf45d23a07dffde046ec2b7dc0e15d",
+      "size": 617
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8671/clinical/clinical.json",
+      "sha256": "a4f74f34d581d6581e75315eeff8f5d990fb5db3166a0cff64beb265d446d875",
+      "size": 4809
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8671/clinical/follow_up.json",
+      "sha256": "e4c804701df71e4b7265ee4807b4732800b544e382b944a62fa03dbaafbcf1e9",
+      "size": 3942
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8671/clinical/treatment.json",
+      "sha256": "af9863d993bb36c065412ebdbd3a7be30b7280134dd1b0719cae155fe2ea7aa1",
+      "size": 3929
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8671/evaluation/TCGA-86-8671_rubric.json",
+      "sha256": "f5a6b41d2c1071c8551058fb969330c200aa291af7d8705cca817dc98651933b",
+      "size": 4145
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8671/evaluation/TCGA-86-8671_trajectory.json",
+      "sha256": "4f556ac1c8d20fec6a0083811e2e5c9f33f806d8869afc792ebe3fffcfe5ebea",
+      "size": 47556
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8671/guideline/relevant_nodes.json",
+      "sha256": "d934735b828b39e8f7c6e68a3b1204b86e7fcaf4562026311369500a1e1299c7",
+      "size": 1668
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8671/hidden_state.json",
+      "sha256": "d452af24ef2a809f7c15b12acf90aa691fe16a90b63d8996ef24fdd31ff26ef8",
+      "size": 986
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8671/molecular/biomarkers.json",
+      "sha256": "f309def4aaa7aa802c3e485c46364252a0d8c8dc84b635899eccd0ec979a13dd",
+      "size": 11261
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8671/pathology/pathology_report.txt",
+      "sha256": "ddf0a58483d069579ac566bd835b787c0bc73249472b62fb420cc490c7c8d7d0",
+      "size": 135
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8671/pathology/pathology_report_metadata.json",
+      "sha256": "942a1b8b36445084368397dfb342420a1708aa2df6d535e1e7efe7f862d97072",
+      "size": 115
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8671/pathology/slide_metadata.json",
+      "sha256": "eafb5d440f104892c788c670f7f59364b7fd722b945cda877dc9f77ada2c77c1",
+      "size": 472
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8671/pathology/wsi_manifest.json",
+      "sha256": "4e5ae35174d18b3126ea74515108afabeec111d09a3df17e6fe76dacf7b1de9b",
+      "size": 435
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8671/pathology/wsi_roi_manifest.json",
+      "sha256": "b6c010cb1f8923d2c509623ff5bbdf5c2a96bac649c7d7e89e0f69dcd6ca7249",
+      "size": 334
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8671/radiology/ct_manifest.json",
+      "sha256": "865b26761932b7965cc4b4156f070385a8f3ec6414402599fb67a29dd68d53c9",
+      "size": 256
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8671/radiology/ct_roi_manifest.json",
+      "sha256": "b6c45470b9f0d5b7d041b939f93fa3fe0ec29a6a1beb1d784d37449f1e3dcbc3",
+      "size": 158
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8671/release_policy.json",
+      "sha256": "8b9c2c60c6167d95598a2c3d6e1db9aa63e2c741f800f9d363594d5300d2f81e",
+      "size": 862
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8671/report_extraction.json",
+      "sha256": "1b4b9bd8d785e82a3cd513140e98fbb9ccb1d21a377592d6a1947a2d49356833",
+      "size": 12271
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8671/reports/integrated_reports/TCGA-86-8671_T0_full_report_en.md",
+      "sha256": "7ef9b30fb2c2f988fb1c7ee7143d0d0efac0028caaf434bfe421fee660c55578",
+      "size": 9736
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8671/reports/integrated_reports/TCGA-86-8671_T0_full_report_zh.md",
+      "sha256": "e9fd480a8650c2ee59f552a6582ff942ca381f7f8362da3aabf74c2b09ebe12f",
+      "size": 9867
+    },
+    {
+      "path": "data/LUNG/TCGA-86-8671/reports/pathology_reports/TCGA-86-8671_T0_pathology_report.txt",
+      "sha256": "df7535c6fa61e14ab05da4db49bb5083e5be875e2e5355eb5f55f5ef8ad8c13e",
+      "size": 899
+    },
+    {
+      "path": "data/LUNG/TCGA-97-A4M2/clinical/clinical.json",
+      "sha256": "6219cd2d3fa1556f78bd9969ab89314c175262f75a5c5a67dceb79729c00b395",
+      "size": 4787
+    },
+    {
+      "path": "data/LUNG/TCGA-97-A4M2/clinical/follow_up.json",
+      "sha256": "b9b89e38f2cdbc46c7e7f0a8d8497aeb9c1c3ea8c574188eb6f7984cdd2b056d",
+      "size": 3864
+    },
+    {
+      "path": "data/LUNG/TCGA-97-A4M2/clinical/treatment.json",
+      "sha256": "27147f59c94d6b5daf510e75ce0d35e8e937408e38a47a90b7508b846f69c7f8",
+      "size": 3926
+    },
+    {
+      "path": "data/LUNG/TCGA-97-A4M2/evaluation/TCGA-97-A4M2_rubric.json",
+      "sha256": "9cb020c95a045c52acadd45044e503c8f9e5299c2fbc6a9a390ced7dffa812be",
+      "size": 4439
+    },
+    {
+      "path": "data/LUNG/TCGA-97-A4M2/evaluation/TCGA-97-A4M2_trajectory.json",
+      "sha256": "0f289b288e3bbc838432b64ff78d7d873bfc74bc983ad178c56a0ab4e4ad3968",
+      "size": 47515
+    },
+    {
+      "path": "data/LUNG/TCGA-97-A4M2/guideline/relevant_nodes.json",
+      "sha256": "b2984cf86699498159ffd74db6626b19415a8307dadb6f6179a12340c6752d29",
+      "size": 1668
+    },
+    {
+      "path": "data/LUNG/TCGA-97-A4M2/hidden_state.json",
+      "sha256": "619eb4c5d0c49e0e76848df6c6a630ba0d5635e1ac98cc78357f57ded470ea95",
+      "size": 988
+    },
+    {
+      "path": "data/LUNG/TCGA-97-A4M2/molecular/biomarkers.json",
+      "sha256": "def41c21a169b8a98645d0352aa5b15fed25b21e1116c8ad8069b4497681ab28",
+      "size": 10880
+    },
+    {
+      "path": "data/LUNG/TCGA-97-A4M2/pathology/pathology_report.txt",
+      "sha256": "ddf0a58483d069579ac566bd835b787c0bc73249472b62fb420cc490c7c8d7d0",
+      "size": 135
+    },
+    {
+      "path": "data/LUNG/TCGA-97-A4M2/pathology/pathology_report_metadata.json",
+      "sha256": "02c880482f5df2a6863b29cdfcf22c46e4fa3f9099b6496009227600db458c36",
+      "size": 115
+    },
+    {
+      "path": "data/LUNG/TCGA-97-A4M2/pathology/slide_metadata.json",
+      "sha256": "afbaabfcfd75214956c8720be275ea70ce97ec1b368ac11cdc21927fcae3a3dc",
+      "size": 472
+    },
+    {
+      "path": "data/LUNG/TCGA-97-A4M2/pathology/wsi_manifest.json",
+      "sha256": "64e394c88434bd2294c1c35b77eea290b4375cbc4195e290b16e1514c9b6560d",
+      "size": 435
+    },
+    {
+      "path": "data/LUNG/TCGA-97-A4M2/pathology/wsi_roi_manifest.json",
+      "sha256": "c696950f34f17b23e47356c1bde58f5cc414c8b54e56a372afb12b5db1106359",
+      "size": 334
+    },
+    {
+      "path": "data/LUNG/TCGA-97-A4M2/radiology/ct_manifest.json",
+      "sha256": "4ee59839cc353cbc2aeec6b74390b0688bba991a52704c0b308d57b9198b4d7b",
+      "size": 256
+    },
+    {
+      "path": "data/LUNG/TCGA-97-A4M2/radiology/ct_roi_manifest.json",
+      "sha256": "e9e184ab2572770e50cd085092b86ea06ecfdc081142e2113bfe7dc6394dbde0",
+      "size": 158
+    },
+    {
+      "path": "data/LUNG/TCGA-97-A4M2/release_policy.json",
+      "sha256": "8b9c2c60c6167d95598a2c3d6e1db9aa63e2c741f800f9d363594d5300d2f81e",
+      "size": 862
+    },
+    {
+      "path": "data/LUNG/TCGA-97-A4M2/report_extraction.json",
+      "sha256": "daa36177b5a570da235fff7edda3eb9034167aa52b17b2bcd7f98d009888519b",
+      "size": 11539
+    },
+    {
+      "path": "data/LUNG/TCGA-97-A4M2/reports/integrated_reports/TCGA-97-A4M2_T0_full_report_en.md",
+      "sha256": "2d358dbaa832a6d32494c2107dfff41d2e050e447e8c00a5f8a7dae88ab93980",
+      "size": 10634
+    },
+    {
+      "path": "data/LUNG/TCGA-97-A4M2/reports/integrated_reports/TCGA-97-A4M2_T0_full_report_zh.md",
+      "sha256": "10753fe24e8482f96f7f5f83ef2edaeb7479f90e11765891963ec5edad2dd569",
+      "size": 9852
+    },
+    {
+      "path": "data/LUNG/TCGA-97-A4M2/reports/pathology_reports/TCGA-97-A4M2_T0_pathology_report.txt",
+      "sha256": "6903844ba0ae2bcdac67fae521da12e63aaf110ae2ca4ac1ca90062883b4e1fc",
+      "size": 14851
+    },
+    {
+      "path": "data/LUNG/TCGA-99-8032/clinical/clinical.json",
+      "sha256": "630a7f3a3bb019919b77de2be7c1bd1f48b48eb48b384757d16c678f6b7f889f",
+      "size": 5202
+    },
+    {
+      "path": "data/LUNG/TCGA-99-8032/clinical/follow_up.json",
+      "sha256": "a3fe14b316a12404115b3e9048d6ae3c538bd65f0a18216177d99f05df5779db",
+      "size": 4049
+    },
+    {
+      "path": "data/LUNG/TCGA-99-8032/clinical/treatment.json",
+      "sha256": "9eb8496aa6574bc2f67a4720698f2739747a2c5be521272d38b1402f9eedf61b",
+      "size": 4185
+    },
+    {
+      "path": "data/LUNG/TCGA-99-8032/evaluation/TCGA-99-8032_rubric.json",
+      "sha256": "ff007523e365b7534185879a0f0be8bf6e849c7f75f3d83023d4d18edfdb87cd",
+      "size": 4544
+    },
+    {
+      "path": "data/LUNG/TCGA-99-8032/evaluation/TCGA-99-8032_trajectory.json",
+      "sha256": "459c2f51f8eed825a20f14d95c638fd864ae1fadeb2a26bee85474280c6f97d6",
+      "size": 46682
+    },
+    {
+      "path": "data/LUNG/TCGA-99-8032/guideline/relevant_nodes.json",
+      "sha256": "795be54842a380a875f13c3912ccbf5200a169634299da82dd66fb5f5ac3bedb",
+      "size": 1668
+    },
+    {
+      "path": "data/LUNG/TCGA-99-8032/hidden_state.json",
+      "sha256": "e0397de8f33e28ecb6495842af393acf6ab6ab343ce1adb23ae45dee91e9d030",
+      "size": 973
+    },
+    {
+      "path": "data/LUNG/TCGA-99-8032/molecular/biomarkers.json",
+      "sha256": "ed1a00cdefc35e3e8665bd26639417943e5582e46aaefe4fb21330b632c908ee",
+      "size": 10673
+    },
+    {
+      "path": "data/LUNG/TCGA-99-8032/pathology/pathology_report.txt",
+      "sha256": "ddf0a58483d069579ac566bd835b787c0bc73249472b62fb420cc490c7c8d7d0",
+      "size": 135
+    },
+    {
+      "path": "data/LUNG/TCGA-99-8032/pathology/pathology_report_metadata.json",
+      "sha256": "ea0c84a4838175c8997aadf52df3dde8e184e5991e95df26355abf22c8ca1f7c",
+      "size": 115
+    },
+    {
+      "path": "data/LUNG/TCGA-99-8032/pathology/slide_metadata.json",
+      "sha256": "af98b1a9a313ad75a13cfd74caff7865455c1e99d90b39bbcd3ba3b1e9b1ffc5",
+      "size": 472
+    },
+    {
+      "path": "data/LUNG/TCGA-99-8032/pathology/wsi_manifest.json",
+      "sha256": "14d2170639256d93b9549e410ebbc87d06aa5306d7e9e450354bac6c890ddfb8",
+      "size": 435
+    },
+    {
+      "path": "data/LUNG/TCGA-99-8032/pathology/wsi_roi_manifest.json",
+      "sha256": "5e823236893e3f1ed8bb9795dc210e7243de17838a892ed1248d5d2e1231762d",
+      "size": 334
+    },
+    {
+      "path": "data/LUNG/TCGA-99-8032/radiology/ct_manifest.json",
+      "sha256": "6127335501f9451d3e3db752729e87a99fb461f08ef46f4a95766641e3ad6026",
+      "size": 256
+    },
+    {
+      "path": "data/LUNG/TCGA-99-8032/radiology/ct_roi_manifest.json",
+      "sha256": "898831b3e83c878d2c7a4ccf74f8d539b17bb4528308936230489ca0414ce840",
+      "size": 158
+    },
+    {
+      "path": "data/LUNG/TCGA-99-8032/release_policy.json",
+      "sha256": "8b9c2c60c6167d95598a2c3d6e1db9aa63e2c741f800f9d363594d5300d2f81e",
+      "size": 862
+    },
+    {
+      "path": "data/LUNG/TCGA-99-8032/report_extraction.json",
+      "sha256": "6706c28f4e52f715a160e04d0aabf3f0e5917f34a6034b425e0a0b882b80f767",
+      "size": 11395
+    },
+    {
+      "path": "data/LUNG/TCGA-99-8032/reports/integrated_reports/TCGA-99-8032_T0_full_report_en.md",
+      "sha256": "bfbaa1a8093a07d41ec65b551a538a1ce6ceed88ed955ef14b51250a1fd0393a",
+      "size": 14096
+    },
+    {
+      "path": "data/LUNG/TCGA-99-8032/reports/integrated_reports/TCGA-99-8032_T0_full_report_zh.md",
+      "sha256": "3eb03c1b2be5b813e819aaf88dd2edc1670f0f3e06cd8322be67ad88f68320df",
+      "size": 14596
+    },
+    {
+      "path": "data/LUNG/TCGA-99-8032/reports/pathology_reports/TCGA-99-8032_T0_pathology_report.txt",
+      "sha256": "614a442d1d9d7f1f725628f0f3e22662783dfe732857a399e83b8595724564f7",
+      "size": 5464
+    },
+    {
+      "path": "data/LUNG/TCGA-99-AA5R/clinical/clinical.json",
+      "sha256": "dfbc06ad20588927796c5d92f9bb35bbd801d92407bbd8f6f507263927776c9f",
+      "size": 4987
+    },
+    {
+      "path": "data/LUNG/TCGA-99-AA5R/clinical/follow_up.json",
+      "sha256": "65ab365f0db7edbe82d01a4e7c6f7d2981764d8ed2241267c324f3d863651dd4",
+      "size": 4086
+    },
+    {
+      "path": "data/LUNG/TCGA-99-AA5R/clinical/treatment.json",
+      "sha256": "7e5692df0add8a53a5225b18068279bc1fb1c294776cc50cc80c1cf96802cc71",
+      "size": 4123
+    },
+    {
+      "path": "data/LUNG/TCGA-99-AA5R/evaluation/TCGA-99-AA5R_rubric.json",
+      "sha256": "b72ebc54b2eb031f88213d742b1d91840a695c3141778db00f3b67d5db74aeea",
+      "size": 4961
+    },
+    {
+      "path": "data/LUNG/TCGA-99-AA5R/evaluation/TCGA-99-AA5R_trajectory.json",
+      "sha256": "c5fad95b82788ace0e344e8029ae5061a3a05cd8f8846564e1fc025d3691094f",
+      "size": 47412
+    },
+    {
+      "path": "data/LUNG/TCGA-99-AA5R/guideline/relevant_nodes.json",
+      "sha256": "66ce9f8b4d4e3165494f0e1dccad39b7d0feebaa54647b89b0b59a067475d7fc",
+      "size": 1668
+    },
+    {
+      "path": "data/LUNG/TCGA-99-AA5R/hidden_state.json",
+      "sha256": "5dee1517d28a44260ae53aae706be3afef9e4aa12851129a3abf1a2b32942056",
+      "size": 995
+    },
+    {
+      "path": "data/LUNG/TCGA-99-AA5R/molecular/biomarkers.json",
+      "sha256": "d1cc40678af8cc3204e7442e2139bd66e52bed6eb18c7f98a4614d081ee39fd6",
+      "size": 10110
+    },
+    {
+      "path": "data/LUNG/TCGA-99-AA5R/pathology/pathology_report.txt",
+      "sha256": "ddf0a58483d069579ac566bd835b787c0bc73249472b62fb420cc490c7c8d7d0",
+      "size": 135
+    },
+    {
+      "path": "data/LUNG/TCGA-99-AA5R/pathology/pathology_report_metadata.json",
+      "sha256": "5abc600a891ba71537a02731f10e41c630d2a1fd1156209e9c2026515f8c68cf",
+      "size": 115
+    },
+    {
+      "path": "data/LUNG/TCGA-99-AA5R/pathology/slide_metadata.json",
+      "sha256": "9bd7d94d00cbf88fdccce2ea6429d58ced90c6154a47f1d42fef51a2fc02339e",
+      "size": 472
+    },
+    {
+      "path": "data/LUNG/TCGA-99-AA5R/pathology/wsi_manifest.json",
+      "sha256": "b682844d05ee3e1e317a2de0c7856eeaa6f10a42d1b9c2093832d5b1a8af4742",
+      "size": 435
+    },
+    {
+      "path": "data/LUNG/TCGA-99-AA5R/pathology/wsi_roi_manifest.json",
+      "sha256": "3a6111c0ca507c28a469d875c799ad40398e84c2aaeeeac0106b6f132a68d6ff",
+      "size": 334
+    },
+    {
+      "path": "data/LUNG/TCGA-99-AA5R/radiology/ct_manifest.json",
+      "sha256": "7981692580b2c78e580634b52500f7f1ddd7a425796c570d5131b4827e13b4aa",
+      "size": 256
+    },
+    {
+      "path": "data/LUNG/TCGA-99-AA5R/radiology/ct_roi_manifest.json",
+      "sha256": "a985cd98cccb85eaafb076739cc5e61ad5b63eb35ba713b4f146ccf86920096b",
+      "size": 158
+    },
+    {
+      "path": "data/LUNG/TCGA-99-AA5R/release_policy.json",
+      "sha256": "8b9c2c60c6167d95598a2c3d6e1db9aa63e2c741f800f9d363594d5300d2f81e",
+      "size": 862
+    },
+    {
+      "path": "data/LUNG/TCGA-99-AA5R/report_extraction.json",
+      "sha256": "8b2cb278560ddce6bbced4d7fe9ecb0e4b12b8229d780e6bd6824c95970e3153",
+      "size": 11451
+    },
+    {
+      "path": "data/LUNG/TCGA-99-AA5R/reports/integrated_reports/TCGA-99-AA5R_T0_full_report_en.md",
+      "sha256": "7f86cc39ab054a74f82e16443a97c05bd925a526b778bddcff076b5b57e7b131",
+      "size": 11181
+    },
+    {
+      "path": "data/LUNG/TCGA-99-AA5R/reports/integrated_reports/TCGA-99-AA5R_T0_full_report_zh.md",
+      "sha256": "8fc86df1f72532dac719f2cc4ffc4c3a977f714918490adb948813d9cedecd1c",
+      "size": 9940
+    },
+    {
+      "path": "data/LUNG/TCGA-99-AA5R/reports/pathology_reports/TCGA-99-AA5R_T0_pathology_report.txt",
+      "sha256": "11a03d2dba3c8849fb4ce92028d7b15fcafddeac277d8844e1369d1105c879d6",
+      "size": 6024
+    },
+    {
+      "path": "data/LUNG/TCGA-J2-A4AE/clinical/clinical.json",
+      "sha256": "5350e0456d5b640d033c3bf7fb81a2da65cf674c73bea992a6c5a163a8c271d4",
+      "size": 5121
+    },
+    {
+      "path": "data/LUNG/TCGA-J2-A4AE/clinical/follow_up.json",
+      "sha256": "e6611862ee67216a397a0f942cf9c17fefc8eb1b2538d987c9f912570b2f0d4e",
+      "size": 4175
+    },
+    {
+      "path": "data/LUNG/TCGA-J2-A4AE/clinical/treatment.json",
+      "sha256": "8b252b1ef4e4ab8fb5140d726f07d6914934a0c80bd547910f0b6c890324dfa2",
+      "size": 3994
+    },
+    {
+      "path": "data/LUNG/TCGA-J2-A4AE/evaluation/TCGA-J2-A4AE_rubric.json",
+      "sha256": "69f27335a3e1073d06a6c203b4d66a9b5a548479d3cb7a364a3676b432098033",
+      "size": 4298
+    },
+    {
+      "path": "data/LUNG/TCGA-J2-A4AE/evaluation/TCGA-J2-A4AE_trajectory.json",
+      "sha256": "735602158b969ffbbd8cffe9251d2f46f447af95d32caf0c3080d3c2edf7726d",
+      "size": 47353
+    },
+    {
+      "path": "data/LUNG/TCGA-J2-A4AE/guideline/relevant_nodes.json",
+      "sha256": "baf4f35eaa6241717df2317580a396843bd06cf95086c1d97e7b308e9812abb4",
+      "size": 1668
+    },
+    {
+      "path": "data/LUNG/TCGA-J2-A4AE/hidden_state.json",
+      "sha256": "35e7cbdb0ce7479b24b2ab67af077fa296fbcd5f7eed37c4b12e6bf885f557bb",
+      "size": 989
+    },
+    {
+      "path": "data/LUNG/TCGA-J2-A4AE/molecular/biomarkers.json",
+      "sha256": "0bd92bd42c3635ad6882c2c9a9eb0d3b86dc340ba213d3e5f4462169f4814163",
+      "size": 9792
+    },
+    {
+      "path": "data/LUNG/TCGA-J2-A4AE/pathology/pathology_report.txt",
+      "sha256": "ddf0a58483d069579ac566bd835b787c0bc73249472b62fb420cc490c7c8d7d0",
+      "size": 135
+    },
+    {
+      "path": "data/LUNG/TCGA-J2-A4AE/pathology/pathology_report_metadata.json",
+      "sha256": "02f907a90bc4707975c2831bf3c04faf2008ad8721f6f66c10698097af7d58ed",
+      "size": 115
+    },
+    {
+      "path": "data/LUNG/TCGA-J2-A4AE/pathology/slide_metadata.json",
+      "sha256": "2a01555e7704cc72cb8a25c69e8686ff4f965d15097c65145c3f28a1491441f5",
+      "size": 472
+    },
+    {
+      "path": "data/LUNG/TCGA-J2-A4AE/pathology/wsi_manifest.json",
+      "sha256": "c3709bda3f5400f1e1a6203fab5f8b4b279d9c9d7da13a5f113a9d86bca3f7b5",
+      "size": 435
+    },
+    {
+      "path": "data/LUNG/TCGA-J2-A4AE/pathology/wsi_roi_manifest.json",
+      "sha256": "69d657f0221fc37ee8840b80a6fad52e2c119840dd0f6813ecc9ab1bac9f0868",
+      "size": 334
+    },
+    {
+      "path": "data/LUNG/TCGA-J2-A4AE/radiology/ct_manifest.json",
+      "sha256": "9ac9e2b009bcc5943a2f5fe44beff2b56b62a07d20d133eb6a826245c9c3d5da",
+      "size": 329
+    },
+    {
+      "path": "data/LUNG/TCGA-J2-A4AE/radiology/ct_roi_manifest.json",
+      "sha256": "bae95db086f12e1556bad441faac0aabfe276bbefa6a9eedd7629b9010c8fb9a",
+      "size": 229
+    },
+    {
+      "path": "data/LUNG/TCGA-J2-A4AE/radiology/lungtumormask_meta.json",
+      "sha256": "ba53f0147da4a51fa4fd6a22d291a708648f2ce3d4be00e845dd05b71cfe26e2",
+      "size": 649
+    },
+    {
+      "path": "data/LUNG/TCGA-J2-A4AE/release_policy.json",
+      "sha256": "8b9c2c60c6167d95598a2c3d6e1db9aa63e2c741f800f9d363594d5300d2f81e",
+      "size": 862
+    },
+    {
+      "path": "data/LUNG/TCGA-J2-A4AE/report_extraction.json",
+      "sha256": "999bf707561cf36187735fa517e0757615ceece183915539c65b1a4c26c6c38c",
+      "size": 11251
+    },
+    {
+      "path": "data/LUNG/TCGA-J2-A4AE/reports/integrated_reports/TCGA-J2-A4AE_T0_full_report_en.md",
+      "sha256": "edd144efec6f67ccf177eb9c1fd0f51c8994321b091f222d979b8339d6999e87",
+      "size": 11585
+    },
+    {
+      "path": "data/LUNG/TCGA-J2-A4AE/reports/integrated_reports/TCGA-J2-A4AE_T0_full_report_zh.md",
+      "sha256": "bf12b0745a5df1dbf5af74e2bfc88a967358e1d773e0cb2a422c20c1eccc3fea",
+      "size": 10629
+    },
+    {
+      "path": "data/LUNG/TCGA-J2-A4AE/reports/pathology_reports/TCGA-J2-A4AE_T0_pathology_report.txt",
+      "sha256": "47c22988b9eb435b2af60a6b2ccb86b409fc0befd86a5df63e20aea986120f8d",
+      "size": 7117
+    },
+    {
+      "path": "data/LUNG/TCGA-J2-A4AG/clinical/clinical.json",
+      "sha256": "8cff0793cc009dd1b2913321899243651aeb829111bdb6154930f89f50dd5e3d",
+      "size": 4797
+    },
+    {
+      "path": "data/LUNG/TCGA-J2-A4AG/clinical/follow_up.json",
+      "sha256": "47c6faff3fdf24129de8e0d67249615a1c3fbf03f9119ab92c9e70dc63e0de0e",
+      "size": 3911
+    },
+    {
+      "path": "data/LUNG/TCGA-J2-A4AG/clinical/treatment.json",
+      "sha256": "77f360f7f3755e12458de3cb6c6f7c79ffbfbcc221a8c38440dd4d54c1c6b569",
+      "size": 4047
+    },
+    {
+      "path": "data/LUNG/TCGA-J2-A4AG/evaluation/TCGA-J2-A4AG_rubric.json",
+      "sha256": "98c32f923cdd096802c71318108b79e728641f0a7cdcbef6cbb62d4301ccf420",
+      "size": 4187
+    },
+    {
+      "path": "data/LUNG/TCGA-J2-A4AG/evaluation/TCGA-J2-A4AG_trajectory.json",
+      "sha256": "f1beb0d091ad052699be894ed35bd98281777f908fdecf3ceff6521618a9d1e7",
+      "size": 46980
+    },
+    {
+      "path": "data/LUNG/TCGA-J2-A4AG/guideline/relevant_nodes.json",
+      "sha256": "06522cc52b6770276f86839618f2b1396a2e083cf6d7b01d6dfa645d9f6272b2",
+      "size": 1668
+    },
+    {
+      "path": "data/LUNG/TCGA-J2-A4AG/hidden_state.json",
+      "sha256": "f769b02c1bbb718138a7e44d65aab9c6a156c280968e943a0f433fa024b27e12",
+      "size": 975
+    },
+    {
+      "path": "data/LUNG/TCGA-J2-A4AG/molecular/biomarkers.json",
+      "sha256": "b058bb4d9324eb3a562373b07b073540593611e536e66a13481c1b734c482eee",
+      "size": 11527
+    },
+    {
+      "path": "data/LUNG/TCGA-J2-A4AG/pathology/pathology_report.txt",
+      "sha256": "ddf0a58483d069579ac566bd835b787c0bc73249472b62fb420cc490c7c8d7d0",
+      "size": 135
+    },
+    {
+      "path": "data/LUNG/TCGA-J2-A4AG/pathology/pathology_report_metadata.json",
+      "sha256": "ca5342b3aa56193cdd0e76160434ab29b7c5261059ee16a53b0157b3bbd5a406",
+      "size": 115
+    },
+    {
+      "path": "data/LUNG/TCGA-J2-A4AG/pathology/slide_metadata.json",
+      "sha256": "f45bd9b09490d17e6dfde5e19f6488cf12f88d8e914154946eb49f330e46097b",
+      "size": 472
+    },
+    {
+      "path": "data/LUNG/TCGA-J2-A4AG/pathology/wsi_manifest.json",
+      "sha256": "6ef191b1dc6fef47882956632b70e0360b54d706b0cd636abe56c70056fd7a1b",
+      "size": 435
+    },
+    {
+      "path": "data/LUNG/TCGA-J2-A4AG/pathology/wsi_roi_manifest.json",
+      "sha256": "b0545ca122ae7a055ec18c726b2c93810a49e254b41cd5450a60aae865ffce81",
+      "size": 334
+    },
+    {
+      "path": "data/LUNG/TCGA-J2-A4AG/radiology/ct_manifest.json",
+      "sha256": "911c436dc310a79de8444a466f0af17e3ae73ea01733d3110ce5bdd4f944b668",
+      "size": 329
+    },
+    {
+      "path": "data/LUNG/TCGA-J2-A4AG/radiology/ct_roi_manifest.json",
+      "sha256": "453d508f23a175977acc2447f5bbd7e561d830ea48ae9a07007b9c6dddd364e0",
+      "size": 229
+    },
+    {
+      "path": "data/LUNG/TCGA-J2-A4AG/radiology/lungtumormask_meta.json",
+      "sha256": "9f9535fd3248a68ce24adea177ac4368dd51be97f1e68d2dbd08c60f8b12a07d",
+      "size": 649
+    },
+    {
+      "path": "data/LUNG/TCGA-J2-A4AG/release_policy.json",
+      "sha256": "8b9c2c60c6167d95598a2c3d6e1db9aa63e2c741f800f9d363594d5300d2f81e",
+      "size": 862
+    },
+    {
+      "path": "data/LUNG/TCGA-J2-A4AG/report_extraction.json",
+      "sha256": "2728272027f09e437b1667d3a0e51c7910c9cdd575b4838b39bae2024133fdaa",
+      "size": 12050
+    },
+    {
+      "path": "data/LUNG/TCGA-J2-A4AG/reports/integrated_reports/TCGA-J2-A4AG_T0_full_report_en.md",
+      "sha256": "75e0d835f441f486dd0b99360586538455e28303976c8dc42bf6cd6cfc95d146",
+      "size": 9737
+    },
+    {
+      "path": "data/LUNG/TCGA-J2-A4AG/reports/integrated_reports/TCGA-J2-A4AG_T0_full_report_zh.md",
+      "sha256": "9e1fe3434e7b8be94435f65aaada6f02bb8c2e9b5741f4ea1d0f208c09e7d995",
+      "size": 9749
+    },
+    {
+      "path": "data/LUNG/TCGA-J2-A4AG/reports/pathology_reports/TCGA-J2-A4AG_T0_pathology_report.txt",
+      "sha256": "b6691bd3a3fc0e25ac1c75622ad4de9b93ed95c4b80227a971ffd57df499235d",
+      "size": 4775
+    },
+    {
+      "path": "data/LUNG/TCGA-L4-A4E5/clinical/clinical.json",
+      "sha256": "1625e985237e2e07b087f9029f0a22ce024609281a82d21cab23c45115ba8884",
+      "size": 5255
+    },
+    {
+      "path": "data/LUNG/TCGA-L4-A4E5/clinical/follow_up.json",
+      "sha256": "53f00a5f1f25d667b8e1e8df5e6068a5cce891501ffa5ac54e90810dd7c65534",
+      "size": 4068
+    },
+    {
+      "path": "data/LUNG/TCGA-L4-A4E5/clinical/treatment.json",
+      "sha256": "be964a10d349f06aa8547f0992f36f64c8446a021d55c1c19903f5099a0c2a09",
+      "size": 4055
+    },
+    {
+      "path": "data/LUNG/TCGA-L4-A4E5/evaluation/TCGA-L4-A4E5_rubric.json",
+      "sha256": "e706e982088f7e6e9ba514b0f3944ffc60f995ec1fe0659dd3284aa4265e1144",
+      "size": 4894
+    },
+    {
+      "path": "data/LUNG/TCGA-L4-A4E5/evaluation/TCGA-L4-A4E5_trajectory.json",
+      "sha256": "73ed0c2f9c4f74005bc90fb63e8965fd4004c768062d1c19b2ba6a1dc9d03838",
+      "size": 46943
+    },
+    {
+      "path": "data/LUNG/TCGA-L4-A4E5/guideline/relevant_nodes.json",
+      "sha256": "e7037ce21a93c0d11eabdc28a4149b642f81d848d943e1b315adc4cd5ef9c606",
+      "size": 1668
+    },
+    {
+      "path": "data/LUNG/TCGA-L4-A4E5/hidden_state.json",
+      "sha256": "c65504670103f2c55bd81eae28a75ee8c6f71135cf34626f5b3d0ce3fff8dfe3",
+      "size": 984
+    },
+    {
+      "path": "data/LUNG/TCGA-L4-A4E5/molecular/biomarkers.json",
+      "sha256": "748a2d71310883dd8538633f1cd60e46f6825be91ef0817ac57411d75ce7717f",
+      "size": 10356
+    },
+    {
+      "path": "data/LUNG/TCGA-L4-A4E5/pathology/pathology_report.txt",
+      "sha256": "ddf0a58483d069579ac566bd835b787c0bc73249472b62fb420cc490c7c8d7d0",
+      "size": 135
+    },
+    {
+      "path": "data/LUNG/TCGA-L4-A4E5/pathology/pathology_report_metadata.json",
+      "sha256": "9787364610100ae33d98fad3c2451da6365b46b3bb34a0cec643f8f806510957",
+      "size": 115
+    },
+    {
+      "path": "data/LUNG/TCGA-L4-A4E5/pathology/slide_metadata.json",
+      "sha256": "73ac8742704cacf34eefe84c476ac68d5671100416929a43429a53aa5bdeb583",
+      "size": 472
+    },
+    {
+      "path": "data/LUNG/TCGA-L4-A4E5/pathology/wsi_manifest.json",
+      "sha256": "6bdd3ec48c18ec35f42bcb4ae4bb1d53a09c32f97860355dda7b90b36dc1d6d0",
+      "size": 435
+    },
+    {
+      "path": "data/LUNG/TCGA-L4-A4E5/pathology/wsi_roi_manifest.json",
+      "sha256": "d68e07cabd90256db68d6246c66dd55f60474ce5a10d895e2461b3eddf65e6e0",
+      "size": 334
+    },
+    {
+      "path": "data/LUNG/TCGA-L4-A4E5/radiology/ct_manifest.json",
+      "sha256": "773acfc21a74679e13c42bee572b46fb079860c55cdab21bedbfac40c9ff6337",
+      "size": 256
+    },
+    {
+      "path": "data/LUNG/TCGA-L4-A4E5/radiology/ct_roi_manifest.json",
+      "sha256": "e52916547d7feec2907d60c458e4b28d1ded3e2b5d5d3499b91d228834a596cc",
+      "size": 158
+    },
+    {
+      "path": "data/LUNG/TCGA-L4-A4E5/release_policy.json",
+      "sha256": "8b9c2c60c6167d95598a2c3d6e1db9aa63e2c741f800f9d363594d5300d2f81e",
+      "size": 862
+    },
+    {
+      "path": "data/LUNG/TCGA-L4-A4E5/report_extraction.json",
+      "sha256": "7f99f7b79cd486415a08478f3c4f0f67ef8219a14c7bdd5b7c2d01bf643b81b4",
+      "size": 11519
+    },
+    {
+      "path": "data/LUNG/TCGA-L4-A4E5/reports/integrated_reports/TCGA-L4-A4E5_T0_full_report_en.md",
+      "sha256": "85c4b81ffa898c4ace8affe94edceae748c51381d813c0768604a250ef7b8297",
+      "size": 11771
+    },
+    {
+      "path": "data/LUNG/TCGA-L4-A4E5/reports/integrated_reports/TCGA-L4-A4E5_T0_full_report_zh.md",
+      "sha256": "dcb0bb5f3c3d4b5c29cbcf957e2727e3ffc0a75c068e4f4c088901ca9f362157",
+      "size": 11916
+    },
+    {
+      "path": "data/LUNG/TCGA-L4-A4E5/reports/pathology_reports/TCGA-L4-A4E5_T0_pathology_report.txt",
+      "sha256": "a194ee2cc3311671a7bef4ed27f9107035b0d6045972e1ab318c3a7be6c412be",
+      "size": 2556
+    },
+    {
+      "path": "data/LUNG/TCGA-MN-A4N5/clinical/clinical.json",
+      "sha256": "5efaae4ac60119e2ca61e5dac9c0e6e0a83026227f8821a2d28d00c4d33058e3",
+      "size": 5094
+    },
+    {
+      "path": "data/LUNG/TCGA-MN-A4N5/clinical/follow_up.json",
+      "sha256": "fbdd48a3ba2bc51239c8c356131bf205dde369018d321b4baec7ec4a7721217c",
+      "size": 3892
+    },
+    {
+      "path": "data/LUNG/TCGA-MN-A4N5/clinical/treatment.json",
+      "sha256": "f23b0d1f17ac277a27d65c5fba869ae5236bdfdf17bbea81cfef99114931ac5b",
+      "size": 3909
+    },
+    {
+      "path": "data/LUNG/TCGA-MN-A4N5/evaluation/TCGA-MN-A4N5_rubric.json",
+      "sha256": "9e0268eac5234c1cce0591576eac581b393a714df64e2fae65f9809c0c84c249",
+      "size": 4219
+    },
+    {
+      "path": "data/LUNG/TCGA-MN-A4N5/evaluation/TCGA-MN-A4N5_trajectory.json",
+      "sha256": "27fc713bed8dbd9215ed0d0d7e612329bb076c524a5d2583a782ec28fa5af8af",
+      "size": 46612
+    },
+    {
+      "path": "data/LUNG/TCGA-MN-A4N5/guideline/relevant_nodes.json",
+      "sha256": "a87ac48b710157502d4885c8b2be18d9ff48d8733ddf8d8c16ed951a16ec9692",
+      "size": 1668
+    },
+    {
+      "path": "data/LUNG/TCGA-MN-A4N5/hidden_state.json",
+      "sha256": "7052295656e0be20d19be495dee1e5cae706e4fe88b8946156f3e782a71ee1c3",
+      "size": 973
+    },
+    {
+      "path": "data/LUNG/TCGA-MN-A4N5/molecular/biomarkers.json",
+      "sha256": "a2a3b7c7394f37b1fef102c9847fb0c51e1c99d4e82346f1882e38f2f640e3d6",
+      "size": 15398
+    },
+    {
+      "path": "data/LUNG/TCGA-MN-A4N5/pathology/pathology_report.txt",
+      "sha256": "ddf0a58483d069579ac566bd835b787c0bc73249472b62fb420cc490c7c8d7d0",
+      "size": 135
+    },
+    {
+      "path": "data/LUNG/TCGA-MN-A4N5/pathology/pathology_report_metadata.json",
+      "sha256": "4763e88275c4682daae90d7cb86fdeb58264024e130a9ebf4c00ff9c87101e11",
+      "size": 115
+    },
+    {
+      "path": "data/LUNG/TCGA-MN-A4N5/pathology/slide_metadata.json",
+      "sha256": "783244d91c1f16f1a45891ddd62b9a75ad77456b529144d73b974766cc7052a5",
+      "size": 472
+    },
+    {
+      "path": "data/LUNG/TCGA-MN-A4N5/pathology/wsi_manifest.json",
+      "sha256": "77fbefb1aed562fd53f03e8a0ada39f7cd4f5dab0108faf2171ae44a4c1c075a",
+      "size": 435
+    },
+    {
+      "path": "data/LUNG/TCGA-MN-A4N5/pathology/wsi_roi_manifest.json",
+      "sha256": "d5a67f59c32755c37ca2011d95beb7db0371c70799d9981a8bb8e5e7ed7cd957",
+      "size": 334
+    },
+    {
+      "path": "data/LUNG/TCGA-MN-A4N5/radiology/ct_manifest.json",
+      "sha256": "eae5089d64befa8576c37e95c9aeb8e842d6d872120da2fdaae92643ea873643",
+      "size": 256
+    },
+    {
+      "path": "data/LUNG/TCGA-MN-A4N5/radiology/ct_roi_manifest.json",
+      "sha256": "391172cd71fd3a9f25c7444683fa530b195ba86612867bfc2460379e6280aff0",
+      "size": 158
+    },
+    {
+      "path": "data/LUNG/TCGA-MN-A4N5/release_policy.json",
+      "sha256": "8b9c2c60c6167d95598a2c3d6e1db9aa63e2c741f800f9d363594d5300d2f81e",
+      "size": 862
+    },
+    {
+      "path": "data/LUNG/TCGA-MN-A4N5/report_extraction.json",
+      "sha256": "53368b12182d5bf5f0bbf63d4102a0667f5d3348000913cf0c3ee8ea6f5c6cb8",
+      "size": 13987
+    },
+    {
+      "path": "data/LUNG/TCGA-MN-A4N5/reports/integrated_reports/TCGA-MN-A4N5_T0_full_report_en.md",
+      "sha256": "7bd8569132ec74631b7cb9dc4a4b84b60731ee09f7369f6e21bd482fb0cf3374",
+      "size": 11676
+    },
+    {
+      "path": "data/LUNG/TCGA-MN-A4N5/reports/integrated_reports/TCGA-MN-A4N5_T0_full_report_zh.md",
+      "sha256": "33a81b6ce63b94157937514eba1e7e45e3f41a1143c41c86fe7e472eca2440d5",
+      "size": 13217
+    },
+    {
+      "path": "data/LUNG/TCGA-MN-A4N5/reports/pathology_reports/TCGA-MN-A4N5_T0_pathology_report.txt",
+      "sha256": "e389890d5cba2b32a95967253fb9156f53ce1bf244688e03d7eb4a2c2a284f73",
+      "size": 7312
+    },
+    {
+      "path": "data/README.md",
+      "sha256": "75d85ba0a619d0630efe8ecee3f3abffc7ce2fdd4c897f34ca0c7c85e41dc865",
+      "size": 285
+    },
+    {
+      "path": "docs/dual_agent_guideline_medclaw_architecture_zh.md",
+      "sha256": "8b7def4225e6bf3b61f35891d241f2aa5c8388e1572bb5ba00440dececcc8e10",
+      "size": 15122
+    },
+    {
+      "path": "docs/PLANNER_RELEASE.md",
+      "sha256": "80f36e5550a89fea081f68777e4e971b60c6bf7cc55321bdd791e3e866ed41ff",
+      "size": 321
+    },
+    {
+      "path": "docs/planner_v2_ablations.md",
+      "sha256": "4e9ee51cee416a4fd578c226bb930482064254680a4ac984b53d6556f1c7e719",
+      "size": 2699
+    },
+    {
+      "path": "docs/planner_v2_gpt_trajectory_data.md",
+      "sha256": "90860b4b409e060de73d914fe2e53ff0dc748bb168addf6b79b720f25e13cd8b",
+      "size": 15865
+    },
+    {
+      "path": "evaluation/README.md",
+      "sha256": "ad0ecde3b658606068bfe192d2c93d97a8d7735a3117837783af58a364d054c2",
+      "size": 420
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-38-4625/rubric.json",
+      "sha256": "63f0b27aad1d5d511437c182cb551f34bc908aefa8bd789d4453b263fe938f6f",
+      "size": 4549
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-38-4625/trajectory.json",
+      "sha256": "a62f6626227d6f6233d75a539dad80cea3aac6706c5d208d1ce6a9bc4c605cfb",
+      "size": 47098
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-38-A44F/rubric.json",
+      "sha256": "e45cb2f89886a2500897769aba5543728be70b479d114b56d8874dee6b400c35",
+      "size": 4392
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-38-A44F/trajectory.json",
+      "sha256": "33d61907eaebbced42d7d83bde6e0aaa8f8bfb04d408cb206e9924cca0805dad",
+      "size": 47145
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-44-2655/rubric.json",
+      "sha256": "e4a71790323c55f2896d535c083eef055fd3436e1bf39fd8d584bc8fc446cb5d",
+      "size": 4575
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-44-2655/trajectory.json",
+      "sha256": "2ae23522a65a76e1a1db16ace0d2d331d99ad4ff1170a464da222bc1d1115482",
+      "size": 47211
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-44-2661/rubric.json",
+      "sha256": "0ec521771b45f37da5011ba9650825061ee8ab48e0c495cde4cb73e27363123c",
+      "size": 3755
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-44-2661/trajectory.json",
+      "sha256": "42a6a44e364210ff1eb7ecb71d6af777c42ad0613b8fdd9e2d7f9fd8d67e8af6",
+      "size": 47346
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-44-2668/rubric.json",
+      "sha256": "9e84bcd268d4be38f3ce41ea2934e7d610f2f1a0b0d3a35d27b92f603a48caba",
+      "size": 4423
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-44-2668/trajectory.json",
+      "sha256": "eaa6c7b6f994ee570f58ad624da1cbaaa96603a1db748bbce8a8e0b1943021dd",
+      "size": 47204
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-44-A47B/rubric.json",
+      "sha256": "eaa9065b2a0065c3848f827bbe74be2d77b2a868730e71fd568f78c059a48b6c",
+      "size": 5080
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-44-A47B/trajectory.json",
+      "sha256": "c3124cc874fea97e0338f28f36962e14181e838e71eb1454a82bec38bc69f860",
+      "size": 47592
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-44-A47G/rubric.json",
+      "sha256": "ac2b965a71dc044f2e17d46708a9a8efba52113cf5ada5d0384f97532c038fef",
+      "size": 4292
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-44-A47G/trajectory.json",
+      "sha256": "c6f72cc57bea93971179da29095c9ba1946495525927db21b06090e71618ed9b",
+      "size": 46696
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-4B-A93V/rubric.json",
+      "sha256": "ea2b347cbe4ab7929f4d2f51a1c033a6edb0f3ba3c6b949fba91f394e2ea9df6",
+      "size": 4402
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-4B-A93V/trajectory.json",
+      "sha256": "a618fc03058b458090707af4093ee27fee0741afbe239cca7e7b600c0f856547",
+      "size": 48040
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-55-7995/rubric.json",
+      "sha256": "34dcf6f4169e47d712ab7d54ac439ddc5e3d9266360e2690ae2a78e12ea36707",
+      "size": 4090
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-55-7995/trajectory.json",
+      "sha256": "7df5c8d13aa2660f634d4a80029fde1b3ab6901bfc2949f51db15055b898647c",
+      "size": 47260
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-55-8085/rubric.json",
+      "sha256": "34331ff5be09c58ff4cf7fef8f87479c2058bb16c252c57d230f6060fa3bb7c1",
+      "size": 3004
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-55-8085/trajectory.json",
+      "sha256": "a18f61d7024716c6c4501f7a8fadafcd6201c312b1f7bdceb83878cb52607084",
+      "size": 47474
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-55-8089/rubric.json",
+      "sha256": "aeed2f6e36ff61231b9a964fec79d246be6f52500ff3e2eca42feda231a8ee15",
+      "size": 4000
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-55-8089/trajectory.json",
+      "sha256": "7ba9da6a97096f373b2d48e4970754038f96ed76becdb68ec13a37d69dae84ec",
+      "size": 48184
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-75-7025/rubric.json",
+      "sha256": "93760470866910fd58c9a1c68409730cc6acdbabb36b31e3c082b149f4f01b12",
+      "size": 4626
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-75-7025/trajectory.json",
+      "sha256": "f32704287ddea41564125136d15ebd2b4ac7644a7588cfa103e50ea69c8421c6",
+      "size": 46339
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-78-7159/rubric.json",
+      "sha256": "49f3d52353487c54e49ca2a3f67ba83ee53baacc2b02418a5ec4a77506c33751",
+      "size": 6113
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-78-7159/trajectory.json",
+      "sha256": "25e2f4ebdf8410c2b953ec4a34f8e23b96dbdf274f63f949ca8f2a6f3c276599",
+      "size": 47568
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-78-7161/rubric.json",
+      "sha256": "da84ac068297063791f1b0a0f74f0ba7a6602694d50b99fa9f5c1a5c4b15be2d",
+      "size": 4782
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-78-7161/trajectory.json",
+      "sha256": "41f6be05ffb4c64dbad98e5c87b3a203c208eefded964f09354157e1062d3442",
+      "size": 47047
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-78-7163/rubric.json",
+      "sha256": "76c38db8d3283a518e266d10178a318f4b8029c3497d4819be6f12d479352fa8",
+      "size": 4235
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-78-7163/trajectory.json",
+      "sha256": "5f9142343772b228a5d35ed05a6138fb42add1c35e7308d235e766302dbe5abb",
+      "size": 47204
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-78-7540/rubric.json",
+      "sha256": "b19ddee6499e47ab04716b0704afed53945647f20bc2d019a0c9e9d25ee726fa",
+      "size": 5130
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-78-7540/trajectory.json",
+      "sha256": "956981f497c4cb30024f3e9a6571197ef1aa3ace7a6525f1485c55edae720fcf",
+      "size": 47397
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-78-7542/rubric.json",
+      "sha256": "edb93ed4d100f055bae9df38464b5f906de57c17b385fa505d3c61e62f9cdafd",
+      "size": 5880
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-78-7542/trajectory.json",
+      "sha256": "7755e1675bd4ae54ad284a0664cbff80c5c0952ae7a41174ee9c0eb2c0d202d2",
+      "size": 47179
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-78-7633/rubric.json",
+      "sha256": "ec83174560eb2375f0746181b3e647f2b13197595ed8d0cfb96e107624b69ef0",
+      "size": 4936
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-78-7633/trajectory.json",
+      "sha256": "78f80d5da7ec12be96d0ef2481241e320197913e892882f14b8a16efcf964601",
+      "size": 47422
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-78-8640/rubric.json",
+      "sha256": "30eda6e5bd4f79b4bfbc04867eb9b40c3e8b2003d36154a8f7b6da56a7ff7d71",
+      "size": 5312
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-78-8640/trajectory.json",
+      "sha256": "14df9eadaaa12920c79402fd31f388a525864ddef26830350ab315c1697ff091",
+      "size": 46674
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-86-8054/rubric.json",
+      "sha256": "73d6c694b8f03e1a69132a31bc9933b2ffe020fb590d40d3aafbb27c5ad60c3c",
+      "size": 4909
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-86-8054/trajectory.json",
+      "sha256": "ce7f972bf04d0c861b945b659ffbafb195ff7e65b600f98ceb35291059f07955",
+      "size": 46929
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-86-8279/rubric.json",
+      "sha256": "dc58a540eb9e873d4c1c053c72111665d998853ec9efff32d0b4c49fa1e71c87",
+      "size": 5477
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-86-8279/trajectory.json",
+      "sha256": "20bd44affd32f62dd87d025783cee9a08b08046820c6f5fe709e72df68b34761",
+      "size": 47227
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-86-8358/rubric.json",
+      "sha256": "9d6a88fbfec515e85f1df005550cffcc44a33a290450f25ce394c5f8a54aa387",
+      "size": 4403
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-86-8358/trajectory.json",
+      "sha256": "d6ea5c075d431aad175f8cacf9027d08af0b54c991c65a89cfa87aa796cd4aa9",
+      "size": 46980
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-86-8671/rubric.json",
+      "sha256": "f5a6b41d2c1071c8551058fb969330c200aa291af7d8705cca817dc98651933b",
+      "size": 4145
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-86-8671/trajectory.json",
+      "sha256": "4f556ac1c8d20fec6a0083811e2e5c9f33f806d8869afc792ebe3fffcfe5ebea",
+      "size": 47556
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-97-A4M2/rubric.json",
+      "sha256": "9cb020c95a045c52acadd45044e503c8f9e5299c2fbc6a9a390ced7dffa812be",
+      "size": 4439
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-97-A4M2/trajectory.json",
+      "sha256": "0f289b288e3bbc838432b64ff78d7d873bfc74bc983ad178c56a0ab4e4ad3968",
+      "size": 47515
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-99-8032/rubric.json",
+      "sha256": "ff007523e365b7534185879a0f0be8bf6e849c7f75f3d83023d4d18edfdb87cd",
+      "size": 4544
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-99-8032/trajectory.json",
+      "sha256": "459c2f51f8eed825a20f14d95c638fd864ae1fadeb2a26bee85474280c6f97d6",
+      "size": 46682
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-99-AA5R/rubric.json",
+      "sha256": "b72ebc54b2eb031f88213d742b1d91840a695c3141778db00f3b67d5db74aeea",
+      "size": 4961
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-99-AA5R/trajectory.json",
+      "sha256": "c5fad95b82788ace0e344e8029ae5061a3a05cd8f8846564e1fc025d3691094f",
+      "size": 47412
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-J2-A4AE/rubric.json",
+      "sha256": "69f27335a3e1073d06a6c203b4d66a9b5a548479d3cb7a364a3676b432098033",
+      "size": 4298
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-J2-A4AE/trajectory.json",
+      "sha256": "735602158b969ffbbd8cffe9251d2f46f447af95d32caf0c3080d3c2edf7726d",
+      "size": 47353
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-J2-A4AG/rubric.json",
+      "sha256": "98c32f923cdd096802c71318108b79e728641f0a7cdcbef6cbb62d4301ccf420",
+      "size": 4187
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-J2-A4AG/trajectory.json",
+      "sha256": "f1beb0d091ad052699be894ed35bd98281777f908fdecf3ceff6521618a9d1e7",
+      "size": 46980
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-L4-A4E5/rubric.json",
+      "sha256": "e706e982088f7e6e9ba514b0f3944ffc60f995ec1fe0659dd3284aa4265e1144",
+      "size": 4894
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-L4-A4E5/trajectory.json",
+      "sha256": "73ed0c2f9c4f74005bc90fb63e8965fd4004c768062d1c19b2ba6a1dc9d03838",
+      "size": 46943
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-MN-A4N5/rubric.json",
+      "sha256": "9e0268eac5234c1cce0591576eac581b393a714df64e2fae65f9809c0c84c249",
+      "size": 4219
+    },
+    {
+      "path": "evaluation/references/LUNG/TCGA-MN-A4N5/trajectory.json",
+      "sha256": "27fc713bed8dbd9215ed0d0d7e612329bb076c524a5d2583a782ec28fa5af8af",
+      "size": 46612
+    },
+    {
+      "path": "evaluation/references/manifest.json",
+      "sha256": "731ddbaf39c41ca3381388aa80fa561ef04e2ceaddb0a7544ec40cf544a2e57a",
+      "size": 12062
+    },
+    {
+      "path": "examples/__init__.py",
+      "sha256": "e5dc25dd7999ee7fa7fc80e32d2a8466b28f768b291ef191c96af8f98db94c1d",
+      "size": 33
+    },
+    {
+      "path": "examples/cases/03850333/case.yaml",
+      "sha256": "9bf96e30d45d01affeba79c3669fbfbc8d56c33d8f0d3dbd853567d82239ace5",
+      "size": 661
+    },
+    {
+      "path": "examples/cases/TCGA-38-4625/evaluation/TCGA-38-4625_rubric.json",
+      "sha256": "bcd3cd323e79983bcdca6711682a71b8c0ece539518e69e4fe541f4215cfa5e5",
+      "size": 4394
+    },
+    {
+      "path": "examples/cases/TCGA-38-4625/reports/integrated_reports/TCGA-38-4625_T0_full_report_en.md",
+      "sha256": "436e50c4d0bcab0383b801a4d4a19561a9ab5b1b9b5377548e8494d7f71188b1",
+      "size": 13362
+    },
+    {
+      "path": "examples/cases/TCGA-38-4625/reports/integrated_reports/TCGA-38-4625_T0_full_report_zh.md",
+      "sha256": "0f36418f9803837bf17f0ed11139d58022495ceef215bfcdadfe5b7fa589c738",
+      "size": 14104
+    },
+    {
+      "path": "examples/cases/TCGA-38-4625/reports/pathology_reports/TCGA-38-4625_T0_pathology_report.txt",
+      "sha256": "c92879ca8f16b52cedb91509d973e826ee84fa4c354bdd8eba38192c2aa93a0b",
+      "size": 3488
+    },
+    {
+      "path": "examples/cases/TCGA-38-4626/case.yaml",
+      "sha256": "534354c2050f3860958f17523c5dc3b0e8474d2bb6a0ddebc20b184cdbf5bf0e",
+      "size": 1563
+    },
+    {
+      "path": "examples/cases/TCGA-38-4626/clinical/clinical.json",
+      "sha256": "ab8ea31113744ea735efeffc2f1b35109a71e19025c48d9071b0d2d386262f30",
+      "size": 1295
+    },
+    {
+      "path": "examples/cases/TCGA-38-4626/clinical/follow_up.json",
+      "sha256": "fbca58e64498e38816ca2b109258c5394a823bb423d40a7fefd447e6ff22761b",
+      "size": 487
+    },
+    {
+      "path": "examples/cases/TCGA-38-4626/clinical/treatment.json",
+      "sha256": "fbcaa3827ee988e6a6c28815d154d5f042a7fc4f987b1d4c0a2619d704fd97b9",
+      "size": 508
+    },
+    {
+      "path": "examples/cases/TCGA-38-4626/evaluation/TCGA-38-4626_rubric.json",
+      "sha256": "30f277fc7c75dc2ef539a211799a72ef32bd44283d39ac9b57f6a9620bbc667c",
+      "size": 2487
+    },
+    {
+      "path": "examples/cases/TCGA-38-4626/evaluation/TCGA-38-4626_trajectory.json",
+      "sha256": "2761f8fa145c450c88b558d1e6bc7eab537818e33ee8dc63ed963004ea6bbfb5",
+      "size": 46999
+    },
+    {
+      "path": "examples/cases/TCGA-38-4626/guideline/relevant_nodes.json",
+      "sha256": "e5083d662a4220a786db66a93b77dfba271a16dedd7b9b9063a07c9a233bf557",
+      "size": 1703
+    },
+    {
+      "path": "examples/cases/TCGA-38-4626/hidden_state.json",
+      "sha256": "621fb73284436f486df47d1bfbb1e93fa443f2cf50852b317d72a21ad2915d39",
+      "size": 1014
+    },
+    {
+      "path": "examples/cases/TCGA-38-4626/molecular/biomarkers.json",
+      "sha256": "90df755fa7cb475e21b802f57d29b9b5414c9adefa569912b30daabce83e228c",
+      "size": 1439
+    },
+    {
+      "path": "examples/cases/TCGA-38-4626/pathology/pathology_report.txt",
+      "sha256": "22373d329aa6a5e3e69e75810fa046ba5ac5e47d4e169128df4f0c436597ff51",
+      "size": 136
+    },
+    {
+      "path": "examples/cases/TCGA-38-4626/pathology/pathology_report_metadata.json",
+      "sha256": "074f88186cc5d41449d7171ccc07b4cfa7797234766530d9c1b33d9420558dfb",
+      "size": 120
+    },
+    {
+      "path": "examples/cases/TCGA-38-4626/pathology/slide_metadata.json",
+      "sha256": "6445a3df84f5a5df3b5182d54b7b9aeb4aad3c60ae5168982c2a7f83603b0fa3",
+      "size": 488
+    },
+    {
+      "path": "examples/cases/TCGA-38-4626/pathology/wsi_manifest.json",
+      "sha256": "b3ae94ddab83e9c78decee3c77e44fd8de8b1c1f2f5136a143f6e0b70a1934e4",
+      "size": 449
+    },
+    {
+      "path": "examples/cases/TCGA-38-4626/pathology/wsi_roi_manifest.json",
+      "sha256": "1b9e3a51a58578620d3b14475aa895c228fcd2401b70cf352d033f48cc3c6878",
+      "size": 339
+    },
+    {
+      "path": "examples/cases/TCGA-38-4626/radiology/ct_manifest.json",
+      "sha256": "4cc749f54b9fdff68e1e2df5534018414a6dc7c2065c3bc034e549621e83fef4",
+      "size": 340
+    },
+    {
+      "path": "examples/cases/TCGA-38-4626/radiology/ct_roi_manifest.json",
+      "sha256": "1e1a5638acdc76d786dec4a92b7950bacd583abab08be0bb5aa5589c6a6b5028",
+      "size": 233
+    },
+    {
+      "path": "examples/cases/TCGA-38-4626/radiology/lungtumormask_meta.json",
+      "sha256": "201be6a9cf10ec13b29e7645a39225bcf7624bc343a68fc22edf017deacf8898",
+      "size": 629
+    },
+    {
+      "path": "examples/cases/TCGA-38-4626/release_policy.json",
+      "sha256": "266b281622196c60fc8d5e9b4fa9c13beb2ff398b4e8a52b884b82acb965ec9b",
+      "size": 906
+    },
+    {
+      "path": "examples/cases/TCGA-38-4626/report_extraction.json",
+      "sha256": "99aba31c88f79f1c4a0b61e901442ce71b8eecbcb5c881cd2626d182988b2c72",
+      "size": 247
+    },
+    {
+      "path": "examples/cases/TCGA-38-4626/reports/integrated_reports/TCGA-38-4626_T0_full_report_en.md",
+      "sha256": "14f397c222b0c3dc96a13daa9f072c5b7ea6509f876ecd2af9832039ec953d8f",
+      "size": 14318
+    },
+    {
+      "path": "examples/cases/TCGA-38-4626/reports/integrated_reports/TCGA-38-4626_T0_full_report_zh.md",
+      "sha256": "9fe147a10553fbea642e0782fc648c7ef5b2b2ee4bad488263012a109a8fc978",
+      "size": 11950
+    },
+    {
+      "path": "examples/cases/TCGA-38-4626/reports/pathology_reports/TCGA-38-4626_T0_pathology_report.txt",
+      "sha256": "65424d2a57372822b6cfbd5c1aba9aa341b8fe2e896c4520ac11e17d169d9d28",
+      "size": 3913
+    },
+    {
+      "path": "examples/cases/TCGA-50-6673/evaluation/TCGA-50-6673_rubric.json",
+      "sha256": "5f9585e5b152d7dd6056ea80e5b674328c7699826247c8e9105ab9bc3ec60e27",
+      "size": 5999
+    },
+    {
+      "path": "examples/cases/TCGA-50-6673/reports/integrated_reports/TCGA-50-6673_T0_full_report_en.md",
+      "sha256": "e427c0273e09e3f1f986dbc3c9f9869bc3437d15afb5f3892d270c95cc093099",
+      "size": 12931
+    },
+    {
+      "path": "examples/cases/TCGA-50-6673/reports/integrated_reports/TCGA-50-6673_T0_full_report_zh.md",
+      "sha256": "0053ddca6c4bfe072d83daa684cb5b387a46470b5b9b3b5e66535ed0c8b41bcd",
+      "size": 11865
+    },
+    {
+      "path": "examples/cases/TCGA-50-6673/reports/pathology_reports/TCGA-50-6673_T0_pathology_report.txt",
+      "sha256": "34528fa820a6db64410fdc10bfe2568f5221b26f46d192b4c69572f1b67cbfc5",
+      "size": 2284
+    },
+    {
+      "path": "examples/cases/TCGA-50-8459/evaluation/TCGA-50-8459_rubric.json",
+      "sha256": "24b701ccbad4e9c432658339debc15603d352c68fcad2fcad6e5c73cd4795679",
+      "size": 5111
+    },
+    {
+      "path": "examples/cases/TCGA-50-8459/reports/integrated_reports/TCGA-50-8459_T0_full_report_en.md",
+      "sha256": "5eeca14849b41bef4af76dfbc7c6660e5e5e0cb8d661cc6a60fe7d6ea1f5a28f",
+      "size": 13896
+    },
+    {
+      "path": "examples/cases/TCGA-50-8459/reports/integrated_reports/TCGA-50-8459_T0_full_report_zh.md",
+      "sha256": "0974d73f4f4cd246eb663a6ba62d994f0ee758d83b965726f9bea83fbf6ae439",
+      "size": 12777
+    },
+    {
+      "path": "examples/cases/TCGA-50-8459/reports/pathology_reports/TCGA-50-8459_T0_pathology_report.txt",
+      "sha256": "ee22ff9b6b061fc37d7469c243cb239f1e4f91a89066eaec7c3dad27588132db",
+      "size": 10707
+    },
+    {
+      "path": "examples/cases/TCGA-J2-8192/evaluation/TCGA-J2-8192_rubric.json",
+      "sha256": "bca35c804c2d54a610b06b3ecd35cbdbb1f724ff88ee419f0bd14d76e8808366",
+      "size": 5448
+    },
+    {
+      "path": "examples/cases/TCGA-J2-8192/reports/integrated_reports/TCGA-J2-8192_T0_full_report_en.md",
+      "sha256": "c38d6af5dfd3728d764da99ca59d71f00a9396e09bee676f7bd600b9f4155b5b",
+      "size": 12515
+    },
+    {
+      "path": "examples/cases/TCGA-J2-8192/reports/integrated_reports/TCGA-J2-8192_T0_full_report_zh.md",
+      "sha256": "4524ef431dc25532f3db94ef44b5f29f5af2cf48ccb36324d29930e999779839",
+      "size": 12913
+    },
+    {
+      "path": "examples/cases/TCGA-J2-8192/reports/pathology_reports/TCGA-J2-8192_T0_pathology_report.txt",
+      "sha256": "ddacfaca9c8467942c0a038924fbd73e61b9f53ac3509beeabcae379eaa7acd1",
+      "size": 6076
+    },
+    {
+      "path": "examples/cases/TCGA-J2-8194/evaluation/TCGA-J2-8194_rubric.json",
+      "sha256": "e434a0b08075cf4475789cdefcb06410e57052c0148a098f38d814886202b2b3",
+      "size": 4234
+    },
+    {
+      "path": "examples/cases/TCGA-J2-8194/reports/integrated_reports/TCGA-J2-8194_T0_full_report_en.md",
+      "sha256": "accbe0af7fa46947159b191fea8d676af55efd70ca516f9c65d6308e16c8281a",
+      "size": 11811
+    },
+    {
+      "path": "examples/cases/TCGA-J2-8194/reports/integrated_reports/TCGA-J2-8194_T0_full_report_zh.md",
+      "sha256": "36382501d42688fe43c8b90fd8651909c58731970e2106a7e2b1047d3256b69f",
+      "size": 11041
+    },
+    {
+      "path": "examples/cases/TCGA-J2-8194/reports/pathology_reports/TCGA-J2-8194_T0_pathology_report.txt",
+      "sha256": "34275a84506cb32175c5c60566ec6e1134bb26f75552007730cbbd6ab773112b",
+      "size": 8868
+    },
+    {
+      "path": "examples/run_conch_patch_roi_demo.py",
+      "sha256": "76af93d224989f525e7e0cc3b17fc60dc3984c2cc0913a32de2d943a97df4d36",
+      "size": 3788
+    },
+    {
+      "path": "examples/run_lung_tumor_roi_demo.py",
+      "sha256": "b9515c59a263194be393ae3a831406f0f02e8b21674d5aa3c525fac32d0650db",
+      "size": 3785
+    },
+    {
+      "path": "examples/run_npc_conch_patch_roi_demo.py",
+      "sha256": "0972f478f43c26f5ed8fb6640f56731e3d5601853f2175653cda50f5749f3790",
+      "size": 3934
+    },
+    {
+      "path": "examples/run_npc_mri_roi_demo.py",
+      "sha256": "a46402e7c417650adb15da577f88dd9c12cd3d5cd85588047d77881a2a05d09c",
+      "size": 3887
+    },
+    {
+      "path": "examples/run_qwen_agent.py",
+      "sha256": "5b0352e27e4fb1ab3defb31d39853446baee1766cbb9d848da50d4e26647675d",
+      "size": 6053
+    },
+    {
+      "path": "examples/run_ucec_conch_patch_roi_demo.py",
+      "sha256": "4aedd9b04bf715d830cd4ad839a1affeddbd08016140c1fbfc4be8b875c1802d",
+      "size": 3918
+    },
+    {
+      "path": "examples/run_ucec_mri_roi_demo.py",
+      "sha256": "36812128d68e1821e5ec85c76c45cbf01342ee37dd5b661177c26c7476c75f8b",
+      "size": 3860
+    },
+    {
+      "path": "guideline_planner/__init__.py",
+      "sha256": "5890db248756bbabf0e1f181bcbf071a98cb1e31dd7883603e7fa0f101b1302c",
+      "size": 3039
+    },
+    {
+      "path": "guideline_planner/artifacts.py",
+      "sha256": "9d3fdbbf1241a027e24a48530966e01ed84968a4f5f5988c050f1d8c7468e217",
+      "size": 3214
+    },
+    {
+      "path": "guideline_planner/chunking.py",
+      "sha256": "2a5cd73b6b69f11d55f90e6dd4b72d6f6680f25f293a936881eb18f7ad5f2535",
+      "size": 5549
+    },
+    {
+      "path": "guideline_planner/cli.py",
+      "sha256": "8fec841960805466b1337af1061109e9588e97ecde50eff59e40ff6a12e92b09",
+      "size": 48960
+    },
+    {
+      "path": "guideline_planner/configs/latent_guideline_routing.yaml",
+      "sha256": "2f47a8560a3e885666fca4cc2041c5072f51ca5c8dff3cbabe3a9395c7049d21",
+      "size": 1961
+    },
+    {
+      "path": "guideline_planner/configs/planner_v2_lung_endometrial.yaml",
+      "sha256": "993b8706a25b755359607d8de0088c361e8080d071ef3f76649268120daaed52",
+      "size": 3181
+    },
+    {
+      "path": "guideline_planner/configs/planner_v2_lung_endometrial_npc.yaml",
+      "sha256": "82706a2840b8009fe5c5716d309913005c7ce3ca3b6abc1f2baf0d3dd8b5b55a",
+      "size": 5116
+    },
+    {
+      "path": "guideline_planner/configs/planner_v2_smoke_routing.yaml",
+      "sha256": "9e2e06f9a532890ade904e43192fe7c32aa8e1f452318d795539428351874e68",
+      "size": 1410
+    },
+    {
+      "path": "guideline_planner/constants.py",
+      "sha256": "27d31ddef427ee47aab9dbb8a99f105636cdbf3cbe08c929f9dff7eb866ec43a",
+      "size": 989
+    },
+    {
+      "path": "guideline_planner/dataset.py",
+      "sha256": "fe4256b683ea7f8b390a7210eb40655f0895806cb7d8033d6a02275714f6b3a3",
+      "size": 9237
+    },
+    {
+      "path": "guideline_planner/dynamic_anchor_attention.py",
+      "sha256": "f6b48a74d9c5c85238a8f5e791598da264d119df32641a37878e926921f41ec0",
+      "size": 17831
+    },
+    {
+      "path": "guideline_planner/dynamic_anchor_attention_losses.py",
+      "sha256": "ef8a9c844d58a54a58e1eadcf5c5a75109b406f52cb1e7da39301a4b6696d0f2",
+      "size": 2961
+    },
+    {
+      "path": "guideline_planner/evaluation_v2.py",
+      "sha256": "054c4801308b5216903a9f04fe1e28576aa9ad2dd905ae3088c9b7a72dc9e462",
+      "size": 15557
+    },
+    {
+      "path": "guideline_planner/expert_competition.py",
+      "sha256": "ae66222689059cb8ff57af6f1294bbb22b945c7d14fedca53fa004ce58376379",
+      "size": 6410
+    },
+    {
+      "path": "guideline_planner/fixed_prediction.py",
+      "sha256": "74cc51806537700cd028790ee8497cf3283f7629efd913948eae2dcba221826a",
+      "size": 8882
+    },
+    {
+      "path": "guideline_planner/gpt_trajectory_pipeline.py",
+      "sha256": "cc7bf258945351b2bd86f4dff442f4375d2937682ffc44314911698d8b36ba8d",
+      "size": 125672
+    },
+    {
+      "path": "guideline_planner/grounding.py",
+      "sha256": "46cea602f47fe39750ccf52d313adde5884cea0ff686767c964002ea20645bef",
+      "size": 12303
+    },
+    {
+      "path": "guideline_planner/io_utils.py",
+      "sha256": "a35684ed6e5cf3f9f4d868b9794d391d225214e322097c3df313f7c3da5daa22",
+      "size": 1685
+    },
+    {
+      "path": "guideline_planner/latent_decoder.py",
+      "sha256": "f91cc45e0d6a360c648da2d6afef8bd571b7a542a1554779892b1f0c20ad6ca8",
+      "size": 12426
+    },
+    {
+      "path": "guideline_planner/latent_memory_retriever.py",
+      "sha256": "198504900cd3aeefc26bbb9f2cf8b1e874e1d72653f91435ce77f3637de6a9de",
+      "size": 12768
+    },
+    {
+      "path": "guideline_planner/medclaw_adapter.py",
+      "sha256": "d79835ed1b4b74395d593a71773876aaaf1ceddcdd3536af8c2ac45dbf4d65e1",
+      "size": 1210
+    },
+    {
+      "path": "guideline_planner/memory.py",
+      "sha256": "f13373f4424eb3f20a08ffb946e6234fbb8825eafcc5b0b579e0397367a22995",
+      "size": 18931
+    },
+    {
+      "path": "guideline_planner/memory_expert.py",
+      "sha256": "b4aa837665b8bf20c53c44489c316a7fdc09855204d742e21068e86f412c1080",
+      "size": 3629
+    },
+    {
+      "path": "guideline_planner/memory_fusion.py",
+      "sha256": "30593f3ae7420a5630751855976e1bd71fd25c1ba5b6619d910c67fd7844f271",
+      "size": 13528
+    },
+    {
+      "path": "guideline_planner/modeling.py",
+      "sha256": "769012d55c8f76e157519a6982ac4be4e7fe72a81cd7470e8a8f305cb8c07b95",
+      "size": 67315
+    },
+    {
+      "path": "guideline_planner/phase_machine.py",
+      "sha256": "9a45a20616f33e689fb91d2446662dfe54336d4c4a19e40716deb2630f0aced3",
+      "size": 3415
+    },
+    {
+      "path": "guideline_planner/planner.py",
+      "sha256": "bcb3f5d7b5b833c1722c027e2c4cf09d2ba3dbc88a91956d32ccad20177dff7d",
+      "size": 58445
+    },
+    {
+      "path": "guideline_planner/planner_decoder_training.py",
+      "sha256": "e35ccdb8d60dac3e359f3f00cf704bceeb64ed07cbed76944eced89a879bd024",
+      "size": 47787
+    },
+    {
+      "path": "guideline_planner/progress.py",
+      "sha256": "fb4e7e71eb5ede5a92b99d5a6d23fc237e2ee2c051f4186a093130f57205e1fe",
+      "size": 4822
+    },
+    {
+      "path": "guideline_planner/README_zh.md",
+      "sha256": "214c582e899d2e4f254c12866ca81771315e93c400542fe71c9539a2a1fe5e2e",
+      "size": 10638
+    },
+    {
+      "path": "guideline_planner/real_case_trajectory_builder.py",
+      "sha256": "36a565b14cc9d8ff44ee67d3e6f81fea69335a0d07971dc35ed067e8ede1a0c9",
+      "size": 43713
+    },
+    {
+      "path": "guideline_planner/release.py",
+      "sha256": "047b21f1050a74bdae42e89c7fd4884e9c2b53ced2d02b346def5757d9dff5e8",
+      "size": 38287
+    },
+    {
+      "path": "guideline_planner/release_scope.py",
+      "sha256": "32e1a0d33e08f46a04520bbd8d4cdc5fa510fb2190b329622b3ac6223a356e5a",
+      "size": 17038
+    },
+    {
+      "path": "guideline_planner/retrieval.py",
+      "sha256": "63ebd061ac315ee75f168dde1191db46b3217cae0188e70203c58538a79fc63b",
+      "size": 6811
+    },
+    {
+      "path": "guideline_planner/review_sync.py",
+      "sha256": "44705bf262d00e1ac3728e82c66fcc208e78d7962884bcd2200e3e55b14c25a0",
+      "size": 19799
+    },
+    {
+      "path": "guideline_planner/routing_config.py",
+      "sha256": "ac29ee4dca8e09cc514323057fa1d8eb383580684c1f714fb6c9c5d3816002f2",
+      "size": 11393
+    },
+    {
+      "path": "guideline_planner/routing_dataset.py",
+      "sha256": "37240f84cde5d4f8fd4e43d82155dd4603118bd71c7951460c9e14bc8d24d2e6",
+      "size": 10476
+    },
+    {
+      "path": "guideline_planner/routing_losses.py",
+      "sha256": "fe2e7abcacad6b770bf3cbe676f729af5de98771b57946859267f57947fc4a61",
+      "size": 7219
+    },
+    {
+      "path": "guideline_planner/routing_metrics.py",
+      "sha256": "f0696d891bb94dc6912365c339f1f758a903eb18cd0963adf873fedc5d4f6ac1",
+      "size": 11014
+    },
+    {
+      "path": "guideline_planner/routing_pipeline.py",
+      "sha256": "04ea547fb6475b8d91d7891d0a6289d59099637a7e268d8eebe19fd99601f773",
+      "size": 31974
+    },
+    {
+      "path": "guideline_planner/routing_training.py",
+      "sha256": "4738f4c2d0817aaddd948c3e8a366f1e15c24ec57bed21d749464f3416e9873d",
+      "size": 51570
+    },
+    {
+      "path": "guideline_planner/routing_types.py",
+      "sha256": "96f1daf96b1d336a76be4a8b37cf7bd39988dd0bef12b0aa5ba2689b1b83d122",
+      "size": 14086
+    },
+    {
+      "path": "guideline_planner/rule_engine.py",
+      "sha256": "228398f1ad1b883af566bdc381bd2008919e01208fb3c494fc89911d900f11ce",
+      "size": 10173
+    },
+    {
+      "path": "guideline_planner/sampling.py",
+      "sha256": "8ceb9032451f986aebffaf4fc7b7bfe8f0ed6be810a4470d822a83e4f2db3b76",
+      "size": 13300
+    },
+    {
+      "path": "guideline_planner/schemas_v2.py",
+      "sha256": "25a06595cc1d7223a882e6136a2796d93ed7f5928e11567dd2e14a137382555c",
+      "size": 48284
+    },
+    {
+      "path": "guideline_planner/soft_memory_gate.py",
+      "sha256": "77e97b5a459418b51105e642af8f4cc647de9151a5f03bf02f4bf17b4be39c2f",
+      "size": 8636
+    },
+    {
+      "path": "guideline_planner/state_encoder.py",
+      "sha256": "47edfcfdbc0271eb78d6c5719d1c10c29b9df1d68b4e628d17297e934c6a5628",
+      "size": 5300
+    },
+    {
+      "path": "guideline_planner/teacher_cache.py",
+      "sha256": "9625b592e2b540b62f6603ca98999e7cc6b0a9d7af51b71647e5ab5cc9e265b9",
+      "size": 2530
+    },
+    {
+      "path": "guideline_planner/training_checkpoint.py",
+      "sha256": "cd83a9e936a8d481948fd06e380462f2ea9802ae62f001c55d548e23f0225d49",
+      "size": 6083
+    },
+    {
+      "path": "guideline_planner/trajectory_dataset.py",
+      "sha256": "af5a35fec10c509dc2938aebf0ed155ef3eb654a03edde26ff3cb59811352e15",
+      "size": 12344
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "1d0dde41ece0f9620937f1a81a67e295ace0eae180c009d862006e8f3b288458",
+      "size": 1074
+    },
+    {
+      "path": "medclaw/__init__.py",
+      "sha256": "73f95a4dc7be094c89a28c7491eae85105c5e22e4027876a1636ec789b4dda08",
+      "size": 228
+    },
+    {
+      "path": "medclaw/core/__init__.py",
+      "sha256": "3b490e9b086eab6e2941136c368739caa77923efc62f2c027906916e40c1899d",
+      "size": 382
+    },
+    {
+      "path": "medclaw/core/agent_loop.py",
+      "sha256": "7cf0e742547355d7c1c6325f3be012336826cd57a2a91a8677312e622c7b1c2d",
+      "size": 26961
+    },
+    {
+      "path": "medclaw/core/evidence_board.py",
+      "sha256": "1a8d397fd1186aafaa38523f41b38b598ece3ecc6ba6bdc961341bce9a26306c",
+      "size": 3094
+    },
+    {
+      "path": "medclaw/core/tool_router.py",
+      "sha256": "dee4c7ad6f45fdb8faa3a99af58b77f6107fd296c03077cb71857a82a0128e7d",
+      "size": 3356
+    },
+    {
+      "path": "medclaw/knowledge/guidelines/CSCO子宫内膜癌2023.md",
+      "sha256": "8f16e8b61cab7c8c6ead88255f4c036e86b0cda629a1f04b09fe07b6d937ff80",
+      "size": 109445
+    },
+    {
+      "path": "medclaw/knowledge/guidelines/CSCO鼻咽癌2022.md",
+      "sha256": "b018b6362abe415717807016717acf813c1375366f00a4999f051eaa159fa7a2",
+      "size": 121640
+    },
+    {
+      "path": "medclaw/knowledge/guidelines/NSCLC_2010.md",
+      "sha256": "3ca647daf83a99197ae4bbc7e15e05c4002b1ed48a512eb3c49c176cae09ae80",
+      "size": 285687
+    },
+    {
+      "path": "medclaw/knowledge/guidelines/SCLC_2010.md",
+      "sha256": "7bb99da08e77c9ccf183d020eecaddbdbcf76413b6bc32fabf47a1519313c0cf",
+      "size": 52623
+    },
+    {
+      "path": "medclaw/llm/__init__.py",
+      "sha256": "13160cce1e0d8c7a91b1b2faf63fb872236e542b38c890331dc39eafee1b8738",
+      "size": 1385
+    },
+    {
+      "path": "medclaw/llm/anthropic_client.py",
+      "sha256": "ee0b7a9b6506ff3db7de72487fa853917166905887db614267c76dd907b611bd",
+      "size": 12594
+    },
+    {
+      "path": "medclaw/llm/env_utils.py",
+      "sha256": "5ff8b91bf606e79b2c07304e85d9eb1326430a32632754d0e29ed95df0171027",
+      "size": 981
+    },
+    {
+      "path": "medclaw/llm/factory.py",
+      "sha256": "80e9d680ad3969945743109aac6b6b82848c8dfc6c3fffee82c37df2555c35d6",
+      "size": 2466
+    },
+    {
+      "path": "medclaw/llm/image_utils.py",
+      "sha256": "8d411c92c9561b900dd0d53f9583127ee53723aa0f22ce637cd044abd040500d",
+      "size": 2004
+    },
+    {
+      "path": "medclaw/llm/openai_compatible.py",
+      "sha256": "aea220f4868ad6513de1d20a2c3d70b972cab7d788c20663c28cfc6529eb5208",
+      "size": 10786
+    },
+    {
+      "path": "medclaw/llm/protocols.py",
+      "sha256": "b267697c778ff497debab7172ad1ac4f1afeca6ed8e5b0eb8060caaf7bbf281a",
+      "size": 1394
+    },
+    {
+      "path": "medclaw/llm/providers/__init__.py",
+      "sha256": "8a38220613255837ede0551b82ad9466a494e7a6490158dcd0b7b3d25ae27310",
+      "size": 37
+    },
+    {
+      "path": "medclaw/llm/providers/claude.py",
+      "sha256": "d3d6f8ce29d13ec9abb8543e4d3e5af7eee900712063f4f1e353c156addbbf01",
+      "size": 1610
+    },
+    {
+      "path": "medclaw/llm/providers/deepseek.py",
+      "sha256": "1bbcf7c18dcfe45c935015d682aff8a07c77300430a40c1a9e46999f9c5b7cd8",
+      "size": 1762
+    },
+    {
+      "path": "medclaw/llm/providers/gemini.py",
+      "sha256": "714674ff2a463ac142554bfe15278d0ceb3388635604ee5df0c1e5159058f07e",
+      "size": 1827
+    },
+    {
+      "path": "medclaw/llm/providers/local_openai.py",
+      "sha256": "8b79f689728de95c6587971d6203d7297476db9ba87901b6a184793280119f5a",
+      "size": 3209
+    },
+    {
+      "path": "medclaw/llm/providers/openai.py",
+      "sha256": "7ea1892de002ed0f23e4adf18ca22bbc8f47b75c138ccb712ee6fd2ca005218a",
+      "size": 1725
+    },
+    {
+      "path": "medclaw/llm/providers/qwen.py",
+      "sha256": "4c6ddf444f0199b7cc1cc2f02dd24c013c263fe5bf8ec41d5e77bf15e02d60f0",
+      "size": 3064
+    },
+    {
+      "path": "medclaw/llm/qwen_client.py",
+      "sha256": "abc91c88ec8e18c215bcc8d5df2889bcb6ff9faedb7f9b6c1a6041bf696dbfc6",
+      "size": 773
+    },
+    {
+      "path": "medclaw/llm/retry_utils.py",
+      "sha256": "87f126173f8dc7d7509714a44cf191a94a0ceb9af8a2afc06937cebff9a5991c",
+      "size": 3087
+    },
+    {
+      "path": "medclaw/registry/__init__.py",
+      "sha256": "daee14f6a1fbe022ccc5be501ac79ba19ff8c6f1db6498bc33a4eb03bfe47cb3",
+      "size": 351
+    },
+    {
+      "path": "medclaw/registry/schema_validator.py",
+      "sha256": "b6ed47b2d00fea492f0acdf8bc74ff01a235d537653e5d79c318846be8354583",
+      "size": 1366
+    },
+    {
+      "path": "medclaw/registry/skill_registry.py",
+      "sha256": "d2cca3eab95a56126b6bd52613e97b3d5d215fd49524b2de0eaa4f84b95186e0",
+      "size": 6321
+    },
+    {
+      "path": "medclaw/runtime/__init__.py",
+      "sha256": "9cafd839427b5e795de37f4b459e2d7ff0424e90a58832fa0ce248afe0f7a2ae",
+      "size": 323
+    },
+    {
+      "path": "medclaw/runtime/runtime_manager.py",
+      "sha256": "33b4d38a94d16d9a3e61893f6e054e2d6ad806a3c6b0e6885213fde68717e567",
+      "size": 11954
+    },
+    {
+      "path": "medclaw/runtime/skill_runner.py",
+      "sha256": "d0be5d9aede6771559797511cbbcd2c68eefdb3855b86985185e30085bbef644",
+      "size": 4903
+    },
+    {
+      "path": "medclaw/skills/__init__.py",
+      "sha256": "3a50afb3045153565de099c0e3d3896621e902280bc460b24bd8ce95779eae81",
+      "size": 33
+    },
+    {
+      "path": "medclaw/skills/guideline/__init__.py",
+      "sha256": "004370063f229f1e2b42e75976b43aef58245b36cabbe826ac125d910388a6e8",
+      "size": 34
+    },
+    {
+      "path": "medclaw/skills/guideline/retrieve/__init__.py",
+      "sha256": "224e77c32b4d12f5d9a54ac00cfe239e9214c586ea52468dff180f41be127330",
+      "size": 38
+    },
+    {
+      "path": "medclaw/skills/guideline/retrieve/requirements.txt",
+      "sha256": "fb0ff7f14510606248dd2ee0eadb0bea896efbd8362d553d6301b7723106e45e",
+      "size": 72
+    },
+    {
+      "path": "medclaw/skills/guideline/retrieve/run.py",
+      "sha256": "bfcb77aa8dc0d5a2de7300c83b42dc3c9a8cf0855cee4d9cafca0f780c70eca4",
+      "size": 58092
+    },
+    {
+      "path": "medclaw/skills/guideline/retrieve/SKILL.md",
+      "sha256": "cdc332474c062092e0cf8e1e96b2b9884753e5615c7398d00a1590bdaa152e96",
+      "size": 3907
+    },
+    {
+      "path": "medclaw/skills/guideline/retrieve/skill.yaml",
+      "sha256": "fded1b7d5fa7d6c09bfc3a41d33a2db52f31259f00889ecf3dbb059b19324760",
+      "size": 3640
+    },
+    {
+      "path": "medclaw/skills/pathology/conch_io.py",
+      "sha256": "1d7608868e620628e799a4339f7e581470e1e2c4b0692718d124a72abcbdff21",
+      "size": 4077
+    },
+    {
+      "path": "medclaw/skills/pathology/conch_patch_roi/__init__.py",
+      "sha256": "fd37e7fca983132b3f22accf2affc667c95e0d429543f56b422cc2f18c009012",
+      "size": 54
+    },
+    {
+      "path": "medclaw/skills/pathology/conch_patch_roi/prompts/luad_default.json",
+      "sha256": "94421f09a69cc27b5a09a3a32e03bdc62d244def0c39010161feb92adfe5fe05",
+      "size": 515
+    },
+    {
+      "path": "medclaw/skills/pathology/conch_patch_roi/requirements.txt",
+      "sha256": "9a146dd22b6660e6f44eca198d473b1860a19aa3f5cc47865865deb37fc7a5d1",
+      "size": 14
+    },
+    {
+      "path": "medclaw/skills/pathology/conch_patch_roi/run.py",
+      "sha256": "73c0d5e68fc5dd9b23ab51663538b5346211588c498e3231309eea940e858e0c",
+      "size": 3516
+    },
+    {
+      "path": "medclaw/skills/pathology/conch_patch_roi/scripts/_luad_multiscale_common.py",
+      "sha256": "073af3fd3bea418b254a4585f7230d769913791a89f1a5e6a450d6147f3cba8d",
+      "size": 4385
+    },
+    {
+      "path": "medclaw/skills/pathology/conch_patch_roi/scripts/build_luad_master_patient_table.py",
+      "sha256": "25996f0c339ab8505231a71bfcd156d3a559f2b37e96119373a3b57b83e73966",
+      "size": 4973
+    },
+    {
+      "path": "medclaw/skills/pathology/conch_patch_roi/scripts/luad_create_patches.py",
+      "sha256": "6576a27134c7703d8b66f77cf1d80243f63fc9c5f39fe90d69f373ee5cef8c3a",
+      "size": 12819
+    },
+    {
+      "path": "medclaw/skills/pathology/conch_patch_roi/scripts/luad_distribute_wsi.py",
+      "sha256": "239b229fe289be01e8928d856f2755da3a81863a8ac01e9545e4ed87dbf07fc3",
+      "size": 3265
+    },
+    {
+      "path": "medclaw/skills/pathology/conch_patch_roi/scripts/luad_extract_conch.py",
+      "sha256": "39439f20f52fd3308973b2472f057a3abaf4e5d4a388951b894402225ca974dc",
+      "size": 6841
+    },
+    {
+      "path": "medclaw/skills/pathology/conch_patch_roi/scripts/luad_verify_scale.py",
+      "sha256": "4bfcd76b42f112b2023db96b4af1bf405e86d6e7e73d8e084b20302aa1214d4b",
+      "size": 5878
+    },
+    {
+      "path": "medclaw/skills/pathology/conch_patch_roi/scripts/run_conch_prompt_roi.py",
+      "sha256": "6c32580d2d8eb94b398bc97541d9e0faaccf393c80ee15a86ccc64b4a7362a94",
+      "size": 12438
+    },
+    {
+      "path": "medclaw/skills/pathology/conch_patch_roi/scripts/run_conch_roi_nohup.sh",
+      "sha256": "942a92dfe60df31f3a43b9c45e478e50e0c9e70b3fbe6d93e3039c0b374ef00c",
+      "size": 922
+    },
+    {
+      "path": "medclaw/skills/pathology/conch_patch_roi/scripts/run_conch_roi_tmux.sh",
+      "sha256": "4f2475ee6840a3dc332b440835d0f9db020f51a72bc9e83bb3838dd4f739fbd6",
+      "size": 1353
+    },
+    {
+      "path": "medclaw/skills/pathology/conch_patch_roi/scripts/run_luad_distribute_wsi_tmux.sh",
+      "sha256": "87c4a4db824cf614a67af090a82a6751d5336405bcfbb98e6067f8dbbbc3ca7a",
+      "size": 1470
+    },
+    {
+      "path": "medclaw/skills/pathology/conch_patch_roi/scripts/run_luad_multiscale.sh",
+      "sha256": "7d7a4dd43383045f296a0c298ee31d334ca7ec4c1e27aa4b800a2de4e7ae721b",
+      "size": 3652
+    },
+    {
+      "path": "medclaw/skills/pathology/conch_patch_roi/scripts/run_luad_multiscale_tmux.sh",
+      "sha256": "38b7d8882c10cbab653c351a19deb282a5dc63ad8645a6d49831fb4214dd5e14",
+      "size": 1593
+    },
+    {
+      "path": "medclaw/skills/pathology/conch_patch_roi/SKILL.md",
+      "sha256": "ec69ce61aa10d29e5780957db58d67a51fa8d496d43ad5b8fd107708da10be5c",
+      "size": 1776
+    },
+    {
+      "path": "medclaw/skills/pathology/conch_patch_roi/skill.yaml",
+      "sha256": "066a699e4c576adae981ab362e68e5ee27792894ba7a59e50ecb670b64f0d28a",
+      "size": 2021
+    },
+    {
+      "path": "medclaw/skills/pathology/conch_patch_roi/workflow.py",
+      "sha256": "d39d27f9046084b3b2141a3d42645a9779ee6eae047a60292e2ed320a3c4d284",
+      "size": 20402
+    },
+    {
+      "path": "medclaw/skills/pathology/npc_conch_patch_roi/__init__.py",
+      "sha256": "2552e153bf54d38054a2f29fd7c5957985c36921a4d6c9cd97fb25116b44d4fe",
+      "size": 58
+    },
+    {
+      "path": "medclaw/skills/pathology/npc_conch_patch_roi/prompts/npc_default.json",
+      "sha256": "1df95d1820b031ba89e3238ddea2083618dd7081b515b034119f389a8795742e",
+      "size": 669
+    },
+    {
+      "path": "medclaw/skills/pathology/npc_conch_patch_roi/requirements.txt",
+      "sha256": "72d906fd4563cfe37cc05c3815f7ea8989de5caacd14c2b153fcac0fc3cf634c",
+      "size": 14
+    },
+    {
+      "path": "medclaw/skills/pathology/npc_conch_patch_roi/run.py",
+      "sha256": "1154a38e6be61936a048fa43ede4adbfaf5a8a99dd6bdf5e3e6f17ab302bded7",
+      "size": 3664
+    },
+    {
+      "path": "medclaw/skills/pathology/npc_conch_patch_roi/SKILL.md",
+      "sha256": "e9d4a176b88ee98896783dc4e3051e6f0df26076814e8116093b5bad20270929",
+      "size": 2130
+    },
+    {
+      "path": "medclaw/skills/pathology/npc_conch_patch_roi/skill.yaml",
+      "sha256": "0410eb9130b2959a8c66e388b32d4dab932f6982a80964bd82cf9d3155b29203",
+      "size": 2136
+    },
+    {
+      "path": "medclaw/skills/pathology/npc_conch_patch_roi/workflow.py",
+      "sha256": "7992b654dbe6ecc0488697069ca52688e7a2c0ef332853afc19ac65468c6128f",
+      "size": 18939
+    },
+    {
+      "path": "medclaw/skills/pathology/ucec_conch_patch_roi/__init__.py",
+      "sha256": "eca9b65b2603f2d3601133dfe59fbfca610a1e87ef39c95e5b7d57a1e254e915",
+      "size": 59
+    },
+    {
+      "path": "medclaw/skills/pathology/ucec_conch_patch_roi/prompts/ucec_default.json",
+      "sha256": "bc28149d04b55905101d5e9549fc3354afd9c973df656c605fbe58cfb4a58bf8",
+      "size": 616
+    },
+    {
+      "path": "medclaw/skills/pathology/ucec_conch_patch_roi/requirements.txt",
+      "sha256": "72d906fd4563cfe37cc05c3815f7ea8989de5caacd14c2b153fcac0fc3cf634c",
+      "size": 14
+    },
+    {
+      "path": "medclaw/skills/pathology/ucec_conch_patch_roi/run.py",
+      "sha256": "de83d718962ba0d125d575c6c50b5ed7e25e2fad5b823f4cb635d60c93203a53",
+      "size": 3670
+    },
+    {
+      "path": "medclaw/skills/pathology/ucec_conch_patch_roi/scripts/_ucec_conch_common.py",
+      "sha256": "d8b7298d6f5620c3790f9d12d935d062004a8400b9fd26f265bc446039d1fbf3",
+      "size": 1181
+    },
+    {
+      "path": "medclaw/skills/pathology/ucec_conch_patch_roi/scripts/run_ucec_conch_prompt.py",
+      "sha256": "1b6f7ced83c6e3364f6b065d73b6d25197ffc915179ae79afcbe5b350e453c87",
+      "size": 13664
+    },
+    {
+      "path": "medclaw/skills/pathology/ucec_conch_patch_roi/SKILL.md",
+      "sha256": "23922d85ee689bcceecc7b178d90a87b2ea7aa6565a6c8aa7a00fb61c91894d3",
+      "size": 2017
+    },
+    {
+      "path": "medclaw/skills/pathology/ucec_conch_patch_roi/skill.yaml",
+      "sha256": "a2c840fe591ef7d7f06ba0335506ece2b4b3d0490cd669c12a63417154929c99",
+      "size": 2136
+    },
+    {
+      "path": "medclaw/skills/pathology/ucec_conch_patch_roi/workflow.py",
+      "sha256": "01cadf01e56d0641e1149fbdf7e5c686b1c7483226665b63884e9864da30f9a2",
+      "size": 18783
+    },
+    {
+      "path": "medclaw/skills/radiology/__init__.py",
+      "sha256": "ca559135dd1ea1e51a72236f4f06543b39d9b0fea118cd5eed2110d86782687d",
+      "size": 24
+    },
+    {
+      "path": "medclaw/skills/radiology/lung_tumor_roi/__init__.py",
+      "sha256": "bddbac976dda853c29de02b464ba1466594845f92d8f630897b4186192c122ef",
+      "size": 134
+    },
+    {
+      "path": "medclaw/skills/radiology/lung_tumor_roi/compat.py",
+      "sha256": "2ea57e0b248131c765782a074e89be65ea9e4816043c60d142f2d057b6855696",
+      "size": 1998
+    },
+    {
+      "path": "medclaw/skills/radiology/lung_tumor_roi/inference.py",
+      "sha256": "2faa6b1ce15979a028071bb419460b4566e89337d4919809edea56e4589fe268",
+      "size": 10655
+    },
+    {
+      "path": "medclaw/skills/radiology/lung_tumor_roi/requirements.txt",
+      "sha256": "d26b0acd09ace5b0f4c811a654e72c3063d444f842ec77eca7a9074b30f9232c",
+      "size": 261
+    },
+    {
+      "path": "medclaw/skills/radiology/lung_tumor_roi/roi.py",
+      "sha256": "f61ccafd30f7d440cf785b1e0c56ac5b7f23077c393ed2b8f765d900be26ffc6",
+      "size": 5020
+    },
+    {
+      "path": "medclaw/skills/radiology/lung_tumor_roi/run.py",
+      "sha256": "93a17f906e14c73ff0d20af2cfbf51d2922fa376d2cc0cf09a1684f048b59c9d",
+      "size": 3633
+    },
+    {
+      "path": "medclaw/skills/radiology/lung_tumor_roi/scripts/check_env.py",
+      "sha256": "d26cbca42d29d43fc97844b47cbc01ffa1d5ee855afb5c52d09a43d652fc0489",
+      "size": 938
+    },
+    {
+      "path": "medclaw/skills/radiology/lung_tumor_roi/scripts/diagnose_env.py",
+      "sha256": "cd9ffcdc5f1e30b71baad2ad6d61063db13d182bba203993883644a8ac2f8d87",
+      "size": 2423
+    },
+    {
+      "path": "medclaw/skills/radiology/lung_tumor_roi/scripts/prewarm_model.py",
+      "sha256": "81095f56df8dfd1b6b67f8491fffa8e37c9bce256544e04dbe1dd31a30863ba8",
+      "size": 954
+    },
+    {
+      "path": "medclaw/skills/radiology/lung_tumor_roi/SKILL.md",
+      "sha256": "4ddb81e57b0cf6cd3447c09ae2aa6971d463b1b3d0df142a30b90a063301256a",
+      "size": 2894
+    },
+    {
+      "path": "medclaw/skills/radiology/lung_tumor_roi/skill.yaml",
+      "sha256": "8ddc3ce1696bf9384bc785c8db81d01fc22424f193baf600a33e12f0a2013388",
+      "size": 1700
+    },
+    {
+      "path": "medclaw/skills/radiology/lung_tumor_roi/workflow.py",
+      "sha256": "dd11265d3a2fc3db0281b9069eb22fdb05b4d010df784a405de129ad474405f2",
+      "size": 13967
+    },
+    {
+      "path": "medclaw/skills/radiology/npc_mri_roi/__init__.py",
+      "sha256": "bbc826cac82e014a0a2a7956d7cf21e91e4c0827e255f012ad5d9fac0af952a0",
+      "size": 50
+    },
+    {
+      "path": "medclaw/skills/radiology/npc_mri_roi/requirements.txt",
+      "sha256": "4f98012a5af193eb368dfea69fdf66f44dcd8eec2434b69bf27bfd24f506f07f",
+      "size": 41
+    },
+    {
+      "path": "medclaw/skills/radiology/npc_mri_roi/run.py",
+      "sha256": "b0e3c7c994a236550bfdbb3eeca42cd9e6f11796c7ccc23d028754b0719ca691",
+      "size": 3878
+    },
+    {
+      "path": "medclaw/skills/radiology/npc_mri_roi/SKILL.md",
+      "sha256": "047db0e027725b6a3ba3903286547aa0f444ab0fffb746f85a84d37c864f7b25",
+      "size": 1581
+    },
+    {
+      "path": "medclaw/skills/radiology/npc_mri_roi/skill.yaml",
+      "sha256": "4f39cc4dac4407abf899f603ebd9fb4d50615ce951e28b4d772f1cf23518078d",
+      "size": 2353
+    },
+    {
+      "path": "medclaw/skills/radiology/npc_mri_roi/visualize.py",
+      "sha256": "baddaf8861676e4dc52e749a97a3aab1c7fa5532516f37022488cbe5f92a13a5",
+      "size": 4701
+    },
+    {
+      "path": "medclaw/skills/radiology/npc_mri_roi/workflow.py",
+      "sha256": "3432608280a04f3f7ced22d33c82fe9de4ec18cfab5ac15153d4f04da39a8e0f",
+      "size": 15234
+    },
+    {
+      "path": "medclaw/skills/radiology/ucec_mri_roi/__init__.py",
+      "sha256": "b30b67e28cc655d5b695f9ae5c5f821517924e54bf5b36364ad2c8699e7d0297",
+      "size": 41
+    },
+    {
+      "path": "medclaw/skills/radiology/ucec_mri_roi/requirements.txt",
+      "sha256": "4f98012a5af193eb368dfea69fdf66f44dcd8eec2434b69bf27bfd24f506f07f",
+      "size": 41
+    },
+    {
+      "path": "medclaw/skills/radiology/ucec_mri_roi/run.py",
+      "sha256": "9e2962a19d807f247d0e22345510f9c1dbcffd40fa78a933fe2ed283504db8bc",
+      "size": 3744
+    },
+    {
+      "path": "medclaw/skills/radiology/ucec_mri_roi/scripts/check_env.py",
+      "sha256": "c9f4fd635c036b5a0055a2a4372f3c4cafc7adc070d9ef19200916daf6dca0d3",
+      "size": 498
+    },
+    {
+      "path": "medclaw/skills/radiology/ucec_mri_roi/SKILL.md",
+      "sha256": "b7b4448ae45b343fd815900d8ab1bed16988766e770113c60e18218678c07afb",
+      "size": 1433
+    },
+    {
+      "path": "medclaw/skills/radiology/ucec_mri_roi/skill.yaml",
+      "sha256": "0620c964e1f66f7b42cc1fae547df69c54990a1be9cc630321d5b41189dbff39",
+      "size": 2097
+    },
+    {
+      "path": "medclaw/skills/radiology/ucec_mri_roi/visualize.py",
+      "sha256": "8dc301f206581a77307154ae9a9ca7a91d47582fab49741b1d5c8ddd5d939940",
+      "size": 2557
+    },
+    {
+      "path": "medclaw/skills/radiology/ucec_mri_roi/workflow.py",
+      "sha256": "7bb59ff40889f2a9f9c84c04dc4ebaf9bb4f4479d5c82297e66bcba083a22ea6",
+      "size": 13237
+    },
+    {
+      "path": "medclaw/stores/__init__.py",
+      "sha256": "a7d8db8c612041d2e8c5d2f628e2e5f2c4d6122fd8e7a4225d847890e4d0d7f4",
+      "size": 337
+    },
+    {
+      "path": "medclaw/stores/artifact_store.py",
+      "sha256": "7e06271b6849db857545be0d9382841073b77539fcc0688409b64b8561755889",
+      "size": 2684
+    },
+    {
+      "path": "medclaw/stores/audit_log.py",
+      "sha256": "4590fb10179be95f12a5784ca2a25be0da175636afb696dccb65aac08c4eccff",
+      "size": 1395
+    },
+    {
+      "path": "medclaw/stores/case_store.py",
+      "sha256": "c7e69edeccb067728725e91dc4bc0d6e1ce43829d184e1f3e3bc51dd23a6641d",
+      "size": 3138
+    },
+    {
+      "path": "medclaw/stores/conversation_log.py",
+      "sha256": "d959efdbbc9fb39f1571a0f5ccdaff3c1bb181bb604d6d60d4410f4c45e0024b",
+      "size": 4329
+    },
+    {
+      "path": "medclaw/trajectory/__init__.py",
+      "sha256": "10196cc581daa8cf959404110057a747844fcb9eaf43e0cb126b80e9af47d5d2",
+      "size": 863
+    },
+    {
+      "path": "medclaw/trajectory/action_set.py",
+      "sha256": "575ca1d07ea19db523b3f24cc9fad459c6617299381c6e36c9e75ba808dae229",
+      "size": 15216
+    },
+    {
+      "path": "medclaw/trajectory/builder.py",
+      "sha256": "f5b873e625307e61c0b055fd6828dd3bacbd7d11fa94b0636c5fc38bc4a7fb6a",
+      "size": 13175
+    },
+    {
+      "path": "medclaw/trajectory/report.py",
+      "sha256": "1b93f331192bf088ad8eed0f02e238457f73e32c444409475d4161ad70805043",
+      "size": 19666
+    },
+    {
+      "path": "medclaw/trajectory/rubric.py",
+      "sha256": "15e835ea392ef3dcfaf8277c09959f41f9ed59425f70adf2c0d35f65c29f193c",
+      "size": 6094
+    },
+    {
+      "path": "medclaw/trajectory/schema.py",
+      "sha256": "0b103fc638699163b0b5cfbed3204dcc875f746a6f6f50f19af9fd78b4493335",
+      "size": 3991
+    },
+    {
+      "path": "medclaw/trajectory/verification.py",
+      "sha256": "8f0d648de5d8df17e9bb635a07941b1f5ea15a07f9022d5e9ffa633ae7531cd8",
+      "size": 7181
+    },
+    {
+      "path": "medclaw/utils.py",
+      "sha256": "6deb18631e283a608b01a9d7c6364064b30113fe18cc0cf341dee94be3fa2812",
+      "size": 3056
+    },
+    {
+      "path": "medclaw/validation/__init__.py",
+      "sha256": "f1cbf8479cae30fac266894c1d615640d8567bc2cc130eba5caec30333b49580",
+      "size": 192
+    },
+    {
+      "path": "medclaw/validation/case_qc.py",
+      "sha256": "54b3cf7ec4384f6d2ab69755fc4aae57f47c86e5c97152ddf5ffc1c1095e2f29",
+      "size": 33442
+    },
+    {
+      "path": "medclaw_benchmark/__init__.py",
+      "sha256": "c4a5cd8e87bf4233ff8947c673ec292ace6bdeec0aa88c80f531754d05aa5773",
+      "size": 558
+    },
+    {
+      "path": "medclaw_benchmark/batch_runner.py",
+      "sha256": "d17099ccea3d87ddf51846b6f96689eb9b7ac55c6b00c21ba619b7a00d46c4b5",
+      "size": 8852
+    },
+    {
+      "path": "medclaw_benchmark/case_builder.py",
+      "sha256": "482f64b0829cd0b1293645f72c140dfbb4db39e723772fce4e61958000b4cafe",
+      "size": 43801
+    },
+    {
+      "path": "medclaw_benchmark/case_paths.py",
+      "sha256": "fb4970f8260173cb4b041cf22e22de84aa0fffdf482dcefc56eb63d2f4d50039",
+      "size": 5117
+    },
+    {
+      "path": "medclaw_benchmark/case_simulator.py",
+      "sha256": "38fab71adcfeceb8d2cf0cf7bff2af8a303cf6641ea8bb4c260909f1413df671",
+      "size": 6170
+    },
+    {
+      "path": "medclaw_benchmark/cli.py",
+      "sha256": "1ea198cab5f91ba1277f4f0e6be8b49a48b8e89b00fbc6db7893c5fd71a14ea3",
+      "size": 18569
+    },
+    {
+      "path": "medclaw_benchmark/dual_agent_runner.py",
+      "sha256": "67662f4c433b4083a70930fbd9f1966a786b9af11fe84d65b8c64255b04756ec",
+      "size": 71294
+    },
+    {
+      "path": "medclaw_benchmark/dyn_traj_scorer.py",
+      "sha256": "1000042eb65a1cf759a76caa70352be09b992c94d9cbd96b496330d66f8e52d4",
+      "size": 47524
+    },
+    {
+      "path": "medclaw_benchmark/io_utils.py",
+      "sha256": "93feb02e941d7a4c9e57bbf455d3d7412797b1bc9fe295dc5866dddb65c50fd1",
+      "size": 2535
+    },
+    {
+      "path": "medclaw_benchmark/llm_judge.py",
+      "sha256": "8cf3f95e627af259548d6fa1b2d612b3e7b6511c49e073f4ad08412a4c74290f",
+      "size": 27544
+    },
+    {
+      "path": "medclaw_benchmark/patient_state.py",
+      "sha256": "ab653bf174376636011992f01505f24375cc800aba5810f34357f3fa5aebc909",
+      "size": 32886
+    },
+    {
+      "path": "medclaw_benchmark/planner_preflight.py",
+      "sha256": "1a4599aab662cbf7ffc294486c9e2c494670e8c529c7c0af71f597963fdc9e2d",
+      "size": 4083
+    },
+    {
+      "path": "medclaw_benchmark/planner_skill_adapter.py",
+      "sha256": "c99c8f88e46cb9ba07df29efc34f8d406df234d29d6f4a240a92e521946fe082",
+      "size": 4424
+    },
+    {
+      "path": "medclaw_benchmark/report_extractor.py",
+      "sha256": "94333fb36a389828bf9372231ad2f03a47cde2936d2e1ed596e41fe15de22e94",
+      "size": 7805
+    },
+    {
+      "path": "medclaw_benchmark/runner.py",
+      "sha256": "6d3965c6196ea5c0e0875f206d141894639d1426d665ba76d11541164b8f7c1b",
+      "size": 53193
+    },
+    {
+      "path": "medclaw_benchmark/skill_resolver.py",
+      "sha256": "fabc6a59cfffd0b8a30cfa9a712628fb4bc081861b37d639d088487533b4bc1d",
+      "size": 4075
+    },
+    {
+      "path": "medclaw_benchmark/trajectory_scorer.py",
+      "sha256": "40501d2c32a1bc8d89551b3626e24ea33d2c07cc5c76c1c66c01326924ac98f7",
+      "size": 12934
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "0d8d022a56335deaecc31c2c214cc4ed0a19d09bea0faace9de997e6916de2d5",
+      "size": 1496
+    },
+    {
+      "path": "README.md",
+      "sha256": "1bccfd5d3add3bfa43f2e2b95e2a5a596db80971f4319fd193af2bffa5455673",
+      "size": 1676
+    },
+    {
+      "path": "scripts/audit_anonymous_release.py",
+      "sha256": "20386567bce623e6495669af01f207dd37ee1daff4b5cae849b34a011cb915de",
+      "size": 803
+    },
+    {
+      "path": "scripts/build_anonymous_release.py",
+      "sha256": "c0b72f6e939fe25abeb5097a1ba3f191609b19c073e6306b75e8921fd6a1b550",
+      "size": 27990
+    },
+    {
+      "path": "scripts/build_benchmark_case.ps1",
+      "sha256": "3e7634ac18038ceff4e4c2aa31de0eeaaaa778393fd1582eb7419707e4c396da",
+      "size": 655
+    },
+    {
+      "path": "scripts/build_benchmark_case.sh",
+      "sha256": "d14a8f5b5241ef4c3adc6cf49195b0cfb79ec216efb58ad4640cb9f53a269f1e",
+      "size": 401
+    },
+    {
+      "path": "scripts/build_trajectories.py",
+      "sha256": "c4b5a4dc759b1c737c5db26657fb4fc720dc7a344c3b32cb87f77770209f9f28",
+      "size": 1936
+    },
+    {
+      "path": "scripts/case_qc.py",
+      "sha256": "9da7e17f3be144b52b8e5f49b36c2c44b30687b2d1d1f56ac3a0006bf5c2f216",
+      "size": 4087
+    },
+    {
+      "path": "scripts/check_local_llm.py",
+      "sha256": "c697c49442f55c3e99d87d78943ccdfca628aef16e4b29f7f7d8ae6bbfa00b3f",
+      "size": 4121
+    },
+    {
+      "path": "scripts/muti_agent_one_judge_batch.sh",
+      "sha256": "4c483ca3202edc0e7a83f59a57b700c0e31d0d66c5f8fe6267cd75441fadbab2",
+      "size": 9919
+    },
+    {
+      "path": "scripts/muti_agent_one_judge_batch_with_planner.sh",
+      "sha256": "935dd832d72c42eb7c8b9cee98773af6aabd7e51e163e9fa4f1a2b159f24b4a5",
+      "size": 19133
+    },
+    {
+      "path": "scripts/planner_v2_gpt_data_pipeline.sh",
+      "sha256": "dd348192bf3aba7a87052e360d3dab2962213652c87107af70df011781d3f171",
+      "size": 3341
+    },
+    {
+      "path": "scripts/planner_v2_pipeline.sh",
+      "sha256": "7fab9eb6b161b06852388f049c85d9a44199bea36151017dfde519528e5064f7",
+      "size": 12120
+    },
+    {
+      "path": "scripts/planner_v2_three_cancer_pipeline.sh",
+      "sha256": "375919ad085123d1c307f69508de134bdfe34455e2946e570f03a4ad8efb6066",
+      "size": 1238
+    },
+    {
+      "path": "scripts/README_zh.md",
+      "sha256": "b29d12dbfbeed1d2a58a6d8cf3fdbdcc65f77a03f2c26ec8b84d14235b28d028",
+      "size": 7675
+    },
+    {
+      "path": "scripts/rejudge_llm_batch.py",
+      "sha256": "284c7766431600b72d8de4a2963a4ac942134813072a5510c4b821aaeeb56c82",
+      "size": 16995
+    },
+    {
+      "path": "scripts/rescore_trajectory_batch.py",
+      "sha256": "383ce83110313adb1773e7ab3b56b9320dcd19e29bf7550e1f3c40500001354c",
+      "size": 14895
+    },
+    {
+      "path": "scripts/run_benchmark_batch.ps1",
+      "sha256": "e63ff067232d5c2fec9b77e50ee11104f914e473071a84878154195e050a394d",
+      "size": 1729
+    },
+    {
+      "path": "scripts/run_benchmark_batch.sh",
+      "sha256": "33ee538ec20e7bf9f9a5f3dea6f20eca87355c81231e73ef8ac367df18a35478",
+      "size": 4001
+    },
+    {
+      "path": "scripts/run_benchmark_llm_judge.ps1",
+      "sha256": "ddc32d5db19ef97de25897cdaa141556e2cfd4a9cd5666dde286cfef5fece6dc",
+      "size": 1687
+    },
+    {
+      "path": "scripts/run_benchmark_llm_judge.sh",
+      "sha256": "cc55b1be8b1287936a92ef93b765080594207d2ec32de93888f0a20f03cb653f",
+      "size": 3232
+    },
+    {
+      "path": "scripts/run_case_study_cases.sh",
+      "sha256": "7bf8809064487d61604bcff62375188501ebe1daa8c470a04b25002d5baac9fa",
+      "size": 7054
+    },
+    {
+      "path": "scripts/run_conch_patch_roi_demo.ps1",
+      "sha256": "b1664e03cfcf3a700579855eb79bca2c05151d52f85d9c4d2a371245cdacc868",
+      "size": 594
+    },
+    {
+      "path": "scripts/run_conch_patch_roi_demo.sh",
+      "sha256": "359b84dfc906f6bb934d26167a27b8d153b430214e53f4b100b6fa81aadcd6c3",
+      "size": 462
+    },
+    {
+      "path": "scripts/run_ct_roi_demo.ps1",
+      "sha256": "b435e6a1ed8ea2d426e4d4145f6e178ac0a91c5bd06a55bb4f34060c9c47f307",
+      "size": 593
+    },
+    {
+      "path": "scripts/run_ct_roi_demo.sh",
+      "sha256": "edab73e2b47317d1fe5bb119640930ccf79ab54894c8caf176d37a08d8a46b18",
+      "size": 461
+    },
+    {
+      "path": "scripts/run_dual_agent_benchmark_batch.sh",
+      "sha256": "851174de0c6d4fdaeb195c172ab6432e4de600d34edfd5d01f8a76cb96e9790a",
+      "size": 7399
+    },
+    {
+      "path": "scripts/run_planner_v2_ablations.sh",
+      "sha256": "2188065d008201363c4118c87b00ff1d302a5cdf0153e112f4babd1718303a9b",
+      "size": 7653
+    },
+    {
+      "path": "scripts/run_planner_v2_three_cancer_experiments.sh",
+      "sha256": "81fe37709afe8127eca296d1d96efb0a7b0de9f1ccd1730e69fd49798593f31c",
+      "size": 2389
+    },
+    {
+      "path": "scripts/run_qwen_agent.ps1",
+      "sha256": "d8dc99879e1945728329c3d5b00f56b73f3f99e7eadbaaea82762a06219c940e",
+      "size": 838
+    },
+    {
+      "path": "scripts/run_qwen_agent.sh",
+      "sha256": "d04e780475e67f4ce72309889c3f56473149ae3b1a07a967c4319e7ab2b537e2",
+      "size": 511
+    },
+    {
+      "path": "scripts/run_tests.ps1",
+      "sha256": "39a496ee9488df092e28fe5873af37c81fdaa40a77ae8cd0361176086d03b0b0",
+      "size": 488
+    },
+    {
+      "path": "scripts/run_tests.sh",
+      "sha256": "511ae652929bb9a28fbfd2ca0d276e282aa0c1b9af6cded68c0c8e7b0903c7c9",
+      "size": 332
+    },
+    {
+      "path": "scripts/test_planner_medclaw.sh",
+      "sha256": "e636c2c99844e4e82475494fb2846c6d4eac63a3680822c4c97bbf894d2690fe",
+      "size": 5698
+    },
+    {
+      "path": "tests/conftest.py",
+      "sha256": "d815d8080d0cfda4d6393c4d2eb0d383f1a664b6f619c152243a78ebd444c204",
+      "size": 454
+    },
+    {
+      "path": "tests/test_action_set.py",
+      "sha256": "27ce591fbd07b645b3d65ad917f22833c540a0ce1553fdaed3d1f4af43873b65",
+      "size": 8066
+    },
+    {
+      "path": "tests/test_anonymous_reference_pack.py",
+      "sha256": "5f6727d42dc22da3f71a3b3c2f1ddb60ca71b8a682034c5fc3910bf0149797a7",
+      "size": 3550
+    },
+    {
+      "path": "tests/test_anthropic_client.py",
+      "sha256": "1f65373bbe212583439058bfa6f9832661c852e6853607e40eb1471b8e8f2541",
+      "size": 8929
+    },
+    {
+      "path": "tests/test_benchmark.py",
+      "sha256": "18bc498980bd3eaa03460bf84f9580796c87ec47df2b0db5518dd106ec507c05",
+      "size": 82626
+    },
+    {
+      "path": "tests/test_case_paths.py",
+      "sha256": "dc66684705b4d087057d2d04cdc7ef291fd0715c00cdbb7e901cead4be89aece",
+      "size": 4271
+    },
+    {
+      "path": "tests/test_case_store.py",
+      "sha256": "b2d89fc64f5f717d0399f3afa46d9bc1a673957de32752ddb83db89e6432e784",
+      "size": 1504
+    },
+    {
+      "path": "tests/test_conch_patch_roi.py",
+      "sha256": "1ba3dd28a592c1f936b5fa136f2d7d4954dd9392ebd74514d4cc06b84619da9d",
+      "size": 4959
+    },
+    {
+      "path": "tests/test_dyn_traj_scorer.py",
+      "sha256": "26ae86fd75382798eaebd73d9ce0ffbe8e361e1e061a55dfacd05f0e2f1f353f",
+      "size": 12354
+    },
+    {
+      "path": "tests/test_dynamic_anchor_attention.py",
+      "sha256": "e290be3af1a034cd8aac25adbb98f7efb783bca0b722ef87a52e6dac7cb573bc",
+      "size": 5161
+    },
+    {
+      "path": "tests/test_gpt_guideline_claim_grounding.py",
+      "sha256": "ea2751efbc700fa1677b447ac88cd159a512583b4a0a6b632c0b974a96ea8d64",
+      "size": 3130
+    },
+    {
+      "path": "tests/test_gpt_trajectory_pipeline.py",
+      "sha256": "a4a6c3620804d383f7e16dc365db2b7dd206b748fd4a0a2a7cb49e127da806d0",
+      "size": 21244
+    },
+    {
+      "path": "tests/test_guideline_planner.py",
+      "sha256": "22054f628417dadd5b52ff01c47cc53ab314232b0b01eefad3171576e662043e",
+      "size": 41052
+    },
+    {
+      "path": "tests/test_guideline_planner_v2.py",
+      "sha256": "ef3e9871dee6316f386057efa6e52f27c74df29c0c83c1ba62294d398cf2bc68",
+      "size": 39500
+    },
+    {
+      "path": "tests/test_guideline_routing_core.py",
+      "sha256": "ce9310d6c4dee7b25eb234250797788bc4dd6e4e86a7b2342a86cb05f43df958",
+      "size": 8559
+    },
+    {
+      "path": "tests/test_guideline_routing_torch.py",
+      "sha256": "2c2c0e50d30570643916ff2180e143ef245c6dfeeeaf14c8ea25f0e55611bee6",
+      "size": 24397
+    },
+    {
+      "path": "tests/test_llm_factory.py",
+      "sha256": "8bb674252d70eae3ce435237ef5616ecb53d690f98a1ddbc12a99cc49aaaaf01",
+      "size": 6506
+    },
+    {
+      "path": "tests/test_llm_retry.py",
+      "sha256": "3852596c5014a935ad9832a19f2fcf724a6e042b12819ef56665aa62895bd9ce",
+      "size": 1874
+    },
+    {
+      "path": "tests/test_lung_tumor_roi.py",
+      "sha256": "0a964bf55b3bc443cf2b67f753df61475b978f607d1b6adf2c3f3a78e5c51b54",
+      "size": 11534
+    },
+    {
+      "path": "tests/test_lung_tumor_roi_integration.py",
+      "sha256": "d8be2d99e13d2a9a73e0d43fd35a975468d932ccd45e4d60b9bd5bb1ba7cd739",
+      "size": 2391
+    },
+    {
+      "path": "tests/test_npc_conch_patch_roi.py",
+      "sha256": "c0ba8ae72f47a4761ef557ea1f95a8c4f14b06d251f896f72a3560e6f2bbf3da",
+      "size": 8040
+    },
+    {
+      "path": "tests/test_npc_mri_roi.py",
+      "sha256": "3bbe1283bb032ae55f87c61a35325db7cbf59a842630aeedafa5d76e24399477",
+      "size": 6359
+    },
+    {
+      "path": "tests/test_planner_ablation_interfaces.py",
+      "sha256": "f4e857db7f30dfe614696445585383b260d2f8c77a96c518678540c86654f458",
+      "size": 3291
+    },
+    {
+      "path": "tests/test_planner_release.py",
+      "sha256": "50ae6ec3844cf0054553861d17f78edb06fdc231f9b3f29be8c894856e101e81",
+      "size": 18400
+    },
+    {
+      "path": "tests/test_planner_review_scope.py",
+      "sha256": "a97fe7f1ff7474ca1c5349971a85af2d66a32b6723d379a634f6a94413d49f89",
+      "size": 4734
+    },
+    {
+      "path": "tests/test_planner_workflow_v2.py",
+      "sha256": "17e03028d98a545880d3f45a3e1376a0d3272b1873e12c66f9b8fbce9f104ec3",
+      "size": 6933
+    },
+    {
+      "path": "tests/test_qwen_agent.py",
+      "sha256": "eab3ac15fdc4839dd020d1db9a6aef336690f6f6535c2de926998806e752f315",
+      "size": 27630
+    },
+    {
+      "path": "tests/test_registry.py",
+      "sha256": "c7ab0b93823a48460ddf17f63d885efc7bc4e603e8585ca2ea24ce2b5f960640",
+      "size": 4338
+    },
+    {
+      "path": "tests/test_rejudge_llm_batch.py",
+      "sha256": "7e6f4bc8f7930b44c32c772519f8bd873ebe33f879e67ac2abc7bdbea25ac117",
+      "size": 3440
+    },
+    {
+      "path": "tests/test_runtime.py",
+      "sha256": "bad0b794b4959d562aa0793563d9b435972bda4f747594a109db59d5cfa47900",
+      "size": 18484
+    },
+    {
+      "path": "tests/test_trajectory.py",
+      "sha256": "0075155c29fdcba41a0a5c6d35d02ce94f2d1960585308a755b7b476e6625457",
+      "size": 10905
+    },
+    {
+      "path": "tests/test_ucec_conch_patch_roi.py",
+      "sha256": "ec7d2702c3bed16bac8878b1f0c7e3c7e934112cc8c36e700ea855649b112dd3",
+      "size": 5807
+    },
+    {
+      "path": "tests/test_ucec_mri_roi.py",
+      "sha256": "ccd1a1347e2a1c0f47d55026116da9ffd739f702508b3c5d8f2216e498b828bd",
+      "size": 4607
+    }
+  ],
+  "schema_version": "anonymous_release_manifest.v1"
+}

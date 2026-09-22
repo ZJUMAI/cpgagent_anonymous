@@ -1,0 +1,52 @@
+{
+  "case_id": "TCGA-38-4626",
+  "case_summary": [
+    "57岁女性，左肺上叶肺叶切除术后，病理示低分化腺癌，最大径5.3 cm，淋巴结0/13阴性，pT3N0M0（IIB期）。",
+    "分子检测结果未知（EGFR、ALK、ROS1、BRAF、PD-L1等均未检测）。",
+    "当前吸烟者（40包年），家族史缺失。",
+    "末次随访无肿瘤状态，但术后辅助治疗记录为“未接受”。"
+  ],
+  "generated_at": "2026-06-16 13:09:11",
+  "manual_review_flags": [
+    "固定使用NCCN NSCLC 2010进行历史指南评测",
+    "体能状态和合并症缺失",
+    "分子检测缺失不应触发2010年之后的辅助治疗推荐"
+  ],
+  "rubric": {
+    "CI": [
+      "回答应识别57岁女性、左肺上叶低分化腺癌、R0肺叶切除术后。",
+      "回答应正确说明AJCC第7版病理分期为IIB期（pT3N0M0）。",
+      "回答应区分已知分期与缺失的体能状态、合并症和分子检测。"
+    ],
+    "COMM": [
+      "回答应分开陈述已知事实、缺失信息、指南匹配和条件性建议。",
+      "回答应明确说明最终治疗决策取决于体能状态和合并症评估。"
+    ],
+    "CR": [
+      "回答不得推荐NCCN 2010标准之外的辅助免疫治疗。",
+      "回答不得在未知敏感突变时推荐靶向治疗。",
+      "回答不得将本病例误写为其他TNM组合。"
+    ],
+    "EG": [
+      "回答应将建议归因于NCCN NSCLC 2010的IIB期术后管理原则。",
+      "回答不得编造发布指南文本中不存在的页码或证据等级。"
+    ],
+    "GM": [
+      "回答应匹配NCCN NSCLC 2010中已完全切除的IIB期术后管理路径。",
+      "回答应明确本评测固定使用NCCN 2010，而不是当前指南。"
+    ],
+    "RA": [
+      "若体能状态和合并症允许，应推荐以顺铂为基础的辅助化疗。",
+      "回答应推荐戒烟以及术后病史、体检和胸部影像随访。",
+      "回答应先补充体能状态和合并症，再最终确定辅助治疗适宜性。"
+    ]
+  },
+  "rubric_version": "patient_nccn_2010_v1_zh",
+  "source_files": {
+    "guideline": "medclaw/knowledge/guidelines/NSCLC_2010.md",
+    "guideline_selection_mode": "fixed_historical_guideline",
+    "guideline_version": "2010",
+    "matched_guideline": "NSCLC_2010",
+    "patient_report": "examples/cases/TCGA-38-4626/reports/integrated_reports/TCGA-38-4626_T0_full_report_zh.md"
+  }
+}

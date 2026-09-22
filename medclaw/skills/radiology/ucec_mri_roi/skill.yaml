@@ -1,0 +1,92 @@
+name: radiology.ucec_mri_roi
+version: 0.1.0
+description: Load preprocessed UCEC T2/DWI MRI ROIs from the ucec-mri-pipeline output tree, export axial review PNGs, and return structured metadata for multimodal agent review.
+modalities:
+  input:
+    - MRI_T2
+    - MRI_DWI
+    - SEGMENTATION_MASK
+  output:
+    - IMAGE_ROI
+    - IMAGE_SLICE
+    - STRUCTURED_JSON
+runtime:
+  entrypoint: python run.py
+resources:
+  gpu: optional
+  cpu: 2
+  memory_gb: 8
+  timeout_sec: 600
+input_schema:
+  type: object
+  additionalProperties: false
+  required:
+    - case_id
+  properties:
+    case_id:
+      type: string
+      minLength: 1
+      description: Benchmark case identifier. Normally this is the only required argument.
+    timepoint:
+      type: string
+      minLength: 1
+      default: T0
+      description: Timepoint suffix used in ucec-mri-pipeline filenames.
+    modalities:
+      type: array
+      minItems: 1
+      uniqueItems: true
+      items:
+        type: string
+        enum:
+          - t2
+          - dwi
+      default:
+        - t2
+        - dwi
+      description: Which cached MRI ROI volumes to export for review.
+    t2_roi_uri:
+      type: string
+      minLength: 1
+      description: Optional trusted override for the T2 ROI NIfTI path.
+    dwi_roi_uri:
+      type: string
+      minLength: 1
+      description: Optional trusted override for the DWI ROI NIfTI path.
+output_schema:
+  type: object
+  required:
+    - status
+    - findings
+    - artifacts
+    - provenance
+    - warnings
+  properties:
+    status:
+      enum:
+        - success
+        - failed
+    findings:
+      type: object
+      required:
+        - summary
+        - roi_available
+    artifacts:
+      type: array
+      items:
+        type: object
+        required:
+          - type
+    provenance:
+      type: object
+      required:
+        - skill_name
+        - skill_version
+        - input_hash
+        - started_at
+        - finished_at
+    warnings:
+      type: array
+visibility:
+  expose_to_agent: true
+  agent_card: SKILL.md

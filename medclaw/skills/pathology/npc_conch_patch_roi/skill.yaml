@@ -1,0 +1,87 @@
+name: pathology.npc_conch_patch_roi
+version: 0.1.0
+description: Select high-scoring NPC pathology patch ROIs from cached CONCH v1.5 prompt scores and export patch images for visual review.
+modalities:
+  input:
+    - WSI
+    - CONCH_FEATURES
+    - PROMPT_SCORES
+  output:
+    - IMAGE_ROI
+    - STRUCTURED_JSON
+runtime:
+  entrypoint: python run.py
+resources:
+  gpu: optional
+  cpu: 2
+  memory_gb: 8
+  timeout_sec: 900
+input_schema:
+  type: object
+  additionalProperties: false
+  required:
+    - case_id
+  properties:
+    case_id:
+      type: string
+      minLength: 1
+      description: Benchmark case identifier. Normally this is the only required argument.
+    slide_stem:
+      type: string
+      minLength: 1
+      description: Optional slide stem override when a case contains multiple pathology slides.
+    prompt_ids:
+      type: array
+      minItems: 1
+      uniqueItems: true
+      items:
+        type: string
+        minLength: 1
+      description: Optional CONCH prompt ids to inspect. Defaults to undifferentiated_npc and nested_tumor when available.
+    top_k_per_prompt:
+      type: integer
+      minimum: 1
+      maximum: 10
+      default: 3
+      description: Number of top patch ROI images to export for each selected prompt.
+    conch_roi_uri:
+      type: string
+      minLength: 1
+      description: Optional trusted override pointing to a CONCH ROI directory or a slide-specific CONCH ROI directory.
+output_schema:
+  type: object
+  required:
+    - status
+    - findings
+    - artifacts
+    - provenance
+    - warnings
+  properties:
+    status:
+      enum:
+        - success
+        - failed
+    findings:
+      type: object
+      required:
+        - summary
+        - roi_selected
+    artifacts:
+      type: array
+      items:
+        type: object
+        required:
+          - type
+    provenance:
+      type: object
+      required:
+        - skill_name
+        - skill_version
+        - input_hash
+        - started_at
+        - finished_at
+    warnings:
+      type: array
+visibility:
+  expose_to_agent: true
+  agent_card: SKILL.md

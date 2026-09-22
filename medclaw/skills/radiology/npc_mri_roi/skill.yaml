@@ -1,0 +1,99 @@
+name: radiology.npc_mri_roi
+version: 0.2.0
+description: Use NPC T1C ground-truth primary/node masks to select maximum-area axial slices, crop review ROIs, and export full-context and overlay PNGs.
+modalities:
+  input:
+    - MRI_T1C
+    - SEGMENTATION_MASK
+  output:
+    - IMAGE_ROI
+    - IMAGE_SLICE
+    - STRUCTURED_JSON
+runtime:
+  entrypoint: python run.py
+resources:
+  gpu: optional
+  cpu: 2
+  memory_gb: 8
+  timeout_sec: 600
+input_schema:
+  type: object
+  additionalProperties: false
+  required:
+    - case_id
+  properties:
+    case_id:
+      type: string
+      minLength: 1
+      description: Benchmark case identifier. Normally this is the only required argument.
+    timepoint:
+      type: string
+      minLength: 1
+      default: T0
+      description: Timepoint suffix used in NPC MRI ROI filenames.
+    roi_kinds:
+      type: array
+      minItems: 1
+      uniqueItems: true
+      items:
+        type: string
+        enum:
+          - primary
+          - node
+      default:
+        - primary
+      description: Which ground-truth mask kinds to use for T1C ROI selection.
+    t1c_uri:
+      type: string
+      minLength: 1
+      description: Optional trusted override for the source T1C NIfTI path.
+    primary_mask_uri:
+      type: string
+      minLength: 1
+      description: Optional trusted override for the primary-tumor ground-truth mask.
+    node_mask_uri:
+      type: string
+      minLength: 1
+      description: Optional trusted override for the lymph-node ground-truth mask.
+    roi_margin_mm:
+      type: number
+      minimum: 0
+      default: 12.0
+      description: Physical in-plane margin around the mask bounding box.
+output_schema:
+  type: object
+  required:
+    - status
+    - findings
+    - artifacts
+    - provenance
+    - warnings
+  properties:
+    status:
+      enum:
+        - success
+        - failed
+    findings:
+      type: object
+      required:
+        - summary
+        - roi_available
+    artifacts:
+      type: array
+      items:
+        type: object
+        required:
+          - type
+    provenance:
+      type: object
+      required:
+        - skill_name
+        - skill_version
+        - input_hash
+        - started_at
+        - finished_at
+    warnings:
+      type: array
+visibility:
+  expose_to_agent: true
+  agent_card: SKILL.md
